@@ -1,10 +1,7 @@
 # Calculus
 import time
+
 from math import *
-# from math import sin
-# from math import cos
-# from math import sqrt
-# from math import sqrt
 
 '''
     python 计算微积分（
