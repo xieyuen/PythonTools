@@ -1,0 +1,4 @@
+# Git Ingnore File
+MyPlugins/
+*.mcdr
+MCDR_Plg-Source-Code/MCDR/
