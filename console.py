@@ -13,19 +13,59 @@ __vars['welcome'] = 'Welcome to use console'
 __vars['help']['console'] = '::: Help :::\nConsole help massage:\n\ncommands:\ncd <path> : 改变工作路径\ncls : 清空屏幕\ndir : 列出目录下的所有文件(夹)\nls : 列出目录下的所有文件(夹)\necho *args : 回显\nhelp : 显示此页面，后加命令名可获取该命令的详细帮助\npause : pause console\npython : 调用 python 命令/函数/方法\nversion : 版本信息\nexit : 退出控制台\n'
 __vars['help']['plugin'] = {}
 
-# log 类型 
-def Console_info(): # info 
-    print('[Console]',end='')
-    print('[INFO] ',end='')
-def Console_error(): # error
-    print('[Console]',end='')
-    print('[ERROR] ',end='')
-def Console_warning(): # warning
-    print('[Console]',end='')
-    print('[WARNING] ',end='')
-def Console_debug(): # debug
-    print('[Console]',end='')
-    print('[DEBUG] ',end='')
+
+class Logger:
+
+    '''简单的日志工具'''
+
+    def __init__(self, type: str):
+        self.type = type
+
+
+    def __call__(self, message: str):
+        match self.type:
+
+            case 'info':
+                self.info()
+                print(message)
+
+            case 'error':
+                self.error()
+                print(message)
+
+            case 'warning':
+                self.warning()
+                print(message)
+
+            case 'debug':
+                self.debug()
+                print(message)
+
+            case 'console':
+                self.console()
+                print(message)
+
+
+    def console(self):
+        print('[Console]',end='')
+
+
+    # log 类型
+    def info(self): # info
+        print('[INFO] ',end='')
+
+
+    def error(self): # error
+        print('[ERROR] ',end='')
+
+
+    def warning(self): # warning
+        print('[WARNING] ',end='')
+
+
+    def debug(self): # debug
+        print('[DEBUG] ',end='')
+
 
 
 def main():
@@ -67,13 +107,13 @@ def analysis(command: str):
                 if command[__space[0]:].find('off') == -1:
                     print(command[__space[0]:])
                 else:
-                    Console_info()
+                    info()
                     print('回显已关闭')
                     __vars['echo'] = 'off'
             else:
-                if __echo: Console_warning()
+                if __echo: warning()
                 else:
-                    Console_info()
+                    info()
                     __vars['echo'] = 'on'
                 print('回显已开启')
 
@@ -81,10 +121,10 @@ def analysis(command: str):
             __help()
 
         case 'pause':
-            Console_info()
+            info()
             print('请按任意键继续...')
             pass
-        
+
         case 'python'|'py':
             os.system('py' + command[[__space][0]:])
 
@@ -109,5 +149,5 @@ def analysis(command: str):
 
 
 def __help():
-    Console_info()
+    info()
     print(__vars['help']['console'])
