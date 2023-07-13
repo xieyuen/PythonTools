@@ -29,8 +29,8 @@ global_vars['welcome'] = 'Welcome to use this console!'
 global_vars['console']['logger'] = {
     'debug':    '\033[34m', # 蓝色
     'info':     '\033[92m', # 绿色
-    'error':    '\033[91m', # 橙色
-    'warning':  '\033[93m', # 红色
+    'warning':  '\033[93m', # 橙色
+    'error':    '\033[91m', # 红色
     'critical': '\033[31;1m' # 红色加粗
 }
 # 命令帮助
@@ -51,8 +51,8 @@ class Console:
                 __log_color = global_vars['console']['logger'] = { # 日志颜色
                     'debug':    '\033[34m', # 蓝色
                     'info':     '\033[92m', # 绿色
-                    'error':    '\033[91m', # 橙色
-                    'warning':  '\033[93m', # 红色
+                    'warning':  '\033[93m', # 橙色
+                    'error':    '\033[91m', # 红色
                     'critical': '\033[31;1m' # 红色加粗
                 }
             __log_map = {
@@ -83,7 +83,7 @@ class Console:
         def error(self, msg): self.__error(msg)
         def critical(self, msg): self.__critical(msg)
         def crit(self, msg): self.__critical(msg)
-        def catch_exc(self, msg): self.__info('\033[91m[CatchExc]\033[0m ' + msg)
+        def catch_exc(self, msg): self.__info('\033[93m[CatchExc]\033[0m ' + msg)
         def exception(self, msg, exc_msg):
             '''这会打印 critical 级别的日志再抛出 ConsoleException 异常'''
             self.critical(msg)
@@ -168,10 +168,11 @@ class ConsoleCmd:
                         console.logger.info('目录已删除')
                         return True
                     except:
-                        # console.logger.catch_exc('Python 抛出了一个异常')
+                        console.logger.catch_exc('Python 抛出了一个异常')
                         console.logger.error('目录删除失败')
                 console.logger.info('目录删除操作取消')
             except: console.logger.catch_exc('好像触发了什么奇奇怪怪的异常？')
+            return False
 
     def del_(__other_cmd: str):
         if __other_cmd.isspace() or __other_cmd == '':
@@ -179,6 +180,7 @@ class ConsoleCmd:
             return False
         if not os.path.exists(__other_cmd):
             console.logger.error('文件不存在')
+            return False
         try: os.remove(__other_cmd)
         except: console.logger.catch_exc('好像触发了什么奇奇怪怪的异常？')
         else:
@@ -218,7 +220,7 @@ command_map = {
     'pause':   ConsoleCmd.pause,
     'version': ConsoleCmd.version,
     'license': ConsoleCmd.license_,
-    'echo':    ConsoleCmd.echo,
+    'echo':    ConsoleCmd.echo_,
     'del':     ConsoleCmd.del_,
 
     'plugin': ConsoleCmd.plg
@@ -245,8 +247,6 @@ def analysis_space(string: str):
 
 def analysis_cmd(command: str):
 
-    global global_vars
-    global command_map
     __1st_space = analysis_space(command)['index'][0]
     __action = command_map.get(command[0:__1st_space], None)
 
@@ -265,7 +265,19 @@ def main():
         input_str = input('>>> ')
         if input_str == 'exit' or input_str == 'quit' or input_str == '':
             ConsoleCmd.exit_(None)
-        analysis_cmd(input_str)
+        
+        # analysis_cmd(input_str)
+        command = input_str
+
+        __1st_space = analysis_space(command)['index'][0]
+        __action = command_map.get(command[0:__1st_space], None)
+
+        if __action:
+            __action(command[__1st_space + 1:])
+        else:
+            console.logger.warning('command not found')
+
+        del __action
 
 
 if __name__ == '__main__':
