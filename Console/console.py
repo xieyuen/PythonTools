@@ -41,10 +41,13 @@ global_vars['help']['console']['logger'] = '简单的日志工具\n\n直接使�
 
 class Console:
     '''控制台工具'''
+    
     class Logger:
         '''日志工具'''
+        
         class LogPrint:
             '''日志打印'''
+
             global global_vars
             __log_color = global_vars['console']['logger']
             if __log_color == 'default': # 默认
@@ -62,28 +65,35 @@ class Console:
                 'warning':  __log_color['warning']  + '[WARNING]',
                 'critical': __log_color['critical'] + '[CRITICAL]'
             }
-            def __init__(self, __level: str):
-                self.level = __level
-            def __call__(self, message: str):
-                __level = self.__log_map[self.level]
-                if self.level == 'debug' or self.level == 'info':
-                    print(__level + '\033[0m' + ' ' + message)
-                else: print(__level + ' ' + message + '\033[0m')
-        def __init__(self): # 实例化
-            self.__debug = self.LogPrint('debug')
-            self.__info = self.LogPrint('info')
-            self.__warning = self.LogPrint('warning')
-            self.__error = self.LogPrint('error')
-            self.__critical = self.LogPrint('critical')
+            def __init__(self, __level: str): self.level = __level
 
-        def debug(self, msg): self.__debug(msg)
-        def info(self, msg): self.__info(msg)
-        def warning(self, msg): self.__warning(msg)
-        def warn(self, msg): self.__warning(msg)
-        def error(self, msg): self.__error(msg)
-        def critical(self, msg): self.__critical(msg)
-        def crit(self, msg): self.__critical(msg)
-        def catch_exc(self, msg): self.__info('\033[93m[CatchExc]\033[0m ' + msg)
+            def __call__(self, message: str):
+                if self.level != 'catch_exc':
+                    __level = self.__log_map[self.level]
+
+                    if self.level == 'debug' or self.level == 'info':
+                        print(__level + '\033[0m ' + message)
+                    else: print(__level + ' ' + message + '\033[0m')
+
+                else: print('\033[93m[CatchExc]' + __log_map['info'] + '\033[0m ' + message)
+
+        def __init__(self): # 实例化
+            self.__debug     = self.LogPrint('debug')
+            self.__info      = self.LogPrint('info')
+            self.__warning   = self.LogPrint('warning')
+            self.__error     = self.LogPrint('error')
+            self.__critical  = self.LogPrint('critical')
+            self.__catch_exc = self.LogPrint('catch_exc')
+        # 定义日志打印方法
+        def debug(self, msg):    self.__debug(msg)    # debug    日志
+        def info(self, msg):     self.__info(msg)     # info     日志
+        def warning(self, msg):  self.__warning(msg)  # warning  日志
+        def warn(self, msg):     self.__warning(msg)  # warning  日志
+        def error(self, msg):    self.__error(msg)    # error    日志
+        def critical(self, msg): self.__critical(msg) # critical 日志
+        def crit(self, msg):     self.__critical(msg) # critical 日志
+        # 异常日志
+        def catch_exc(self, msg): self.__catch_exc(msg)
         def exception(self, msg, exc_msg):
             '''这会打印 critical 级别的日志再抛出 ConsoleException 异常'''
             self.critical(msg)
@@ -228,37 +238,6 @@ command_map = {
 
 # ---------------------------------------------------------------------------------------------
 
-def analysis_space(string: str):
-
-    global global_vars
-    __space = global_vars['temp']['cmd']['space']
-
-    for __index in range(len(string)):
-        __char = string[__index]
-        if __char == ' ':
-            __space['count'] += 1
-            __space['index'].append(__index)
-    if __space['count'] == 0:
-        __space['index'].append(len(string))
-
-    global_vars['temp']['cmd']['space'] = __space
-    return __space
-
-
-def analysis_cmd(command: str):
-
-    __1st_space = analysis_space(command)['index'][0]
-    __action = command_map.get(command[0:__1st_space], None)
-
-    if __action:
-        __action(command[__1st_space + 1:])
-    else:
-        console.logger.warning('command not found')
-
-    del __action
-
-# ---------------------------------------------------------------------------------------------
-
 def main():
     console.logger.info(global_vars['welcome'])
     while True:
@@ -266,16 +245,26 @@ def main():
         if input_str == 'exit' or input_str == 'quit' or input_str == '':
             ConsoleCmd.exit_(None)
         
-        # analysis_cmd(input_str)
-        command = input_str
+        global global_vars
+        __space = global_vars['temp']['cmd']['space']
 
-        __1st_space = analysis_space(command)['index'][0]
-        __action = command_map.get(command[0:__1st_space], None)
+        for __index in range(len(input_str)):
+            __char = input_str[__index]
+            if __char == ' ':
+                __space['count'] += 1
+                __space['index'].append(__index)
+        if __space['count'] == 0:
+            __space['index'].append(len(input_str))
+
+        global_vars['temp']['cmd']['space'] = __space
+
+        __1st_space = __space['index'][0]
+        __action = command_map.get(input_str[0:__1st_space], None)
 
         if __action:
-            __action(command[__1st_space + 1:])
+            __action(input_str[__1st_space + 1:])
         else:
-            console.logger.warning('command not found')
+            console.logger.warning('input_str not found')
 
         del __action
 
