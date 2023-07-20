@@ -19,13 +19,3 @@ def betterPrint(string: str):
             print(char)
             print(tabstr * tab, end='')
         else: print(char, end='')
-
-if __name__ == '__main__':
-    egdict = {
-        i:{
-            j:{
-                k:0 for k in range(10)
-            } for j in range(10)
-        } for i in range(10)
-    }
-    betterPrint(str(egdict))
