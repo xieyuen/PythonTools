@@ -12,7 +12,7 @@ import os
 def get_music_platfrom():
     print("1.网易云:netease\n2.QQ:qq\n3.酷狗:kugou\n4.酷我:kuwo\n5.百度:baidu\n6.喜马拉雅:ximalaya")
     platfrom = input("输入音乐平台类型:")
-    inverted = self.invert_platfrom(platfrom)
+    inverted = invert_platfrom(platfrom)
     return inverted
 
 def invert_platfrom(platfrom = 'n'):

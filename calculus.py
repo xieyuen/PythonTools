@@ -2,6 +2,7 @@
 import time
 
 from math import *
+# from BetterPrint import bPrint
 
 '''
     python 计算微积分（
@@ -11,24 +12,26 @@ from math import *
     注意：n越大，计算时间越久！
     导入时建议使用这个：
     >>> from calculus import Calculus
+    >>> calculus = Calculus()
 '''
 
 class Calculus:
 
     '''
-        python 计算微积分（     
-        这个类里面所有的方法都有精度 n (默认为 2 ** 25 )    
-        由于微积分需要用到极限，但在 python 中无法实现极限运算，故选择一个大数以模拟极限情况.   
-        可以在参数末尾加入 `n = 一个整数` 以改变精度    
-        注意：n越大，计算时间越久！     
+        python 计算微积分（
+        这个类里面所有的方法都有精度 n (默认为 2 ** 25 )
+        由于微积分需要用到极限，但在 python 中无法实现极限运算，故选择一个大数以模拟极限情况.
+        可以在参数末尾加入 `n = 一个整数` 以改变精度
+        注意：n越大，计算时间越久！
         导入时建议使用这个：
         >>> from calculus import Calculus
+        >>> calculus = Calculus()
     '''
 
-    def __init__(self):
-        ...
+    def __init__(self, func: callable = sin):
+        self.func: callable = func
 
-    def definite_integral(self, f, a, b, n = 2 ** 25):
+    def definite_integral(self, a, b, f = self.func, n = 2 ** 25):
         '''
             定积分/黎曼积分
 
@@ -40,16 +43,18 @@ class Calculus:
         return self.sum(lambda x: __dx * f(a + x * __dx), 0, n)
 
 
-    def derivative(self, f, x, n = 2 ** 25):
+    def derivative(self, x, f = self.func, n = 2 ** 25):
         '''
             导数/微分
             在函数上某点的导数值
 
             使用方法:
-            >>> derivative(lambda x: 关于x的函数表达式, 点的横坐标, 精度)
+            >>> derivative(点的横坐标, lambda x: 关于x的函数表达式, 精度)
         '''
         __dx = 1 / n
-        __dy = f(x + __dx) - f(x)
+        __dy1 = f(x + __dx) - f(x)
+        __dy2 = f(x) - f(x - __dx)
+        __dy = (__dy1 + __dy2) / 2
         return __dy / __dx
 
 
@@ -73,12 +78,12 @@ class Calculus:
             return '无法判断'
 
 
-    def tangent_line(self, f, x, n = 2 ** 25):
+    def tangent_line(self, x, f = self.func, n = 2 ** 25):
         '''
             函数 f(x) 在点 (x, f(x)) 处的切线方程
 
             使用方法:
-            >>> tangent_line(lambda x: 关于x的函数表达式, 切点横坐标, 精度)
+            >>> tangent_line(切点横坐标, lambda x: 关于x的函数表达式, 精度)
         '''
         __k = self.derivative(f, x, n)
         __m = f(x) - __k * x
@@ -90,12 +95,12 @@ class Calculus:
         return __result
 
 
-    def normal_line(self, f, x, n = 2 ** 25):
+    def normal_line(self, x, f = self.func, n = 2 ** 25):
         '''
             函数 f(x) 在点 (x, f(x)) 处切线的法线方程
 
             使用方法:
-            >>> normal_line(lambda x: 关于x的函数表达式, 切点横坐标, 精度)
+            >>> normal_line(切点横坐标, lambda x: 关于x的函数表达式, 精度)
         '''
 
         __k = - 1 / self.derivative(f, x, n)
@@ -114,7 +119,7 @@ class Calculus:
             sum(lambda x: 关于x的函数表达式, 起始值, 终值)
             不支持无穷大的计算，起始值必须大于终值
 
-            For example:    
+            For example:
             1)
                 >>> def f(x):
                 ...     return 1/x
@@ -132,7 +137,7 @@ class Calculus:
         while x <= _stop:
             __sum += f(x)
             x += 1
-        
+
         return __sum
 
 

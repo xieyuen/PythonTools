@@ -51,8 +51,7 @@ def check_player_num(server: PluginServerInterface):
             server.stop()
             time.sleep(10)
 
-            whether_kill_server = server.is_server_running()
-            if whether_kill_server == True:
+            if server.is_server_running():
                 server.logger.warning("服务器似乎卡死了")
                 server.logger.info("3s后将会杀死服务端")
                 time.sleep(3)
@@ -189,17 +188,17 @@ def check_config_fire(server: PluginServerInterface):
 
 def creative_config_fire():
     config = {}
-    config["wait_min"] = 10
-    config["ip"] = "0.0.0.0"
-    config["port"] = 119
-    config["protocol"] = 2
-    config["motd"] = {}
-    config["motd"]["1"] = "§e服务器正在休眠！"
-    config["motd"]["2"] = "§c进入服务器可将服务器从休眠中唤醒"
+    config["wait_min"]     = 10
+    config["ip"]           = "0.0.0.0"
+    config["port"]         = 119
+    config["protocol"]     = 2
+    config["motd"]         = {}
+    config["motd"]["1"]    = "§e服务器正在休眠！"
+    config["motd"]["2"]    = "§c进入服务器可将服务器从休眠中唤醒"
     config["version_text"] = "§4Sleeping"
     config["kick_message"] = ["§e§l请求成功！", "", "§f服务器正在启动！请稍作等待后进入"]
-    config["server_icon"] = "server_icon.png"
-    config["samples"] = ["服务器正在休眠", "进入服务器以唤醒"]
+    config["server_icon"]  = "server_icon.png"
+    config["samples"]      = ["服务器正在休眠", "进入服务器以唤醒"]
 
     with open("config/HibernateR.json","w") as file:
         json.dump(config, file, sort_keys=True, indent=4, ensure_ascii=False)

@@ -1,0 +1,21 @@
+{
+    "id": "where_is",
+    "version": "2.0.2+build.6",
+    "name": "Where Is",
+    "description":  {
+		"en_us": "Query players' coordinates",
+		"zh_cn": "查询玩家的坐标"
+	},
+    "author": [
+        "Ra1ny_Yuki"
+    ],
+    "link": "https://github.com/Lazy-Bing-Server/WhereIs-MCDR",
+    "dependencies": {
+        "minecraft_data_api": "*",
+        "mcdreforged": ">=2.1.3"
+    },
+    "entrypoint": "where_is.entry",
+    "resources": [
+        "lang", "LICENSE"
+    ]
+}
