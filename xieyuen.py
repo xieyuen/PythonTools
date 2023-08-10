@@ -8,26 +8,27 @@ xieyuen 的 python 程序整合包
 `package` 是文件内实例化好的类/函数/方法，直接用就行
 '''
 
-import requests
-import jsonpath
-import os
 import fnmatch
-import time
 import io
+import math
+import os
+import random
+import threading
+import time
 import webbrowser
 import win32api
 import win32con
-import math
-import threading
+
+import jsonpath
+import requests
+
 
 class Package:
     def __init__(self):
         self.tools = self.Tools()
         self.script = self.Script()
         self.info = self.Information()
-        self.help = self.Help()
-        self.logger = self.Logger()
-        self.exception = self.PackageException()
+        self.console = self.Console()
 
     class Information:
         '''
@@ -62,7 +63,7 @@ class Package:
     class Tools:
         def __init__(self):
             self.list = self.List()
-            self.str = self.Str()
+            self.str = self.String()
             self.bPrint = self.BetterPrint()
 
         class List:
@@ -182,8 +183,9 @@ class Package:
                         result += i
                     return result
 
-        class Str:
-            def __init__(self): ...
+        class String:
+            def __init__(self):
+                self.randstr = self.RandomString()
 
             def isExistChinese(self, string: str) -> bool:
                 '''检测字符串内是否存在汉字'''
@@ -274,23 +276,28 @@ class Package:
                             del __result['index'][i]
                 return __result
 
-            def randstr(self, length): return self.randstr2(length)
+            class RandomString:
+                def __init__(self): ...
+                def __call__(self, length):
+                    if random.randint(2) == 0:
+                        return self.randstr1(length)
+                    else: return self.randstr2(length)
 
-            def randstr1(self, length):
-                __alpha = 'abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ!@#$%^&*()_+{}:"<>?[]\|`~-=,./;\'\"1234567890'
-                __str = ''
-                for i in range(length):
-                    __str += __alpha[random.randint(0, len(__alpha)-1)]
-                return __str
+                def randstr1(self, length):
+                    __alpha = 'abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ!@#$%^&*()_+{}:"<>?[]\|`~-=,./;\'\"1234567890'
+                    __str = ''
+                    for i in range(length):
+                        __str += __alpha[random.randint(0, len(__alpha)-1)]
+                    return __str
 
-            def randstr2(self, length):
-                __randstring = ['abcdefghijklmnopqrstuvwxyz', 'ABCDEFGHIJKLMNOPQRSTUVWXYZ', '1234567890', '!@#$%^&*()_+{}:"<>?[]\|`~-=,./;\'\"']
-                __str = ''
-                for __ in range(length):
-                    __1 = random.randint(0, 3)
-                    __2 = random.randint(0, len(__randstring[__1])-1)
-                    __str += __randstring[__1][__2]
-                return __str
+                def randstr2(self, length):
+                    __randstring = ['abcdefghijklmnopqrstuvwxyz', 'ABCDEFGHIJKLMNOPQRSTUVWXYZ', '1234567890', '!@#$%^&*()_+{}:"<>?[]\|`~-=,./;\'"']
+                    __str = ''
+                    for _ in range(length):
+                        __1 = random.randint(3)
+                        __2 = random.randint(len(__randstring[__1])-1)
+                        __str += __randstring[__1][__2]
+                    return __str
 
         class BetterPrint:
             '''
@@ -374,8 +381,8 @@ class Package:
 
     class Script:
         def __init__(self):
-            self.auto_learning = self.AutoLearning()
-            self.crawler = self.Crawler()
+            self.al = self.auto_learning = self.AutoLearning()
+            self.craw = self.crawler = self.Crawler()
 
         class AutoLearning:
             def __init__(self):
@@ -496,7 +503,7 @@ class Package:
                         elif typing == 'chrome':
                             os.system("taskkill /im chrome.exe /f")
                         else:
-                            if kill == None:
+                            if kill is None:
                                 print(f'【ERROR】无法识别参数 “{ typing }”')
                                 return None
                             else:
@@ -578,7 +585,7 @@ class Package:
                             elif typing == 'chrome':
                                 os.system("taskkill /im chrome.exe /f")
                             else:
-                                if kill == None:
+                                if kill is None:
                                     print(f'【ERROR】无法识别参数 “{ typing }”')
                                     return None
                                 else:
@@ -619,7 +626,7 @@ class Package:
                         elif typing == 'chrome':
                             os.system("taskkill /im chrome.exe /f")
                         else:
-                            if kill == None:
+                            if kill is None:
                                 print(f'【ERROR】无法识别参数 “{ typing }”')
                                 return None
                             else:
@@ -641,6 +648,9 @@ class Package:
                     print("请检查所有的必修是否都学完再考试")
 
         class Crawler:
+            def __init__(self):
+                self.pic = self.Picture()
+                self.music = self.Music()
 
             class Picture:
                 def __init__(self):
@@ -755,10 +765,10 @@ class Package:
                         搜索歌曲名称
                         :return:
                     """
-                    if name == None:
+                    if name is None:
                         self.name = input("请输入歌曲名称:")
                     else: self.name = name
-                    if platfrom == None:
+                    if platfrom is None:
                         self.get_music_platfrom() # 获取搜索的平台
                     else:
                         self.invert_platfrom()
@@ -794,74 +804,73 @@ class Package:
                         print("对不起，暂无搜索结果!")
                         return False
 
-            def __init__(self):
-                self.pic = self.Picture()
-                self.music = self.Music()
+    class Console:
+        def __init__(self):
+            self.logger = self.Logger()
+            self.exce = self.exception = self.PackageException()
 
-    class Logger:
-        '''日志工具'''
-        class LogPrint:
-            '''日志打印'''
-            global global_vars
-            __log_color = global_vars['console']['logger']
-            if __log_color == 'default': # 默认
-                __log_color = global_vars['console']['logger'] = { # 日志颜色
-                    'debug':    '\033[34m', # 蓝色
-                    'info':     '\033[92m', # 绿色
-                    'warning':  '\033[93m', # 橙色
-                    'error':    '\033[91m', # 红色
+        class Logger:
+            '''日志工具'''
+            class PrintLog:
+                '''日志打印'''
+                __log_color = { # 日志颜色
+                    'debug':    '\033[34m',  # 蓝色
+                    'info':     '\033[92m',  # 绿色
+                    'warning':  '\033[93m',  # 橙色
+                    'error':    '\033[91m',  # 红色
                     'critical': '\033[31;1m' # 红色加粗
                 }
-            __log_map = {
-                'debug':    __log_color['debug']    + '[debug]',
-                'info':     __log_color['info']     + '[Info]',
-                'error':    __log_color['error']    + '[ERROR]',
-                'warning':  __log_color['warning']  + '[WARNING]',
-                'critical': __log_color['critical'] + '[CRITICAL]'
-            }
+                __log_map = {
+                    'debug':    __log_color['debug']    + '[debug]',
+                    'info':     __log_color['info']     + '[Info]',
+                    'error':    __log_color['error']    + '[ERROR]',
+                    'warning':  __log_color['warning']  + '[WARNING]',
+                    'critical': __log_color['critical'] + '[CRITICAL]'
+                }
 
-            def __init__(self, __level: str):
-                self.level = __level
-            def __call__(self, message: str):
-                if self.level != 'catch_exc':
-                    __level = self.__log_map[self.level]
-                    if self.level == 'debug' or self.level == 'info':
-                        print(__level + '\033[0m ' + message)
+                def __init__(self, __level: str):
+                    self.level = __level
+                    self.log = __log_map[self.level]
+
+                def __call__(self, message: str):
+                    if self.level == 'catch_exc':
+                        print('\033[93m[CatchExc]' + __log_map['info'] +
+                            '\033[0m ' + message)
                     else:
-                        print(__level + ' ' + message + '\033[0m')
-                else:
-                    print('\033[93m[CatchExc]' + __log_map['info'] +
-                          '\033[0m ' + message)
-        def __init__(self):  # 实例化
-            self.__debug     = self.LogPrint('debug')
-            self.__info      = self.LogPrint('info')
-            self.__warning   = self.LogPrint('warning')
-            self.__error     = self.LogPrint('error')
-            self.__critical  = self.LogPrint('critical')
-            self.__catch_exc = self.LogPrint('catch_exc')
-        # 定义日志打印方法
-        def debug(self, msg):    self.__debug(msg)    # debug    日志
-        def info(self, msg):     self.__info(msg)     # info     日志
-        def warning(self, msg):  self.__warning(msg)  # warning  日志
-        def warn(self, msg):     self.__warning(msg)  # warning  日志
-        def error(self, msg):    self.__error(msg)    # error    日志
-        def critical(self, msg): self.__critical(msg) # critical 日志
-        def crit(self, msg):     self.__critical(msg) # critical 日志
-        # 异常日志
-        def catch_exc(self, msg): self.__catch_exc(msg)
-        def exception(self, msg, exc_msg):
-            '''这会打印 critical 级别的日志再抛出 ConsoleException 异常'''
-            self.critical(msg)
-            raise ConsoleException(exc_msg)
+                        if self.level == 'debug' or self.level == 'info':
+                            print(self.log + '\033[0m ' + message)
+                        else:
+                            print(self.log + ' ' + message + '\033[0m')
+            def __init__(self):  # 实例化
+                self.__debug     = self.PrintLog('debug')
+                self.__info      = self.PrintLog('info')
+                self.__warning   = self.PrintLog('warning')
+                self.__error     = self.PrintLog('error')
+                self.__critical  = self.PrintLog('critical')
+                self.__catch_exc = self.PrintLog('catch_exc')
+            # 定义日志打印方法
+            def debug(self, msg):     self.__debug(msg)     # debug    日志
+            def info(self, msg):      self.__info(msg)      # info     日志
+            def warning(self, msg):   self.__warning(msg)   # warning  日志
+            def warn(self, msg):      self.__warning(msg)   # warning  日志
+            def error(self, msg):     self.__error(msg)     # error    日志
+            def critical(self, msg):  self.__critical(msg)  # critical 日志
+            def crit(self, msg):      self.__critical(msg)  # critical 日志
+            def catch_exc(self, msg): self.__catch_exc(msg) # 异常日志
+            def exception(self, msg, exc_msg):
+                '''这会打印 critical 级别的日志再抛出 PackageException 异常'''
+                self.critical(msg)
+                raise PackageException(exc_msg)
 
-    class PackageException(Exception):
-        def __init__(self):
-            self.exc_msg = ''
-        def __str__(self):
-            return self.exc_msg
+        class PackageException(Exception):
+            def __init__(self):
+                self.exc_msg = ''
+            def __str__(self):
+                return self.exc_msg
 
-        def exception_msg(self, msg: str):
-            self.exc_msg = msg
+            def exception_msg(self, msg: str):
+                self.exc_msg = msg
+
 
 package = Package()
 
@@ -907,26 +916,14 @@ command_tree = {
         'author':             package.info.author,
         'license':            package.info.license,
     },
-    'logger': {
-        'self':               package.logger,
-        'debug':              package.logger.debug,
-        'info':               package.logger.info,
-        'warning':            package.logger.warning,
-        'warn':               package.logger.warn,
-        'error':              package.logger.error,
-        'critical':           package.logger.critical,
-        'crit':               package.logger.crit,
-        'catch_exc':          package.logger.catch_exc,
-        'exception':          package.logger.exception,
-    },
 }
 
 def main():
-    package.logger.info('请在 >>> 后面输入命令')
-    package.logger.info('一些常用的脚本:')
-    package.logger.info('音乐爬虫：script crawler music')
-    package.logger.info('图片爬虫：script crawler pic')
-    package.logger.info('中国保密在线 自动学习：script auto_learning bao_mi')
+    package.console.logger.info('请在 >>> 后面输入命令')
+    package.console.logger.info('一些常用的脚本:')
+    package.console.logger.info('音乐爬虫：script crawler music')
+    package.console.logger.info('图片爬虫：script crawler pic')
+    package.console.logger.info('中国保密在线 自动学习：script auto_learning bao_mi')
 
     while True:
         input_str = input(">>> ")
@@ -935,18 +932,18 @@ def main():
 
         if input_list[0] == 'exit': break
         elif input_list[0] == 'help':
-            # package.logger.warning("帮助还没写好呢")
+            # package.console.logger.warning("帮助还没写好呢")
             # continue
 
             # help
-            if input_list[1] == None:
-                package.logger.info('help')
-                package.logger.info('help 命令帮助：\n直接在命令前面加上help就行')
+            if input_list[1] is None:
+                package.console.logger.info('help')
+                package.console.logger.info('help 命令帮助：\n直接在命令前面加上help就行')
                 continue
 
             mapped[0] = command_tree.get(input_list[1], None)
             if not mapped[0]:
-                package.logger.info(f'无法解析 {input_list[1]}')
+                package.console.logger.info(f'无法解析 {input_list[1]}')
                 continue
 
             try: input_list[2]
@@ -955,7 +952,7 @@ def main():
                 continue
             mapped[1] = mapped[0].get(input_list[2], None)
             if not mapped[1]:
-                package.logger.info(f'无法解析 {input_list[2]}')
+                package.console.logger.info(f'无法解析 {input_list[2]}')
                 continue
 
             try: input_list[3]
@@ -964,22 +961,22 @@ def main():
                 continue
             mapped[2] = mapped[1].get(input_list[3], None)
             if not mapped[2]:
-                package.logger.info(f'无法解析 {input_list[3]}')
+                package.console.logger.info(f'无法解析 {input_list[3]}')
                 continue
 
         mapped[0] = command_tree.get(input_list[0], None)
         if not mapped[0]:
-            package.logger.info(f'无法识别你的输入 {input_list[0]}')
+            package.console.logger.catch_exc(f'无法识别你的输入 {input_list[0]}')
             continue
 
         mapped[1] = mapped[0].get(input_list[1], None)
         if not mapped[1]:
-            package.logger.info(f'无法识别参数 {input_list[1]}')
+            package.console.logger.catch_exc(f'无法识别参数 {input_list[1]}')
             continue
 
         mapped[2] = mapped[1].get(input_list[2], None)
         if not mapped[2]:
-            package.logger.info(f'无法识别参数 {input_list[2]}')
+            package.console.logger.catch_exc(f'无法识别参数 {input_list[2]}')
             continue
 
         if input_list[3] == 'start':
@@ -987,14 +984,14 @@ def main():
             else: mapped[2].main(*input_list[3:])
             continue
 
-        mapped[2](*input_list[3:])
+        mapped[2](*input_list[2:])
         # like: package.mapped[0].mapped[1].mapped[2].main()
 
-        package.logger.info('命令不存在')
+        package.console.logger.info('命令不存在')
 
-    package.logger.info('Bye!')
+    package.console.logger.info('Bye!')
     package.exception.exception_msg('Package console has exited.')
-    raise package.expection()
+    raise package.console.expection()
 
 if __name__ == '__main__':
     main()
