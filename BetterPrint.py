@@ -2,14 +2,7 @@
 Better Print 更好的打印
 '''
 
-
-# def print(
-#     *values: object,
-#     sep: Optional[str] = ...,
-#     end: Optional[str] = ...,
-#     file: Optional[SupportsWrite[str]] = ...,
-#     flush: bool = ...,
-# ) -> None: ...
+from typing import Optional, SupportsWrite
 
 class BetterPrint:
     '''
@@ -19,7 +12,7 @@ class BetterPrint:
     需要启用格式化看下面：
     >>> bPrint = BetterPrint()
     >>> eg = [{'a':1, 'b':2}, {'a':3, 'b':4}]
-    >>> bPrint(eg, format_=True)
+    >>> bPrint(eg, format=True)
     [
         {
             'a': 1,
@@ -37,57 +30,77 @@ class BetterPrint:
     def __call__(
         self,
         *values: object,
-        _sep: Optional[str] = ...,
-        _end: Optional[str] = ...,
-        _file: Optional[SupportsWrite[str]] = ...,
-        _flush: bool = ...,
-        format_: bool = False,
+        format: bool = False,
+        end: Optional[str] = "\n",
+        tab: str = '    ',
+        **kwargs: SupportsWrite,
     ) -> None:
-        if format_: self.formatPrint(*values, end=_end)
+
+        if format: self.formatPrint(*values, end=end)
         else:
             print(
-                object_,
-                sep=_sep,
-                end=_end,
-                file=_file,
-                flush=_flush
+                *values,
+                end=end,
+                **kwargs,
             )
 
     def formatPrint(
         self,
         *values: object,
-        end: Optional[str] = ...
+        end: Optional[str] = '\n',
+        tabstr: str = '    ',
     ) -> None:
         # tabstr = '    ' # 这是 4 个空格
-        tabstr = '	' # 这是 Tab 制表符 '\t'
+        # tabstr = '	' # 这是 Tab 制表符 '\t'
         tab = 0
 
-        for string in values:
-            if type(string) != str: string = str(string)
+        for val in values:
 
-            for index in range(len(string)):
-                char = string[index]
+            match type(val):
+                case str:
+                    for index in range(len(string)):
+                        char = string[index]
 
-                if char in '([{':
-                    print(char, end='')
-                    tab += 1
-                    print('\n', end=tabstr * tab)
-                elif char in '}])':
-                    print()
-                    tab -= 1
-                    print(tabstr * tab, end=char)
-                elif char == ',':
-                    print(char)
-                    print(tabstr * tab, end='')
-                elif char == ' ':
-                    # 当前面是空格 ( ) 或者半角逗号 (,) 时跳过
-                    match string[index -1]:
-                        case ' '|',': continue
-                    print(char, end='')
-                else: print(char, end='')
-            
-            print(' ', end='')
-        print('',end=end)
+                        if char in '([{':
+                            print(char, end='')
+                            tab += 1
+                            print('\n', end=tabstr * tab)
+                        elif char in '}])':
+                            print()
+                            tab -= 1
+                            print(tabstr * tab, end=char)
+                        elif char == ',':
+                            print(char)
+                            print(tabstr * tab, end='')
+                        elif char == ' ':
+                            # 当前面是空格 ( ) 或者半角逗号 (,) 时跳过
+                            match string[index - 1]:
+                                case ' '|',': continue
+                            print(char, end='')
+                        else: print(char, end='')                    
+                    print(' ', end='')
+                
+                case dict:
+                    for index in range(len(str(val))):
+                        char = str(val)[index]
+
+                        match char:
+                            case '{':
+                                if tab != 0:
+                                    
+                                tab += 1
+                                print(char)
+                                print(tabstr * tab, end='')
+                            case '}': ...
+                            case '[': ...
+                            case ']': ...
+                            case ',': ...
+                            case ' ':
+                                if str(val)[index - 1] in ' ,': continue
+                                print(char, end='')
+                            case _: print(char, end='')
+
+        print('', end=end)
         return None
 
     def __str__(self) -> str: return 'BetterPrint', self.__doc__
