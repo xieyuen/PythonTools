@@ -33,11 +33,15 @@ def stop_server(server: PluginServerInterface):
         server.kill()
 
 def exit_server(server: PluginServerInterface):
-    stop_server()
-    server.exit()
+    try:
+        stop_server()
+    finally:
+        server.exit()
 
 def restart_server(server: PluginServerInterface):
-    stop_server()
+    try:
+        stop_server()
+    except:...
     server.start()
 
 
@@ -96,5 +100,10 @@ def on_load(server: PluginServerInterface, prev_module):
             Literal('kill').
                 requires(lambda src: src.has_permission(permissions['kill'])).
                 runs(lambda src: server.kill())
+        ).
+            then(
+            Literal('exit2').
+                requires(lambda src: src.has_permission(permissions['exit'])).
+                runs(lambda src: exit_server())
         )
     )
