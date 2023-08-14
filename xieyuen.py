@@ -5,7 +5,7 @@ xieyuen 的 python 程序整合包
 导入方法：
 >>> from xieyuen import package
 >>> from xieyuen import package as x
-`package` 是文件内实例化好的类/函数/方法，直接用就行
+:param:`package` 是文件内可调用的类对象
 '''
 
 import fnmatch
@@ -13,11 +13,7 @@ import io
 import math
 import os
 import random
-import threading
 import time
-import webbrowser
-import win32api
-import win32con
 
 import jsonpath
 import requests
@@ -34,11 +30,9 @@ class Package:
         '''
             这个 python 文件的信息
         '''
-        def __init__(self, _info): # 初始化，没得说
-            self._info = _info
-            self.help = self.Help()
-            self.license = 'MIT License\n\nCopyright (c) 2023 HIM049\n\nPermission is hereby granted, free of charge, to any person obtaining a copy\nof this software and associated documentation files (the "Software"), to deal\nin the Software without restriction, including without limitation the rights\nto use, copy, modify, merge, publish, distribute, sublicense, and/or sell\ncopies of the Software, and to permit persons to whom the Software is\nfurnished to do so, subject to the following conditions:\n\nThe above copyright notice and this permission notice shall be included in all\ncopies or substantial portions of the Software.\n\nTHE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR\nIMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,\nFITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE\nAUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER\nLIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,\nOUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE\nSOFTWARE.'
-            self.__version = '0.0.1'
+        self.help = self.Help()
+        self.license = 'MIT License\n\nCopyright (c) 2023 HIM049\n\nPermission is hereby granted, free of charge, to any person obtaining a copy\nof this software and associated documentation files (the "Software"), to deal\nin the Software without restriction, including without limitation the rights\nto use, copy, modify, merge, publish, distribute, sublicense, and/or sell\ncopies of the Software, and to permit persons to whom the Software is\nfurnished to do so, subject to the following conditions:\n\nThe above copyright notice and this permission notice shall be included in all\ncopies or substantial portions of the Software.\n\nTHE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR\nIMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,\nFITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE\nAUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER\nLIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,\nOUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE\nSOFTWARE.'
+        self.__version = '0.1.0'
 
         # LICENSE 开源协议
         def LICENSE(self):
@@ -279,9 +273,9 @@ class Package:
             class RandomString:
                 def __init__(self): ...
                 def __call__(self, length):
-                    if random.randint(2) == 0:
+                    if random.randint(2):
                         return self.randstr1(length)
-                    else: return self.randstr2(length)
+                    return self.randstr2(length)
 
                 def randstr1(self, length):
                     __alpha = 'abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ!@#$%^&*()_+{}:"<>?[]\|`~-=,./;\'\"1234567890'
@@ -386,6 +380,11 @@ class Package:
 
         class AutoLearning:
             def __init__(self):
+                import webbrowser
+                import win32api
+                import win32con
+                import threading
+
                 self.bao_mi = self.BaoMi()
 
             class BaoMi:
@@ -806,73 +805,17 @@ class Package:
 
     class Console:
         def __init__(self):
-            self.logger = self.Logger()
-            self.exce = self.exception = self.PackageException()
+            from mymodule import logger
+            from mymodule import exceptions
 
-        class Logger:
-            '''日志工具'''
-            class PrintLog:
-                '''日志打印'''
-                __log_color = { # 日志颜色
-                    'debug':    '\033[34m',  # 蓝色
-                    'info':     '\033[92m',  # 绿色
-                    'warning':  '\033[93m',  # 橙色
-                    'error':    '\033[91m',  # 红色
-                    'critical': '\033[31;1m' # 红色加粗
-                }
-                __log_map = {
-                    'debug':    __log_color['debug']    + '[debug]',
-                    'info':     __log_color['info']     + '[Info]',
-                    'error':    __log_color['error']    + '[ERROR]',
-                    'warning':  __log_color['warning']  + '[WARNING]',
-                    'critical': __log_color['critical'] + '[CRITICAL]'
-                }
+            self.logger = logger.logger
+            self.exce = self.exception = self.exceptions = exceptions
 
-                def __init__(self, __level: str):
-                    self.level = __level
-                    self.log = __log_map[self.level]
-
-                def __call__(self, message: str):
-                    if self.level == 'catch_exc':
-                        print('\033[93m[CatchExc]' + __log_map['info'] +
-                            '\033[0m ' + message)
-                    else:
-                        if self.level == 'debug' or self.level == 'info':
-                            print(self.log + '\033[0m ' + message)
-                        else:
-                            print(self.log + ' ' + message + '\033[0m')
-            def __init__(self):  # 实例化
-                self.__debug     = self.PrintLog('debug')
-                self.__info      = self.PrintLog('info')
-                self.__warning   = self.PrintLog('warning')
-                self.__error     = self.PrintLog('error')
-                self.__critical  = self.PrintLog('critical')
-                self.__catch_exc = self.PrintLog('catch_exc')
-            # 定义日志打印方法
-            def debug(self, msg):     self.__debug(msg)     # debug    日志
-            def info(self, msg):      self.__info(msg)      # info     日志
-            def warning(self, msg):   self.__warning(msg)   # warning  日志
-            def warn(self, msg):      self.__warning(msg)   # warning  日志
-            def error(self, msg):     self.__error(msg)     # error    日志
-            def critical(self, msg):  self.__critical(msg)  # critical 日志
-            def crit(self, msg):      self.__critical(msg)  # critical 日志
-            def catch_exc(self, msg): self.__catch_exc(msg) # 异常日志
-            def exception(self, msg, exc_msg):
-                '''这会打印 critical 级别的日志再抛出 PackageException 异常'''
-                self.critical(msg)
-                raise PackageException(exc_msg)
-
-        class PackageException(Exception):
-            def __init__(self):
-                self.exc_msg = ''
-            def __str__(self):
-                return self.exc_msg
-
-            def exception_msg(self, msg: str):
-                self.exc_msg = msg
-
+        def __repr__(self) -> 'Self':
+            return self
 
 package = Package()
+
 
 command_tree = {
     'tools': {
@@ -918,12 +861,35 @@ command_tree = {
     },
 }
 
+class RecursiveMethods:
+    def __init__(self):
+        self.logger = package.console.logger
+        self.exce = self.exception = self.exceptions = package.console.exceptions
+
+    def normalCommandParse(self,
+        parse_list: list,
+        map: dict,
+        *, first: bool = True,
+    ) -> callable:
+        if len(parse_list) == 1:
+            if parse_list[0] == 'exit' and first: raise SystemExit
+            action = map.get(parse_list[0], None)
+            if action is None: raise self.exce.CommandParseError(f'指令解析出错: {parse_list[0]} 不存在')
+            return action
+        else:
+            if parse_list[0] not in map:
+                raise CommandParseError(parse_list[0])
+            return self.normalCommandParse(parse_list[1:], map[parse_list[0]], first=False)
+
+RM = RecursiveMethods()
+
 def main():
     package.console.logger.info('请在 >>> 后面输入命令')
     package.console.logger.info('一些常用的脚本:')
     package.console.logger.info('音乐爬虫：script crawler music')
     package.console.logger.info('图片爬虫：script crawler pic')
     package.console.logger.info('中国保密在线 自动学习：script auto_learning bao_mi')
+    print()
 
     while True:
         input_str = input(">>> ")
@@ -932,8 +898,6 @@ def main():
 
         if input_list[0] == 'exit': break
         elif input_list[0] == 'help':
-            # package.console.logger.warning("帮助还没写好呢")
-            # continue
 
             # help
             if input_list[1] is None:
@@ -990,8 +954,7 @@ def main():
         package.console.logger.info('命令不存在')
 
     package.console.logger.info('Bye!')
-    package.exception.exception_msg('Package console has exited.')
-    raise package.console.expection()
+    raise SystemExit(0)
 
 if __name__ == '__main__':
     main()
