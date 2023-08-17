@@ -1,0 +1,14 @@
+{
+    "id": "check_server_stop",
+    "version": "0.1",
+    "name": "CheckServerStop",
+    "description": "检测服务器是否真正关闭",
+    "author": "xieyuen",
+    "link": "https://github.com/xieyuen/MCDR-Edited-Plugins",
+    "dependencies": {
+        "mcdreforged": ">=2.9.1"
+    },
+    "resources": [
+        "LICENSE"
+    ]
+}
