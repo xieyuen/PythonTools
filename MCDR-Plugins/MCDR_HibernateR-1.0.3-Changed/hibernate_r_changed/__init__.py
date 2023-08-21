@@ -21,14 +21,14 @@ def on_load(server: PluginServerInterface, old_module):
     server.logger.warning("或者用 MPM")
 
 # 服务器启动事件
-@new_thread
+@new_thread('ServerStartup')
 def on_server_startup(server: PluginServerInterface):
     server.logger.info("事件：服务器启动")
     time.sleep(5)
     check_player_num(server)
 
-# 玩家加入事件
-@new_thread
+# 玩家离开事件
+@new_thread('PlayerLeft')
 def on_player_left(server: PluginServerInterface, player):
     server.logger.info("事件：玩家退出")
     time.sleep(5)
@@ -45,7 +45,7 @@ def check_player_num(server: PluginServerInterface):
             config = json.load(file)
         wait_min = config["wait_min"]
 
-        time.sleep(wait_min *60)
+        time.sleep(wait_min * 60)
         if len(lib_online_player.get_player_list()) == 0:
             server.logger.info("倒计时结束，关闭服务器")
             server.stop()
@@ -151,16 +151,17 @@ def fake_server(server: PluginServerInterface):
                         write_response(client_socket, json.dumps({"text": fs_kick_message}))
                         start_server(server)
                         return
-                    elif packetID == 1:
-                        (long, i) = read_long(recv_data, i)
-                        response = bytearray()
-                        write_varint(response, 9)
-                        write_varint(response, 1)
-                        bytearray.append(long)
-                        client_socket.sendall(bytearray)
-                        server.logger.info("Responded with pong packet.")
-                    else:
-                        server.logger.warning("收到了意外的数据包")
+
+                elif packetID == 1:
+                    (long, i) = read_long(recv_data, i)
+                    response = bytearray()
+                    write_varint(response, 9)
+                    write_varint(response, 1)
+                    bytearray.append(long)
+                    client_socket.sendall(bytearray)
+                    server.logger.info("Responded with pong packet.")
+                else:
+                    server.logger.warning("收到了意外的数据包")
 
             except (TypeError, IndexError): # 错误处理（类型错误或索引错误）
                 server.logger.warning("[%s:%s]收到了无效数据(%s)" % (client_ip, client_address[1], recv_data))
@@ -176,7 +177,7 @@ def start_server(server: PluginServerInterface):
     server.logger.info("启动服务器")
     server.start()
 
-@new_thread
+@new_thread('HibernateR_Config')
 def check_config_fire(server: PluginServerInterface):
     if os.path.exists("config/HibernateR.json"):
         pass
