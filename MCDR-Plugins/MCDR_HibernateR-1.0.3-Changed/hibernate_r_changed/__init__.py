@@ -20,6 +20,7 @@ def on_load(server: PluginServerInterface, old_module):
     server.logger.warning("https://www.mcdreforged.org/plugins/hibernate_r")
     server.logger.warning("或者用 MPM")
 
+
 # 服务器启动事件
 @new_thread('ServerStartup')
 def on_server_startup(server: PluginServerInterface):
@@ -27,12 +28,14 @@ def on_server_startup(server: PluginServerInterface):
     time.sleep(5)
     check_player_num(server)
 
+
 # 玩家离开事件
 @new_thread('PlayerLeft')
 def on_player_left(server: PluginServerInterface, player):
     server.logger.info("事件：玩家退出")
     time.sleep(5)
     check_player_num(server)
+
 
 # 倒数并关闭服务器
 @spam_proof
@@ -60,7 +63,9 @@ def check_player_num(server: PluginServerInterface):
             fake_server(server)
         else:
             server.logger.info("服务器内仍有玩家")
-    else: return
+    else:
+        return
+
 
 # FakeServer部分
 @spam_proof
