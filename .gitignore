@@ -1,7 +1,7 @@
 # Git ignore File
 .idea
 */__pycache__
-*.cpython
+*.cpython-311.pyc
 */music
 *.jar
 */img
