@@ -4,7 +4,6 @@ from platform import system
 
 from mcdreforged.api.all import *
 
-
 PLUGIN_METADATA = {
     'id': 'tool_plugin',
     'version': '1.0.0',
@@ -19,15 +18,19 @@ PLUGIN_METADATA = {
     },
 }
 
+
 class Commands:
     def __init__(self):
         self.server = self.ServerControl()
 
     class ServerControl:
-        def __init__(self): ...
+        def __init__(self):
+            ...
+
         def start(self, server: PluginServerInterface):
             server.start()
             server.logger.info('服务器已开启')
+
         def stop(self, server: PluginServerInterface):
             server.logger.info('服务器关闭')
             server.stop()
@@ -46,11 +49,14 @@ class Commands:
                     os.system(f'taskkill /f /pid {server_pid}')
                 else:
                     server.kill()
-            
+
             server.logger.info('服务端已停止')
+
         def exit(self, server: PluginServerInterface):
-            if server.is_server_running(): self.stop()
+            if server.is_server_running():
+                self.stop()
             server.exit()
+
         def restart(self, server: PluginServerInterface):
             self.stop()
             self.start()
@@ -58,19 +64,22 @@ class Commands:
     def run(self, command: str):
         exec(command)
 
-    @new_thread(refresh_plugin)
-    def refresh_all_plugins(server: PluginServerInterface, player: str|None = None):
+    @new_thread('refresh_plugin')
+    def refresh_all_plugins(self, server: PluginServerInterface, player: str | None = None):
         server.refresh_all_plugins()
         if (player is not None) and player != 'console':
             server.say('全部插件已重新加载')
-        server.logger.info()
+        server.logger.info(f'{player} 刷新了全部插件')
         return True
 
-    @new_thread(refresh_plugin)
-    def refresh_changed_plugins(server: PluginServerInterface, player: str|None = None):
+    @new_thread('refresh_plugin')
+    def refresh_changed_plugins(self, server: PluginServerInterface):
         server.refresh_changed_plugins()
         server.boardcast('已重新加载有变化的插件')
         return True
+
+    def seed(self, server: PluginServerInterface):
+        server.execute_command('seed')
 
 
 cmds = Commands()
@@ -86,7 +95,7 @@ def on_load(server: PluginServerInterface, prev_module):
     server.register_help_message(
         '!!tools',
         '一个小工具'
-        )
+    )
 
     server.register_command(
         Literal('!!tools')
@@ -127,5 +136,9 @@ def on_load(server: PluginServerInterface, prev_module):
                     .runs(cmds.refresh_changed_plugins)
                 )
             )
+        ).then(
+            Literal('seed')
+            .requires(lambda src: src.has_permission(2))
+            .runs(cmds.seed)
         )
     )
