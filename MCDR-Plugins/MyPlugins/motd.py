@@ -26,6 +26,15 @@ class Server:
 
 def on_load(server: PluginServerInterface, prev_module):
     server.logger.info('MOTD插件已加载')
+    server.register_command(
+        Literal('@server')
+        .requires(lambda src: src.has_permission(1))
+        .runs(Server.server)
+        .then(
+            Literal('help')
+            .runs(Server.help)
+        )
+    )
 
 
 def on_player_joined(server: PluginServerInterface, player: str, info: Info):
@@ -34,4 +43,5 @@ def on_player_joined(server: PluginServerInterface, player: str, info: Info):
     server.execute_command(f'gamemode survival {player}')
     server.execute_command(f'sudo {player} chat !!help')
     server.execute_command(f'sudo {player} chat !!days')
+    server.tell(player, '若有更多疑问，请输入 @server help 获取帮助')
     server.logger.info(f'玩家 {player} 加入服务器')
