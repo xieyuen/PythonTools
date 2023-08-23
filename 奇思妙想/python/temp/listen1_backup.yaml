@@ -1,0 +1,3757 @@
+auto_choose_source_list:
+  - qq
+  - migu
+  - bilibili
+  - taihe
+  - netease
+  - kugou
+current-playing:
+  - album: "\u8D75\u5C0F\u96F7"
+    album_id: qqalbum_001sKd2l0dVkXa
+    artist: "\u8D75\u96F7"
+    artist_id: qqartist_001Lr98T0yEWAk
+    disabled: false
+    id: qqtrack_003ThnHE0lOP3W
+    img_url: https://y.gtimg.cn/music/photo_new/T002R300x300M000001sKd2l0dVkXa.jpg
+    source: qq
+    source_url: https://y.qq.com/#type=song&mid=003ThnHE0lOP3W&tpl=yqq_song_detail
+    title: "\u753B"
+  - album: The Molecular Shape of You
+    album_id: qqalbum_00157VXk2OPpGE
+    artist: A Capella Science
+    artist_id: qqartist_003zUv4e2zFLra
+    disabled: false
+    id: qqtrack_003NIjbs3ss3GR
+    img_url: https://y.gtimg.cn/music/photo_new/T002R300x300M00000157VXk2OPpGE.jpg
+    source: qq
+    source_url: https://y.qq.com/#type=song&mid=003NIjbs3ss3GR&tpl=yqq_song_detail
+    title: The Molecular Shape of You
+  - album: "\u4E09\u4E07\u5E74\u4E4B\u524D"
+    album_id: qqalbum_0025Cc8O4Mw54U
+    artist: "\u5F20\u97F6\u6DB5"
+    artist_id: qqartist_002raUWw3PXdkT
+    disabled: false
+    id: qqtrack_002eW2wh4Z55Ws
+    img_url: https://y.gtimg.cn/music/photo_new/T002R300x300M0000025Cc8O4Mw54U.jpg
+    source: qq
+    source_url: https://y.qq.com/#type=song&mid=002eW2wh4Z55Ws&tpl=yqq_song_detail
+    title: "\u4E09\u4E07\u5E74\u4E4B\u524D"
+  - album: "\u9EC4\u6CB3\u5927\u5408\u5531(\u5B8C\u6574\u73CD\u85CF\u7248)"
+    album_id: qqalbum_002pR7WD1LVOSb
+    artist: "\u4E25\u826F\u5803"
+    artist_id: qqartist_000dew3W2n1I3v
+    disabled: false
+    id: qqtrack_00029emh3z9ppO
+    img_url: https://y.gtimg.cn/music/photo_new/T002R300x300M000002pR7WD1LVOSb.jpg
+    source: qq
+    source_url: https://y.qq.com/#type=song&mid=00029emh3z9ppO&tpl=yqq_song_detail
+    title: "\u65D7\u6B63\u98D8\u98D8"
+  - album: "\u57CE\u5357\u82B1\u5DF2\u5F00"
+    album_id: qqalbum_001JyIeM0hK5lO
+    artist: "\u4E09\u4EA9\u5730"
+    artist_id: qqartist_000Z3blR18vfe0
+    disabled: false
+    id: qqtrack_0016hfoy28wyTn
+    img_url: https://y.gtimg.cn/music/photo_new/T002R300x300M000001JyIeM0hK5lO.jpg
+    source: qq
+    source_url: https://y.qq.com/#type=song&mid=0016hfoy28wyTn&tpl=yqq_song_detail
+    title: "\u57CE\u5357\u82B1\u5DF2\u5F00"
+  - album: "\u846C\u82B1"
+    album_id: qqalbum_002pEZjO0P85tp
+    artist: THT
+    artist_id: qqartist_0015LBfk0ttKUw
+    disabled: false
+    id: qqtrack_003K07yP4g35Ml
+    img_url: https://y.gtimg.cn/music/photo_new/T002R300x300M000002pEZjO0P85tp.jpg
+    source: qq
+    source_url: https://y.qq.com/#type=song&mid=003K07yP4g35Ml&tpl=yqq_song_detail
+    title: "\u846C\u82B1"
+  - album: "\u6628\u665A\u53C8\u505A\u4E86\u4E00\u591C\u7684\u68A6"
+    album_id: qqalbum_004WQcRr39xA5L
+    artist: "\uC548\uD654\uD654"
+    artist_id: qqartist_0028tiI12c3Fh9
+    disabled: false
+    id: qqtrack_001cYFvt0qwPAY
+    img_url: https://y.gtimg.cn/music/photo_new/T002R300x300M000004WQcRr39xA5L.jpg
+    source: qq
+    source_url: https://y.qq.com/#type=song&mid=001cYFvt0qwPAY&tpl=yqq_song_detail
+    title: "\u661F\u8336\u4F1A"
+    url: ''
+  - album: The Sounds of Lockdown
+    album_id: qqalbum_003k64QT1mjHEO
+    artist: Home Free
+    artist_id: qqartist_000mfiKg2HARDR
+    disabled: false
+    id: qqtrack_000C80qT4ehbfy
+    img_url: https://y.gtimg.cn/music/photo_new/T002R300x300M000003k64QT1mjHEO.jpg
+    source: qq
+    source_url: https://y.qq.com/#type=song&mid=000C80qT4ehbfy&tpl=yqq_song_detail
+    title: Sea Shanty Medley (Extended Version)
+  - album: Savage Daughter
+    album_id: qqalbum_001W22md2LpPUf
+    artist: Ekaterina Shelehova
+    artist_id: qqartist_004bXwXg1iUahh
+    disabled: false
+    id: qqtrack_001Nq1mk45LWCb
+    img_url: https://y.gtimg.cn/music/photo_new/T002R300x300M000001W22md2LpPUf.jpg
+    source: qq
+    source_url: https://y.qq.com/#type=song&mid=001Nq1mk45LWCb&tpl=yqq_song_detail
+    title: Savage Daughter
+  - album: Acoustic Daydreams
+    album_id: qqalbum_003qLdlD1m7xCj
+    artist: Galen Crew
+    artist_id: qqartist_004g0aLx1LWO18
+    disabled: false
+    id: qqtrack_002R4Y392HsS3j
+    img_url: https://y.gtimg.cn/music/photo_new/T002R300x300M000003qLdlD1m7xCj.jpg
+    source: qq
+    source_url: https://y.qq.com/#type=song&mid=002R4Y392HsS3j&tpl=yqq_song_detail
+    title: Sleepyhead
+  - album: 'Inside Llewyn Davis: Original Soundtrack Recording'
+    album_id: qqalbum_003NY5cG15yFa7
+    artist: Justin Timberlake
+    artist_id: qqartist_003KHAR40ycCk3
+    disabled: false
+    id: qqtrack_00262GDA2fW2H3
+    img_url: https://y.gtimg.cn/music/photo_new/T002R300x300M000003NY5cG15yFa7.jpg
+    source: qq
+    source_url: https://y.qq.com/#type=song&mid=00262GDA2fW2H3&tpl=yqq_song_detail
+    title: Five Hundred Miles
+    url: ''
+enable:
+  global_shortcut: true
+  lyric_floating_window: false
+  lyric_floating_window_translation: true
+  lyric_translation: true
+  nowplaying_bitrate: false
+  nowplaying_cover_background: true
+  nowplaying_platform: true
+favoriteplayerlists:
+  - neplaylist_2919023249
+  - neplaylist_360062344
+  - neplaylist_2209538297
+  - neplaylist_623813202
+  - neplaylist_7481237292
+  - neplaylist_2890348606
+  - neplaylist_5166241095
+  - qqartist_0048u7RY2K66ZC
+  - qqplaylist_3821289344
+  - qqplaylist_8113597595
+  - neartist_33496397
+  - nealbum_34751237
+  - neplaylist_2312165875
+float_window_setting:
+  backgroundAlpha: 0.2
+  color: '#ffffff'
+  fontSize: 20
+githubOauthAccessKey: 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
+language: zh-CN
+lmplaylist_reserve:
+  info:
+    cover_img_url: images/mycover.jpg
+    id: lmplaylist_reserve
+    source_url: ''
+    title: "\u672C\u5730\u97F3\u4E50"
+  tracks:
+  - album: "\uBABD\uD658\uC758 \uC232 (\u68A6\u5E7B\u68EE\u6797)"
+    album_id: "lmalbum_\uBABD\uD658\uC758 \uC232 (\u68A6\u5E7B\u68EE\u6797)"
+    artist: "\uC288\uBCA0\uB974\uD0F1\uBCA0\uB974\uBCA0\uB974 (Schubertang Beruberu)"
+    artist_id: "lmartist_\uC288\uBCA0\uB974\uD0F1\uBCA0\uB974\uBCA0\uB974 (Schubertang\
+      \ Beruberu)"
+    id: "lmtrack_D:\\DataFiles\\Windows\\Music\\\uC288\uBCA0\uB974\uD0F1\uBCA0\uB974\
+      \uBCA0\uB974 (Schubertang Beruberu) - \uBABD\uD658\uC758 \uC232 (\u68A6\u5E7B\
+      \u68EE\u6797).mp3"
+    img_url: ''
+    sound_url: "file://D:\\DataFiles\\Windows\\Music\\\uC288\uBCA0\uB974\uD0F1\uBCA0\
+      \uB974\uBCA0\uB974 (Schubertang Beruberu) - \uBABD\uD658\uC758 \uC232 (\u68A6\
+      \u5E7B\u68EE\u6797).mp3"
+    source: localmusic
+    source_url: ''
+    title: "\uBABD\uD658\uC758 \uC232 (\u68A6\u5E7B\u68EE\u6797)"
+  - album: "\u6E29\u67D4\u4EE5\u5F85"
+    album_id: "lmalbum_\u6E29\u67D4\u4EE5\u5F85"
+    artist: "\u5B50\u6A59"
+    artist_id: "lmartist_\u5B50\u6A59"
+    id: "lmtrack_D:\\DataFiles\\Windows\\Music\\\u5B50\u6A59 - \u4E00\u7F15\u5FAE\u5149\
+      \uFF08\u94A2\u7434\u66F2\uFF09.flac"
+    img_url: ''
+    sound_url: "file://D:\\DataFiles\\Windows\\Music\\\u5B50\u6A59 - \u4E00\u7F15\u5FAE\
+      \u5149\uFF08\u94A2\u7434\u66F2\uFF09.flac"
+    source: localmusic
+    source_url: ''
+    title: "\u4E00\u7F15\u5FAE\u5149\uFF08\u94A2\u7434\u66F2\uFF09"
+  - album: "\u6E29\u67D4\u4EE5\u5F85"
+    album_id: "lmalbum_\u6E29\u67D4\u4EE5\u5F85"
+    artist: "\u5B50\u6A59"
+    artist_id: "lmartist_\u5B50\u6A59"
+    id: "lmtrack_D:\\DataFiles\\Windows\\Music\\\u5B50\u6A59 - \u843D\u53F6\u77E5\u79CB\
+      \uFF08\u94A2\u7434\u66F2\uFF09.flac"
+    img_url: ''
+    sound_url: "file://D:\\DataFiles\\Windows\\Music\\\u5B50\u6A59 - \u843D\u53F6\u77E5\
+      \u79CB\uFF08\u94A2\u7434\u66F2\uFF09.flac"
+    source: localmusic
+    source_url: ''
+    title: "\u843D\u53F6\u77E5\u79CB\uFF08\u94A2\u7434\u66F2\uFF09"
+  - album: "\u4F34\u4F60\u5165\u68A6\uFF083\uFF09"
+    album_id: "lmalbum_\u4F34\u4F60\u5165\u68A6\uFF083\uFF09"
+    artist: Starry Sky
+    artist_id: lmartist_Starry Sky
+    id: "lmtrack_D:\\DataFiles\\Windows\\Music\\\u8FFD\u5149\u8005 (\u94A2\u7434\u7248\
+      ) - Starry Sky.flac"
+    img_url: ''
+    sound_url: "file://D:\\DataFiles\\Windows\\Music\\\u8FFD\u5149\u8005 (\u94A2\u7434\
+      \u7248) - Starry Sky.flac"
+    source: localmusic
+    source_url: ''
+    title: "\u8FFD\u5149\u8005 (\u94A2\u7434\u7248)"
+  - album: "\u8BD7\u548C\u8FDC\u65B9"
+    album_id: "lmalbum_\u8BD7\u548C\u8FDC\u65B9"
+    artist: "\u5468\u4FCA\u826F"
+    artist_id: "lmartist_\u5468\u4FCA\u826F"
+    id: "lmtrack_D:\\DataFiles\\Windows\\Music\\\u5468\u4FCA\u826F - \u90A3\u5E74\u7684\
+      \u590F\u5929\uFF08\u94A2\u7434\u66F2\uFF09.flac"
+    img_url: ''
+    sound_url: "file://D:\\DataFiles\\Windows\\Music\\\u5468\u4FCA\u826F - \u90A3\u5E74\
+      \u7684\u590F\u5929\uFF08\u94A2\u7434\u66F2\uFF09.flac"
+    source: localmusic
+    source_url: ''
+    title: "\u90A3\u5E74\u7684\u590F\u5929\uFF08\u94A2\u7434\u66F2\uFF09"
+  - album: "\u70DF\u82B1\u843D"
+    album_id: "lmalbum_\u70DF\u82B1\u843D"
+    artist: DarkSpirit
+    artist_id: lmartist_DarkSpirit
+    id: "lmtrack_D:\\DataFiles\\Windows\\Music\\\u70DF\u82B1\u843D - DarkSpirit.mp3"
+    img_url: ''
+    sound_url: "file://D:\\DataFiles\\Windows\\Music\\\u70DF\u82B1\u843D - DarkSpirit.mp3"
+    source: localmusic
+    source_url: ''
+    title: "\u70DF\u82B1\u843D"
+  - album: "\u300C\u6700\u8FD1\u3001\u59B9\u306E\u3088\u3046\u3059\u304C\u3061\u3087\
+      \u3063\u3068\u304A\u304B\u3057\u3044\u3093\u3060\u304C\u3002\u300D\u30AA\u30EA\
+      \u30B8\u30CA\u30EB\u30B5\u30A6\u30F3\u30C9\u30C8\u30E9\u30C3\u30AF (\u6700\u8FD1\
+      \u6211\u7684\u59B9\u59B9\u6709\u70B9\u602A \u539F\u58F0\u5E26)"
+    album_id: "lmalbum_\u300C\u6700\u8FD1\u3001\u59B9\u306E\u3088\u3046\u3059\u304C\
+      \u3061\u3087\u3063\u3068\u304A\u304B\u3057\u3044\u3093\u3060\u304C\u3002\u300D\
+      \u30AA\u30EA\u30B8\u30CA\u30EB\u30B5\u30A6\u30F3\u30C9\u30C8\u30E9\u30C3\u30AF\
+      \ (\u6700\u8FD1\u6211\u7684\u59B9\u59B9\u6709\u70B9\u602A \u539F\u58F0\u5E26\
+      )"
+    artist: "\u4E2D\u897F\u4EAE\u8F14 (\u306A\u304B\u306B\u3057 \u308A\u3087\u3046\
+      \u3059\u3051)"
+    artist_id: "lmartist_\u4E2D\u897F\u4EAE\u8F14 (\u306A\u304B\u306B\u3057 \u308A\
+      \u3087\u3046\u3059\u3051)"
+    id: "lmtrack_D:\\DataFiles\\Windows\\Music\\\u4E2D\u897F\u4EAE\u8F14 (\u306A\u304B\
+      \u306B\u3057 \u308A\u3087\u3046\u3059\u3051) - \u6709\u54C9\u3068\u7F8E\u6708\
+      \ (\u6709\u54C9\u548C\u7F8E\u6708).mp3"
+    img_url: ''
+    sound_url: "file://D:\\DataFiles\\Windows\\Music\\\u4E2D\u897F\u4EAE\u8F14 (\u306A\
+      \u304B\u306B\u3057 \u308A\u3087\u3046\u3059\u3051) - \u6709\u54C9\u3068\u7F8E\
+      \u6708 (\u6709\u54C9\u548C\u7F8E\u6708).mp3"
+    source: localmusic
+    source_url: ''
+    title: "\u6709\u54C9\u3068\u7F8E\u6708 (\u6709\u54C9\u548C\u7F8E\u6708)"
+  - album: "\u30D4\u30A2\u30CE.\u30B3\u30EC\u30AF\u30B7\u30E7\u30F3 \u97D3\u56FDTV\u30C9\
+      \u30E9\u30DE.\u30C6\u30FC\u30DE\u66F2\u96C6 (\u94A2\u7434\u4F34\u594F \u97E9\
+      \u5267\u4E3B\u9898\u6B4C\u96C6)"
+    album_id: "lmalbum_\u30D4\u30A2\u30CE.\u30B3\u30EC\u30AF\u30B7\u30E7\u30F3 \u97D3\
+      \u56FDTV\u30C9\u30E9\u30DE.\u30C6\u30FC\u30DE\u66F2\u96C6 (\u94A2\u7434\u4F34\
+      \u594F \u97E9\u5267\u4E3B\u9898\u6B4C\u96C6)"
+    artist: "\u4E2D\u6751\u7531\u5229\u5B50 (\u306A\u304B\u3080\u3089 \u3086\u308A\
+      \u3053)"
+    artist_id: "lmartist_\u4E2D\u6751\u7531\u5229\u5B50 (\u306A\u304B\u3080\u3089\
+      \ \u3086\u308A\u3053)"
+    id: "lmtrack_D:\\DataFiles\\Windows\\Music\\\u4E2D\u6751\u7531\u5229\u5B50 (\u306A\
+      \u304B\u3080\u3089 \u3086\u308A\u3053) - \u4E00\u679D\u6885.mp3"
+    img_url: ''
+    sound_url: "file://D:\\DataFiles\\Windows\\Music\\\u4E2D\u6751\u7531\u5229\u5B50\
+      \ (\u306A\u304B\u3080\u3089 \u3086\u308A\u3053) - \u4E00\u679D\u6885.mp3"
+    source: localmusic
+    source_url: ''
+    title: "\u4E00\u679D\u6885"
+  - album: "\u846C\u82B1"
+    album_id: "lmalbum_\u846C\u82B1"
+    artist: THT
+    artist_id: lmartist_THT
+    id: "lmtrack_D:\\DataFiles\\Windows\\Music\\\u846C\u82B1 - THT.flac"
+    img_url: ''
+    sound_url: "file://D:\\DataFiles\\Windows\\Music\\\u846C\u82B1 - THT.flac"
+    source: localmusic
+    source_url: ''
+    title: "\u846C\u82B1"
+  - album: "\u68A6\u4E0E\u7231\u4F5C\u68A6\u7684\u8BD7 (The Best of Daydream)"
+    album_id: "lmalbum_\u68A6\u4E0E\u7231\u4F5C\u68A6\u7684\u8BD7 (The Best of Daydream)"
+    artist: "Daydream (\u767D\u65E5\u68A6)"
+    artist_id: "lmartist_Daydream (\u767D\u65E5\u68A6)"
+    id: "lmtrack_D:\\DataFiles\\Windows\\Music\\\u96E8\u4E2D\u6F2B\u6B65 (Stepping\
+      \ on The Rainy Street) - Daydream (\u767D\u65E5\u68A6).flac"
+    img_url: ''
+    sound_url: "file://D:\\DataFiles\\Windows\\Music\\\u96E8\u4E2D\u6F2B\u6B65 (Stepping\
+      \ on The Rainy Street) - Daydream (\u767D\u65E5\u68A6).flac"
+    source: localmusic
+    source_url: ''
+    title: "\u96E8\u4E2D\u6F2B\u6B65 (Stepping on The Rainy Street)"
+  - album: "\u7E41\u590F\u94A2\u7434\u7EAF\u97F3\u4E50"
+    album_id: "lmalbum_\u7E41\u590F\u94A2\u7434\u7EAF\u97F3\u4E50"
+    artist: "\u4F59\u5BB6\u7476"
+    artist_id: "lmartist_\u4F59\u5BB6\u7476"
+    id: "lmtrack_D:\\DataFiles\\Windows\\Music\\\u4F59\u5BB6\u7476 - \u968F\u7F18\u800C\
+      \u5B89.flac"
+    img_url: ''
+    sound_url: "file://D:\\DataFiles\\Windows\\Music\\\u4F59\u5BB6\u7476 - \u968F\u7F18\
+      \u800C\u5B89.flac"
+    source: localmusic
+    source_url: ''
+    title: "\u968F\u7F18\u800C\u5B89"
+  - album: "\u5FAE\u7B11\u7684\u9C7C \u539F\u521B\u97F3\u4E50\u4E13\u8F91"
+    album_id: "lmalbum_\u5FAE\u7B11\u7684\u9C7C \u539F\u521B\u97F3\u4E50\u4E13\u8F91"
+    artist: "\u51E0\u7C73"
+    artist_id: "lmartist_\u51E0\u7C73"
+    id: "lmtrack_D:\\DataFiles\\Windows\\Music\\\u62E5\u6709 - \u51E0\u7C73.flac"
+    img_url: ''
+    sound_url: "file://D:\\DataFiles\\Windows\\Music\\\u62E5\u6709 - \u51E0\u7C73\
+      .flac"
+    source: localmusic
+    source_url: ''
+    title: "\u62E5\u6709"
+  - album: "\u6628\u665A\u53C8\u505A\u4E86\u4E00\u591C\u7684\u68A6"
+    album_id: "lmalbum_\u6628\u665A\u53C8\u505A\u4E86\u4E00\u591C\u7684\u68A6"
+    artist: "\uC548\uD654\uD654"
+    artist_id: "lmartist_\uC548\uD654\uD654"
+    id: "lmtrack_D:\\DataFiles\\Windows\\Music\\\u591C_\u8424\u706B\u866B\u548C\u4F60\
+      \ - \uC548\uD654\uD654.mp3"
+    img_url: ''
+    sound_url: "file://D:\\DataFiles\\Windows\\Music\\\u591C_\u8424\u706B\u866B\u548C\
+      \u4F60 - \uC548\uD654\uD654.mp3"
+    source: localmusic
+    source_url: ''
+    title: "\u591C.\u8424\u706B\u866B\u548C\u4F60"
+  - album: "\u71D5\u65E0\u6B47"
+    album_id: "lmalbum_\u71D5\u65E0\u6B47"
+    artist: "\u4E03\u53D4\uFF08\u53F6\u6CFD\u6D69\uFF09"
+    artist_id: "lmartist_\u4E03\u53D4\uFF08\u53F6\u6CFD\u6D69\uFF09"
+    id: "lmtrack_D:\\DataFiles\\Windows\\Music\\\u71D5\u65E0\u6B47 - \u4E03\u53D4\uFF08\
+      \u53F6\u6CFD\u6D69\uFF09.flac"
+    img_url: ''
+    sound_url: "file://D:\\DataFiles\\Windows\\Music\\\u71D5\u65E0\u6B47 - \u4E03\u53D4\
+      \uFF08\u53F6\u6CFD\u6D69\uFF09.flac"
+    source: localmusic
+    source_url: ''
+    title: "\u71D5\u65E0\u6B47"
+  - album: "\u94A2\u7434\u968F\u60F3\u66F2"
+    album_id: "lmalbum_\u94A2\u7434\u968F\u60F3\u66F2"
+    artist: "\u8BB8\u4E50"
+    artist_id: "lmartist_\u8BB8\u4E50"
+    id: "lmtrack_D:\\DataFiles\\Windows\\Music\\\u8BB8\u4E50 - \u52C7\u6C14.mp3"
+    img_url: ''
+    sound_url: "file://D:\\DataFiles\\Windows\\Music\\\u8BB8\u4E50 - \u52C7\u6C14\
+      .mp3"
+    source: localmusic
+    source_url: ''
+    title: "\u52C7\u6C14"
+  - album: "\u6628\u665A\u53C8\u505A\u4E86\u4E00\u591C\u7684\u68A6"
+    album_id: "lmalbum_\u6628\u665A\u53C8\u505A\u4E86\u4E00\u591C\u7684\u68A6"
+    artist: "\uC548\uD654\uD654"
+    artist_id: "lmartist_\uC548\uD654\uD654"
+    id: "lmtrack_D:\\DataFiles\\Windows\\Music\\\u661F\u8336\u4F1A - \uC548\uD654\uD654\
+      .mp3"
+    img_url: ''
+    sound_url: "file://D:\\DataFiles\\Windows\\Music\\\u661F\u8336\u4F1A - \uC548\uD654\
+      \uD654.mp3"
+    source: localmusic
+    source_url: ''
+    title: "\u661F\u8336\u4F1A"
+  - album: "\u661F\u306E\u6F6E"
+    album_id: "lmalbum_\u661F\u306E\u6F6E"
+    artist: GreyKy
+    artist_id: lmartist_GreyKy
+    id: "lmtrack_D:\\DataFiles\\Windows\\Music\\\u661F\u306E\u6F6E - GreyKy.flac"
+    img_url: ''
+    sound_url: "file://D:\\DataFiles\\Windows\\Music\\\u661F\u306E\u6F6E - GreyKy.flac"
+    source: localmusic
+    source_url: ''
+    title: "\u661F\u306E\u6F6E"
+  - album: "\u9A81"
+    album_id: "lmalbum_\u9A81"
+    artist: "\u4E95\u80E7/\u4E95\u8FEA\u513F"
+    artist_id: "lmartist_\u4E95\u80E7/\u4E95\u8FEA\u513F"
+    id: "lmtrack_D:\\DataFiles\\Windows\\Music\\\u9A81 - \u4E95\u80E7 _ \u4E95\u8FEA\
+      \u513F.mp3"
+    img_url: ''
+    sound_url: "file://D:\\DataFiles\\Windows\\Music\\\u9A81 - \u4E95\u80E7 _ \u4E95\
+      \u8FEA\u513F.mp3"
+    source: localmusic
+    source_url: ''
+    title: "\u9A81"
+  - album: "\u590F\u591C\u7684\u56DE\u5FC6"
+    album_id: "lmalbum_\u590F\u591C\u7684\u56DE\u5FC6"
+    artist: "\u7434\u5C0F\u53F6"
+    artist_id: "lmartist_\u7434\u5C0F\u53F6"
+    id: "lmtrack_D:\\DataFiles\\Windows\\Music\\\u590F\u591C\u7684\u56DE\u5FC6 - \u7434\
+      \u5C0F\u53F6.flac"
+    img_url: ''
+    sound_url: "file://D:\\DataFiles\\Windows\\Music\\\u590F\u591C\u7684\u56DE\u5FC6\
+      \ - \u7434\u5C0F\u53F6.flac"
+    source: localmusic
+    source_url: ''
+    title: "\u590F\u591C\u7684\u56DE\u5FC6"
+  - album: "\u56DB\u5B63\u6545\u4E8B"
+    album_id: "lmalbum_\u56DB\u5B63\u6545\u4E8B"
+    artist: "\u56DB\u5B63\u97F3\u8272"
+    artist_id: "lmartist_\u56DB\u5B63\u97F3\u8272"
+    id: "lmtrack_D:\\DataFiles\\Windows\\Music\\\u590F\u591C - \u56DB\u5B63\u97F3\u8272\
+      .flac"
+    img_url: ''
+    sound_url: "file://D:\\DataFiles\\Windows\\Music\\\u590F\u591C - \u56DB\u5B63\u97F3\
+      \u8272.flac"
+    source: localmusic
+    source_url: ''
+    title: "\u590F\u591C"
+  - album: "\u5C0F\u6E05\u65B0\u4E0E\u5C0F\u60C5\u7EEA-II"
+    album_id: "lmalbum_\u5C0F\u6E05\u65B0\u4E0E\u5C0F\u60C5\u7EEA-II"
+    artist: "\u95EB\u4E1C\u709C"
+    artist_id: "lmartist_\u95EB\u4E1C\u709C"
+    id: "lmtrack_D:\\DataFiles\\Windows\\Music\\\u590F\u91CE\u4E0E\u6697\u604B - \u95EB\
+      \u4E1C\u709C.flac"
+    img_url: ''
+    sound_url: "file://D:\\DataFiles\\Windows\\Music\\\u590F\u91CE\u4E0E\u6697\u604B\
+      \ - \u95EB\u4E1C\u709C.flac"
+    source: localmusic
+    source_url: ''
+    title: "\u590F\u91CE\u4E0E\u6697\u604B"
+  - album: "\u6614\u5E74\u5149\u9634"
+    album_id: "lmalbum_\u6614\u5E74\u5149\u9634"
+    artist: "Maker/\u79C1\u306B\u95FB\u3044\u3066\u98CEi"
+    artist_id: "lmartist_Maker/\u79C1\u306B\u95FB\u3044\u3066\u98CEi"
+    id: "lmtrack_D:\\DataFiles\\Windows\\Music\\\u6614\u5E74\u65F6\u5149 - Maker _\
+      \ \u79C1\u306B\u95FB\u3044\u3066\u98CEi.flac"
+    img_url: ''
+    sound_url: "file://D:\\DataFiles\\Windows\\Music\\\u6614\u5E74\u65F6\u5149 - Maker\
+      \ _ \u79C1\u306B\u95FB\u3044\u3066\u98CEi.flac"
+    source: localmusic
+    source_url: ''
+    title: "\u6614\u5E74\u65F6\u5149"
+  - album: "8\u670831\u65E5"
+    album_id: "lmalbum_8\u670831\u65E5"
+    artist: "\u5434\u5B87\u6DF1"
+    artist_id: "lmartist_\u5434\u5B87\u6DF1"
+    id: "lmtrack_D:\\DataFiles\\Windows\\Music\\\u5434\u5B87\u6DF1 - 8\u670831\u65E5\
+      .flac"
+    img_url: ''
+    sound_url: "file://D:\\DataFiles\\Windows\\Music\\\u5434\u5B87\u6DF1 - 8\u6708\
+      31\u65E5.flac"
+    source: localmusic
+    source_url: ''
+    title: "8\u670831\u65E5"
+  - album: "\u65B0\u5E74\u5FEB\u4E50\uFF08\u94A2\u7434\u4E13\u8F91\uFF09part 1"
+    album_id: "lmalbum_\u65B0\u5E74\u5FEB\u4E50\uFF08\u94A2\u7434\u4E13\u8F91\uFF09\
+      part 1"
+    artist: Masque_Jupiter
+    artist_id: lmartist_Masque_Jupiter
+    id: "lmtrack_D:\\DataFiles\\Windows\\Music\\\u4EA1\u7075\u5E8F\u66F2 (\u94A2\u7434\
+      \u7248) - Masque_Jupiter.mp3"
+    img_url: ''
+    sound_url: "file://D:\\DataFiles\\Windows\\Music\\\u4EA1\u7075\u5E8F\u66F2 (\u94A2\
+      \u7434\u7248) - Masque_Jupiter.mp3"
+    source: localmusic
+    source_url: ''
+    title: "\u4EA1\u7075\u5E8F\u66F2 (\u94A2\u7434\u7248)"
+  - album_id: lmalbum_undefined
+    artist_id: lmartist_undefined
+    id: "lmtrack_D:\\DataFiles\\Windows\\Music\\\u4E07\u7269\u9882 9.4 4.mp3"
+    img_url: ''
+    sound_url: "file://D:\\DataFiles\\Windows\\Music\\\u4E07\u7269\u9882 9.4 4.mp3"
+    source: localmusic
+    source_url: ''
+    title: "\u4E07\u7269\u9882 9.4 4"
+  - album: "\u60E0\u5A01\u8BD5\u97F3\u5929\u789F\u2164"
+    album_id: "lmalbum_\u60E0\u5A01\u8BD5\u97F3\u5929\u789F\u2164"
+    artist: "\u8F9B\u8F9B\u7EB3\u63D0\u901A\u4FD7\u7BA1\u5F26\u4E50\u56E2"
+    artist_id: "lmartist_\u8F9B\u8F9B\u7EB3\u63D0\u901A\u4FD7\u7BA1\u5F26\u4E50\u56E2"
+    id: "lmtrack_D:\\DataFiles\\Windows\\Music\\\u4E07\u5B9D\u8DEF\u8FDB\u884C\u66F2\
+      \ - \u8F9B\u8F9B\u7EB3\u63D0\u901A\u4FD7\u7BA1\u5F26\u4E50\u56E2.mp3"
+    img_url: ''
+    sound_url: "file://D:\\DataFiles\\Windows\\Music\\\u4E07\u5B9D\u8DEF\u8FDB\u884C\
+      \u66F2 - \u8F9B\u8F9B\u7EB3\u63D0\u901A\u4FD7\u7BA1\u5F26\u4E50\u56E2.mp3"
+    source: localmusic
+    source_url: ''
+    title: "\u4E07\u5B9D\u8DEF\u8FDB\u884C\u66F2"
+  - album: "\u5929\u7A7A\u4E4B\u57CE\uFF08\u7ECF\u5178\u94A2\u7434\u7248\uFF09"
+    album_id: "lmalbum_\u5929\u7A7A\u4E4B\u57CE\uFF08\u7ECF\u5178\u94A2\u7434\u7248\
+      \uFF09"
+    artist: dylanf
+    artist_id: lmartist_dylanf
+    id: "lmtrack_D:\\DataFiles\\Windows\\Music\\\u5929\u7A7A\u4E4B\u57CE (\u7ECF\u5178\
+      \u94A2\u7434\u7248) - dylanf.flac"
+    img_url: ''
+    sound_url: "file://D:\\DataFiles\\Windows\\Music\\\u5929\u7A7A\u4E4B\u57CE (\u7ECF\
+      \u5178\u94A2\u7434\u7248) - dylanf.flac"
+    source: localmusic
+    source_url: ''
+    title: "\u5929\u7A7A\u4E4B\u57CE (\u7ECF\u5178\u94A2\u7434\u7248)"
+  - album: "\u6740\u610F\u6E10\u8D77"
+    album_id: "lmalbum_\u6740\u610F\u6E10\u8D77"
+    artist: "\u67AB\u603B"
+    artist_id: "lmartist_\u67AB\u603B"
+    id: "lmtrack_D:\\DataFiles\\Windows\\Music\\\u6240\u5FF5\u7686\u661F\u6CB3 - \u67AB\
+      \u603B.mp3"
+    img_url: ''
+    sound_url: "file://D:\\DataFiles\\Windows\\Music\\\u6240\u5FF5\u7686\u661F\u6CB3\
+      \ - \u67AB\u603B.mp3"
+    source: localmusic
+    source_url: ''
+    title: "\u6240\u5FF5\u7686\u661F\u6CB3"
+  - album: "\u30AA\u30EA\u30B8\u30CA\u30EB\u30B5\u30A6\u30F3\u30C9\u30C8\u30E9\u30C3\
+      \u30AF\u30FB\u30D9\u30B9\u30C8\u30A2\u30EB\u30D0\u30E0 \u72AC\u591C\u53C9 \u97F3\
+      \u697D\u64B0\u96C6-\u6620\u753B\u7BC7- (\u7CBE\u9009\u539F\u58F0\u5E26 \u72AC\
+      \u591C\u53C9 \u97F3\u4E50\u96C6-\u7535\u5F71\u7BC7-)"
+    album_id: "lmalbum_\u30AA\u30EA\u30B8\u30CA\u30EB\u30B5\u30A6\u30F3\u30C9\u30C8\
+      \u30E9\u30C3\u30AF\u30FB\u30D9\u30B9\u30C8\u30A2\u30EB\u30D0\u30E0 \u72AC\u591C\
+      \u53C9 \u97F3\u697D\u64B0\u96C6-\u6620\u753B\u7BC7- (\u7CBE\u9009\u539F\u58F0\
+      \u5E26 \u72AC\u591C\u53C9 \u97F3\u4E50\u96C6-\u7535\u5F71\u7BC7-)"
+    artist: "\u548C\u7530\u85AB (\u308F\u3060\u304B\u304A\u308B)"
+    artist_id: "lmartist_\u548C\u7530\u85AB (\u308F\u3060\u304B\u304A\u308B)"
+    id: "lmtrack_D:\\DataFiles\\Windows\\Music\\\u6642\u4EE3\u3092\u8D8A\u3048\u308B\
+      \u60F3\u3044 (\u7A7F\u8D8A\u65F6\u7A7A\u7684\u601D\u5FF5) (Piano Concerto~Bonus\
+      \ Track ) - \u548C\u7530\u85AB (\u308F\u3060\u304B\u304A\u308B).flac"
+    img_url: ''
+    sound_url: "file://D:\\DataFiles\\Windows\\Music\\\u6642\u4EE3\u3092\u8D8A\u3048\
+      \u308B\u60F3\u3044 (\u7A7F\u8D8A\u65F6\u7A7A\u7684\u601D\u5FF5) (Piano Concerto~Bonus\
+      \ Track ) - \u548C\u7530\u85AB (\u308F\u3060\u304B\u304A\u308B).flac"
+    source: localmusic
+    source_url: ''
+    title: "\u6642\u4EE3\u3092\u8D8A\u3048\u308B\u60F3\u3044 (\u7A7F\u8D8A\u65F6\u7A7A\
+      \u7684\u601D\u5FF5) (Piano Concerto~Bonus Track )"
+  - album: "\u591C\u7684\u94A2\u7434\u66F2\u4E94"
+    album_id: "lmalbum_\u591C\u7684\u94A2\u7434\u66F2\u4E94"
+    artist: Bacn
+    artist_id: lmartist_Bacn
+    id: "lmtrack_D:\\DataFiles\\Windows\\Music\\\u77F3\u8FDB - \u591C\u7684\u94A2\u7434\
+      \u66F2\u4E94 - Bacn.mp3"
+    img_url: ''
+    sound_url: "file://D:\\DataFiles\\Windows\\Music\\\u77F3\u8FDB - \u591C\u7684\u94A2\
+      \u7434\u66F2\u4E94 - Bacn.mp3"
+    source: localmusic
+    source_url: ''
+    title: "\u77F3\u8FDB - \u591C\u7684\u94A2\u7434\u66F2\u4E94"
+  - album: "\u9057\u5931\u7684\u98CE\u666F"
+    album_id: "lmalbum_\u9057\u5931\u7684\u98CE\u666F"
+    artist: "\u6B66\u8A00\u5723"
+    artist_id: "lmartist_\u6B66\u8A00\u5723"
+    id: "lmtrack_D:\\DataFiles\\Windows\\Music\\\u5931\u6563\u7684\u57CE\u5E02 - \u6B66\
+      \u8A00\u5723.flac"
+    img_url: ''
+    sound_url: "file://D:\\DataFiles\\Windows\\Music\\\u5931\u6563\u7684\u57CE\u5E02\
+      \ - \u6B66\u8A00\u5723.flac"
+    source: localmusic
+    source_url: ''
+    title: "\u5931\u6563\u7684\u57CE\u5E02"
+  - album: "\u539F\u521B\u94A2\u7434\u4F5C\u54C1"
+    album_id: "lmalbum_\u539F\u521B\u94A2\u7434\u4F5C\u54C1"
+    artist: "\u8339\u4FCA\u9F99"
+    artist_id: "lmartist_\u8339\u4FCA\u9F99"
+    id: "lmtrack_D:\\DataFiles\\Windows\\Music\\\u8339\u4FCA\u9F99 - \u76F8\u9022\u76DB\
+      \u590F.flac"
+    img_url: ''
+    sound_url: "file://D:\\DataFiles\\Windows\\Music\\\u8339\u4FCA\u9F99 - \u76F8\u9022\
+      \u76DB\u590F.flac"
+    source: localmusic
+    source_url: ''
+    title: "\u76F8\u9022\u76DB\u590F"
+  - album: "\u4F60\u4F3C\u661F\u8FB0\u5165\u6D77 \u5982\u4E07\u9CB8\u6210\u5B87\u5B99"
+    album_id: "lmalbum_\u4F60\u4F3C\u661F\u8FB0\u5165\u6D77 \u5982\u4E07\u9CB8\u6210\
+      \u5B87\u5B99"
+    artist: ALisa
+    artist_id: lmartist_ALisa
+    id: "lmtrack_D:\\DataFiles\\Windows\\Music\\\u5982\u4E07\u9CB8\u6210\u5B87\u5B99\
+      \ - ALisa.flac"
+    img_url: ''
+    sound_url: "file://D:\\DataFiles\\Windows\\Music\\\u5982\u4E07\u9CB8\u6210\u5B87\
+      \u5B99 - ALisa.flac"
+    source: localmusic
+    source_url: ''
+    title: "\u5982\u4E07\u9CB8\u6210\u5B87\u5B99"
+  - album: "\u70ED\u7231105\xB0C\u7684\u4F60"
+    album_id: "lmalbum_\u70ED\u7231105\xB0C\u7684\u4F60"
+    artist: "\u963F\u8086"
+    artist_id: "lmartist_\u963F\u8086"
+    id: "lmtrack_D:\\DataFiles\\Windows\\Music\\\u70ED\u7231105\xB0C\u7684\u4F60 -\
+      \ \u963F\u8086.flac"
+    img_url: ''
+    sound_url: "file://D:\\DataFiles\\Windows\\Music\\\u70ED\u7231105\xB0C\u7684\u4F60\
+      \ - \u963F\u8086.flac"
+    source: localmusic
+    source_url: ''
+    title: "\u70ED\u7231105\xB0C\u7684\u4F60"
+  - album: "\u6E05\u65B0\u7684\u5C0F\u5973\u5B69\uFF08For Ma\uFF09"
+    album_id: "lmalbum_\u6E05\u65B0\u7684\u5C0F\u5973\u5B69\uFF08For Ma\uFF09"
+    artist: July Tun
+    artist_id: lmartist_July Tun
+    id: "lmtrack_D:\\DataFiles\\Windows\\Music\\\u6E05\u65B0\u7684\u5C0F\u5973\u5B69\
+      \ - July Tun.mp3"
+    img_url: ''
+    sound_url: "file://D:\\DataFiles\\Windows\\Music\\\u6E05\u65B0\u7684\u5C0F\u5973\
+      \u5B69 - July Tun.mp3"
+    source: localmusic
+    source_url: ''
+    title: "\u6E05\u65B0\u7684\u5C0F\u5973\u5B69"
+  - album: "\u8FDC\u79BB\u55A7\u56A3"
+    album_id: "lmalbum_\u8FDC\u79BB\u55A7\u56A3"
+    artist: "\u5C0F\u9690\u5728\u5C71\u6797"
+    artist_id: "lmartist_\u5C0F\u9690\u5728\u5C71\u6797"
+    id: "lmtrack_D:\\DataFiles\\Windows\\Music\\\u6E05 - \u5C0F\u9690\u5728\u5C71\u6797\
+      .flac"
+    img_url: ''
+    sound_url: "file://D:\\DataFiles\\Windows\\Music\\\u6E05 - \u5C0F\u9690\u5728\u5C71\
+      \u6797.flac"
+    source: localmusic
+    source_url: ''
+    title: "\u6E05"
+  - album: "\u968F\u5FC3"
+    album_id: "lmalbum_\u968F\u5FC3"
+    artist: "\u6A59\u8A00"
+    artist_id: "lmartist_\u6A59\u8A00"
+    id: "lmtrack_D:\\DataFiles\\Windows\\Music\\\u8F7B\u98CE - \u6A59\u8A00.flac"
+    img_url: ''
+    sound_url: "file://D:\\DataFiles\\Windows\\Music\\\u8F7B\u98CE - \u6A59\u8A00\
+      .flac"
+    source: localmusic
+    source_url: ''
+    title: "\u8F7B\u98CE"
+  - album: "\u96E8\u4E4B\u7FFC"
+    album_id: "lmalbum_\u96E8\u4E4B\u7FFC"
+    artist: Candy_Wind
+    artist_id: lmartist_Candy_Wind
+    id: "lmtrack_D:\\DataFiles\\Windows\\Music\\\u9752\u7A7A - Candy_Wind.flac"
+    img_url: ''
+    sound_url: "file://D:\\DataFiles\\Windows\\Music\\\u9752\u7A7A - Candy_Wind.flac"
+    source: localmusic
+    source_url: ''
+    title: "\u9752\u7A7A"
+  - album: "\u6F58\u4F73\u67702017\u539F\u521B\u4F5C\u66F2\u4F5C\u54C1\uFF082\uFF09"
+    album_id: "lmalbum_\u6F58\u4F73\u67702017\u539F\u521B\u4F5C\u66F2\u4F5C\u54C1\uFF08\
+      2\uFF09"
+    artist: "\u6F58\u4F73\u6770"
+    artist_id: "lmartist_\u6F58\u4F73\u6770"
+    id: "lmtrack_D:\\DataFiles\\Windows\\Music\\\u6F58\u4F73\u6770 - \u6700\u6D6A\u6F2B\
+      \u7684\u8BDD\uFF08\u94A2\u7434\u66F2\uFF09.flac"
+    img_url: ''
+    sound_url: "file://D:\\DataFiles\\Windows\\Music\\\u6F58\u4F73\u6770 - \u6700\u6D6A\
+      \u6F2B\u7684\u8BDD\uFF08\u94A2\u7434\u66F2\uFF09.flac"
+    source: localmusic
+    source_url: ''
+    title: "\u6700\u6D6A\u6F2B\u7684\u8BDD\uFF08\u94A2\u7434\u66F2\uFF09"
+  - album: "\u6F58\u4F73\u67702017\u539F\u521B\u4F5C\u66F2\u4F5C\u54C1\uFF082\uFF09"
+    album_id: "lmalbum_\u6F58\u4F73\u67702017\u539F\u521B\u4F5C\u66F2\u4F5C\u54C1\uFF08\
+      2\uFF09"
+    artist: "\u6F58\u4F73\u6770"
+    artist_id: "lmartist_\u6F58\u4F73\u6770"
+    id: "lmtrack_D:\\DataFiles\\Windows\\Music\\\u6F58\u4F73\u6770 - \u4EF2\u590F\u591C\
+      \u4E4B\u661F\uFF08\u94A2\u7434\u66F2\uFF09.flac"
+    img_url: ''
+    sound_url: "file://D:\\DataFiles\\Windows\\Music\\\u6F58\u4F73\u6770 - \u4EF2\u590F\
+      \u591C\u4E4B\u661F\uFF08\u94A2\u7434\u66F2\uFF09.flac"
+    source: localmusic
+    source_url: ''
+    title: "\u4EF2\u590F\u591C\u4E4B\u661F\uFF08\u94A2\u7434\u66F2\uFF09"
+  - album: "\u5927\u9C7C\uFF08\u7EAF\u97F3\u4E50\uFF09"
+    album_id: "lmalbum_\u5927\u9C7C\uFF08\u7EAF\u97F3\u4E50\uFF09"
+    artist: May Pian
+    artist_id: lmartist_May Pian
+    id: "lmtrack_D:\\DataFiles\\Windows\\Music\\\u9E1F\u4E4B\u8BD7 (Inst_) - May Pian.flac"
+    img_url: ''
+    sound_url: "file://D:\\DataFiles\\Windows\\Music\\\u9E1F\u4E4B\u8BD7 (Inst_) -\
+      \ May Pian.flac"
+    source: localmusic
+    source_url: ''
+    title: "\u9E1F\u4E4B\u8BD7 (Inst.)"
+  - album: "\u4F60\u7684\u773C\u775B\u50CF\u661F\u661F"
+    album_id: "lmalbum_\u4F60\u7684\u773C\u775B\u50CF\u661F\u661F"
+    artist: "\u90ED\u6B63\u6B63/\u8001\u5708C"
+    artist_id: "lmartist_\u90ED\u6B63\u6B63/\u8001\u5708C"
+    id: "lmtrack_D:\\DataFiles\\Windows\\Music\\\u4F60\u7684\u773C\u775B\u50CF\u661F\
+      \u661F - \u90ED\u6B63\u6B63 _ \u8001\u5708C.flac"
+    img_url: ''
+    sound_url: "file://D:\\DataFiles\\Windows\\Music\\\u4F60\u7684\u773C\u775B\u50CF\
+      \u661F\u661F - \u90ED\u6B63\u6B63 _ \u8001\u5708C.flac"
+    source: localmusic
+    source_url: ''
+    title: "\u4F60\u7684\u773C\u775B\u50CF\u661F\u661F"
+  - album: "\u76EE\u53CA\u7686\u662F\u4F60"
+    album_id: "lmalbum_\u76EE\u53CA\u7686\u662F\u4F60"
+    artist: "\u5C0F\u84DD\u80CC\u5FC3"
+    artist_id: "lmartist_\u5C0F\u84DD\u80CC\u5FC3"
+    id: "lmtrack_D:\\DataFiles\\Windows\\Music\\\u76EE\u53CA\u7686\u662F\u4F60 - \u5C0F\
+      \u84DD\u80CC\u5FC3.flac"
+    img_url: ''
+    sound_url: "file://D:\\DataFiles\\Windows\\Music\\\u76EE\u53CA\u7686\u662F\u4F60\
+      \ - \u5C0F\u84DD\u80CC\u5FC3.flac"
+    source: localmusic
+    source_url: ''
+    title: "\u76EE\u53CA\u7686\u662F\u4F60"
+  - album: "\u6F2B\u5929\u661F\u96E8\uFF08\u6CBB\u6108\u94A2\u7434\u66F2\uFF09"
+    album_id: "lmalbum_\u6F2B\u5929\u661F\u96E8\uFF08\u6CBB\u6108\u94A2\u7434\u66F2\
+      \uFF09"
+    artist: "\u675C\u8D34\u5FC3"
+    artist_id: "lmartist_\u675C\u8D34\u5FC3"
+    id: "lmtrack_D:\\DataFiles\\Windows\\Music\\\u6F2B\u5929\u661F\u96E8\uFF08\u6CBB\
+      \u6108\u94A2\u7434\u66F2\uFF09 - \u675C\u8D34\u5FC3.flac"
+    img_url: ''
+    sound_url: "file://D:\\DataFiles\\Windows\\Music\\\u6F2B\u5929\u661F\u96E8\uFF08\
+      \u6CBB\u6108\u94A2\u7434\u66F2\uFF09 - \u675C\u8D34\u5FC3.flac"
+    source: localmusic
+    source_url: ''
+    title: "\u6F2B\u5929\u661F\u96E8\uFF08\u6CBB\u6108\u94A2\u7434\u66F2\uFF09"
+  - album: "\u94A2\u7434\u968F\u7B14"
+    album_id: "lmalbum_\u94A2\u7434\u968F\u7B14"
+    artist: "\u7F57\u5A01lowe"
+    artist_id: "lmartist_\u7F57\u5A01lowe"
+    id: "lmtrack_D:\\DataFiles\\Windows\\Music\\\u7F57\u5A01lowe - 3\u67081\u65E5\uFF0C\
+      \u9EA6\u7530.mp3"
+    img_url: ''
+    sound_url: "file://D:\\DataFiles\\Windows\\Music\\\u7F57\u5A01lowe - 3\u67081\u65E5\
+      \uFF0C\u9EA6\u7530.mp3"
+    source: localmusic
+    source_url: ''
+    title: "3\u67081\u65E5\uFF0C\u9EA6\u7530"
+  - album: "\u68A6"
+    album_id: "lmalbum_\u68A6"
+    artist: "\u9F99\u52A0\u83F2"
+    artist_id: "lmartist_\u9F99\u52A0\u83F2"
+    id: "lmtrack_D:\\DataFiles\\Windows\\Music\\\u9F99\u52A0\u83F2 - \u68A6.flac"
+    img_url: ''
+    sound_url: "file://D:\\DataFiles\\Windows\\Music\\\u9F99\u52A0\u83F2 - \u68A6\
+      .flac"
+    source: localmusic
+    source_url: ''
+    title: "\u68A6"
+  - album: "\u6211\u66FE\u7ECF\u7B49\u8FC7\u4F60"
+    album_id: "lmalbum_\u6211\u66FE\u7ECF\u7B49\u8FC7\u4F60"
+    artist: "\u6881\u5269\u9550"
+    artist_id: "lmartist_\u6881\u5269\u9550"
+    id: "lmtrack_D:\\DataFiles\\Windows\\Music\\\u6881\u5269\u9550 - Free lucky.mp3"
+    img_url: ''
+    sound_url: "file://D:\\DataFiles\\Windows\\Music\\\u6881\u5269\u9550 - Free lucky.mp3"
+    source: localmusic
+    source_url: ''
+    title: Free lucky
+  - album: "\u8FDC\u65B9\u7684\u5BC2\u9759"
+    album_id: "lmalbum_\u8FDC\u65B9\u7684\u5BC2\u9759"
+    artist: "\u51EF\u5C9A"
+    artist_id: "lmartist_\u51EF\u5C9A"
+    id: "lmtrack_D:\\DataFiles\\Windows\\Music\\\u51EF\u5C9A - \u73CD\u60DC\u6BCF\u4E00\
+      \u5929.flac"
+    img_url: ''
+    sound_url: "file://D:\\DataFiles\\Windows\\Music\\\u51EF\u5C9A - \u73CD\u60DC\u6BCF\
+      \u4E00\u5929.flac"
+    source: localmusic
+    source_url: ''
+    title: "\u73CD\u60DC\u6BCF\u4E00\u5929"
+  - album: The Golden Piano
+    album_id: lmalbum_The Golden Piano
+    artist: K.Williams
+    artist_id: lmartist_K.Williams
+    id: "lmtrack_D:\\DataFiles\\Windows\\Music\\\u83CA\u6B21\u90CE\u7684\u590F\u5929\
+      \ - K_Williams.flac"
+    img_url: ''
+    sound_url: "file://D:\\DataFiles\\Windows\\Music\\\u83CA\u6B21\u90CE\u7684\u590F\
+      \u5929 - K_Williams.flac"
+    source: localmusic
+    source_url: ''
+    title: "\u83CA\u6B21\u90CE\u7684\u590F\u5929"
+  - album: "\u9CB8"
+    album_id: "lmalbum_\u9CB8"
+    artist: DInxm Robinson
+    artist_id: lmartist_DInxm Robinson
+    id: "lmtrack_D:\\DataFiles\\Windows\\Music\\\u9CB8 - DInxm Robinson.mp3"
+    img_url: ''
+    sound_url: "file://D:\\DataFiles\\Windows\\Music\\\u9CB8 - DInxm Robinson.mp3"
+    source: localmusic
+    source_url: ''
+    title: "\u9CB8"
+  - album: "\u7E41\u661F\u4E07\u5343\u4E0D\u53CA\u4F60"
+    album_id: "lmalbum_\u7E41\u661F\u4E07\u5343\u4E0D\u53CA\u4F60"
+    artist: "\u8005\u601D\u8303"
+    artist_id: "lmartist_\u8005\u601D\u8303"
+    id: "lmtrack_D:\\DataFiles\\Windows\\Music\\\u89E3\u5FE7\u66F2 - \u8005\u601D\u8303\
+      .flac"
+    img_url: ''
+    sound_url: "file://D:\\DataFiles\\Windows\\Music\\\u89E3\u5FE7\u66F2 - \u8005\u601D\
+      \u8303.flac"
+    source: localmusic
+    source_url: ''
+    title: "\u89E3\u5FE7\u66F2"
+  - album_id: lmalbum_undefined
+    artist: "Piano\u83B1\u7279"
+    artist_id: "lmartist_Piano\u83B1\u7279"
+    id: "lmtrack_D:\\DataFiles\\Windows\\Music\\\u52A0\u52D2\u6BD4\u6D77\u76D7 - Piano\u83B1\
+      \u7279.mp3"
+    img_url: ''
+    sound_url: "file://D:\\DataFiles\\Windows\\Music\\\u52A0\u52D2\u6BD4\u6D77\u76D7\
+      \ - Piano\u83B1\u7279.mp3"
+    source: localmusic
+    source_url: ''
+    title: "\u52A0\u52D2\u6BD4\u6D77\u76D7"
+  - album: "\u591C\u8BED\xB7\u5BC2\u9759\u4E4B\u7A7A"
+    album_id: "lmalbum_\u591C\u8BED\xB7\u5BC2\u9759\u4E4B\u7A7A"
+    artist: "\u5085\u8BB8"
+    artist_id: "lmartist_\u5085\u8BB8"
+    id: "lmtrack_D:\\DataFiles\\Windows\\Music\\\u5BC2\u9759\u4E4B\u7A7A - \u5085\u8BB8\
+      .mp3"
+    img_url: ''
+    sound_url: "file://D:\\DataFiles\\Windows\\Music\\\u5BC2\u9759\u4E4B\u7A7A - \u5085\
+      \u8BB8.mp3"
+    source: localmusic
+    source_url: ''
+    title: "\u5BC2\u9759\u4E4B\u7A7A"
+  - album: "\u82E5\u7F3A\u540C\u5C18\xB7\u94A2\u7434\u5408\u8F91"
+    album_id: "lmalbum_\u82E5\u7F3A\u540C\u5C18\xB7\u94A2\u7434\u5408\u8F91"
+    artist: "\u5B63\u839E\u6850"
+    artist_id: "lmartist_\u5B63\u839E\u6850"
+    id: "lmtrack_D:\\DataFiles\\Windows\\Music\\\u5B63\u839E\u6850 - \u56DE\u5FC6\u62FE\
+      \u5149.flac"
+    img_url: ''
+    sound_url: "file://D:\\DataFiles\\Windows\\Music\\\u5B63\u839E\u6850 - \u56DE\u5FC6\
+      \u62FE\u5149.flac"
+    source: localmusic
+    source_url: ''
+    title: "\u56DE\u5FC6\u62FE\u5149"
+  - album: "\u597D\u4E45\u4E0D\u89C1"
+    album_id: "lmalbum_\u597D\u4E45\u4E0D\u89C1"
+    artist: "\u9646\u653F\u5EF7Lil Jet"
+    artist_id: "lmartist_\u9646\u653F\u5EF7Lil Jet"
+    id: "lmtrack_D:\\DataFiles\\Windows\\Music\\\u597D\u4E45\u4E0D\u89C1 - \u9646\u653F\
+      \u5EF7Lil Jet.mp3"
+    img_url: ''
+    sound_url: "file://D:\\DataFiles\\Windows\\Music\\\u597D\u4E45\u4E0D\u89C1 - \u9646\
+      \u653F\u5EF7Lil Jet.mp3"
+    source: localmusic
+    source_url: ''
+    title: "\u597D\u4E45\u4E0D\u89C1"
+  - album: "\u5B64\u57CE"
+    album_id: "lmalbum_\u5B64\u57CE"
+    artist: "\u6D1B\u5148\u751F"
+    artist_id: "lmartist_\u6D1B\u5148\u751F"
+    id: "lmtrack_D:\\DataFiles\\Windows\\Music\\\u5B64\u57CE - \u6D1B\u5148\u751F\
+      .flac"
+    img_url: ''
+    sound_url: "file://D:\\DataFiles\\Windows\\Music\\\u5B64\u57CE - \u6D1B\u5148\u751F\
+      .flac"
+    source: localmusic
+    source_url: ''
+    title: "\u5B64\u57CE"
+  - album: "\u98CE\u5C45\u4F4F\u7684\u8857\u9053\uFF08Piano ver\uFF09"
+    album_id: "lmalbum_\u98CE\u5C45\u4F4F\u7684\u8857\u9053\uFF08Piano ver\uFF09"
+    artist: "\u996D\u7897\u7684\u5F7C\u5CB8"
+    artist_id: "lmartist_\u996D\u7897\u7684\u5F7C\u5CB8"
+    id: "lmtrack_D:\\DataFiles\\Windows\\Music\\\u98CE\u5C45\u4F4F\u7684\u8857\u9053\
+      \ (Piano ver) - \u996D\u7897\u7684\u5F7C\u5CB8.mp3"
+    img_url: ''
+    sound_url: "file://D:\\DataFiles\\Windows\\Music\\\u98CE\u5C45\u4F4F\u7684\u8857\
+      \u9053 (Piano ver) - \u996D\u7897\u7684\u5F7C\u5CB8.mp3"
+    source: localmusic
+    source_url: ''
+    title: "\u98CE\u5C45\u4F4F\u7684\u8857\u9053 (Piano ver)"
+  - album: "\u300C\u540D\u63A2\u5075\u30B3\u30CA\u30F3\u300D\u30AA\u30EA\u30B8\u30CA\
+      \u30EB\u30B5\u30A6\u30F3\u30C9\u30C8\u30E9\u30C3\u30AF4\uFF5E\u6025\u3052!\u5C11\
+      \u5E74\u63A2\u5075\u56E3\uFF5E (\u540D\u4FA6\u63A2\u67EF\u5357TV\u52A8\u753B\
+      \u539F\u58F0\u96C64)"
+    album_id: "lmalbum_\u300C\u540D\u63A2\u5075\u30B3\u30CA\u30F3\u300D\u30AA\u30EA\
+      \u30B8\u30CA\u30EB\u30B5\u30A6\u30F3\u30C9\u30C8\u30E9\u30C3\u30AF4\uFF5E\u6025\
+      \u3052!\u5C11\u5E74\u63A2\u5075\u56E3\uFF5E (\u540D\u4FA6\u63A2\u67EF\u5357\
+      TV\u52A8\u753B\u539F\u58F0\u96C64)"
+    artist: "\u5927\u91CE\u514B\u592B (\u304A\u304A\u306E \u304B\u3064\u304A)"
+    artist_id: "lmartist_\u5927\u91CE\u514B\u592B (\u304A\u304A\u306E \u304B\u3064\
+      \u304A)"
+    id: "lmtrack_D:\\DataFiles\\Windows\\Music\\\u5927\u91CE\u514B\u592B (\u304A\u304A\
+      \u306E \u304B\u3064\u304A) - \u30AA\u30BB\u30F3\u30C1\u306A\u6B69\u7F8E (\u5FE7\
+      \u4F24\u7684\u6B65\u7F8E).flac"
+    img_url: ''
+    sound_url: "file://D:\\DataFiles\\Windows\\Music\\\u5927\u91CE\u514B\u592B (\u304A\
+      \u304A\u306E \u304B\u3064\u304A) - \u30AA\u30BB\u30F3\u30C1\u306A\u6B69\u7F8E\
+      \ (\u5FE7\u4F24\u7684\u6B65\u7F8E).flac"
+    source: localmusic
+    source_url: ''
+    title: "\u30AA\u30BB\u30F3\u30C1\u306A\u6B69\u7F8E (\u5FE7\u4F24\u7684\u6B65\u7F8E\
+      )"
+  - album: "\u6253\u4E0A\u82B1\u706B (\u521D\u56DE\u9650\u5B9A\u76E4)"
+    album_id: "lmalbum_\u6253\u4E0A\u82B1\u706B (\u521D\u56DE\u9650\u5B9A\u76E4)"
+    artist: "DAOKO (\u30C0\u30F2\u30B3)/\u7C73\u6D25\u7384\u5E2B (\u3088\u306D\u3065\
+      \ \u3051\u3093\u3057)"
+    artist_id: "lmartist_DAOKO (\u30C0\u30F2\u30B3)/\u7C73\u6D25\u7384\u5E2B (\u3088\
+      \u306D\u3065 \u3051\u3093\u3057)"
+    id: "lmtrack_D:\\DataFiles\\Windows\\Music\\\u6253\u4E0A\u82B1\u706B - DAOKO (\u30C0\
+      \u30F2\u30B3) _ \u7C73\u6D25\u7384\u5E2B (\u3088\u306D\u3065 \u3051\u3093\u3057\
+      ).flac"
+    img_url: ''
+    sound_url: "file://D:\\DataFiles\\Windows\\Music\\\u6253\u4E0A\u82B1\u706B - DAOKO\
+      \ (\u30C0\u30F2\u30B3) _ \u7C73\u6D25\u7384\u5E2B (\u3088\u306D\u3065 \u3051\
+      \u3093\u3057).flac"
+    source: localmusic
+    source_url: ''
+    title: "\u6253\u4E0A\u82B1\u706B"
+  - album: "\u57CE\u5357\u82B1\u5DF2\u5F00"
+    album_id: "lmalbum_\u57CE\u5357\u82B1\u5DF2\u5F00"
+    artist: "\u4E09\u4EA9\u5730"
+    artist_id: "lmartist_\u4E09\u4EA9\u5730"
+    id: "lmtrack_D:\\DataFiles\\Windows\\Music\\\u57CE\u5357\u82B1\u5DF2\u5F00 - \u4E09\
+      \u4EA9\u5730.flac"
+    img_url: ''
+    sound_url: "file://D:\\DataFiles\\Windows\\Music\\\u57CE\u5357\u82B1\u5DF2\u5F00\
+      \ - \u4E09\u4EA9\u5730.flac"
+    source: localmusic
+    source_url: ''
+    title: "\u57CE\u5357\u82B1\u5DF2\u5F00"
+  - album: "\u6625\u98CE\u5341\u91CC"
+    album_id: "lmalbum_\u6625\u98CE\u5341\u91CC"
+    artist: "\u9648\u5B50\u5D14"
+    artist_id: "lmartist_\u9648\u5B50\u5D14"
+    id: "lmtrack_D:\\DataFiles\\Windows\\Music\\\u9648\u5B50\u5D14 - \u4E00\u5207\u7686\
+      \u95F2\u9759\uFF08\u94A2\u7434\u66F2\uFF09.flac"
+    img_url: ''
+    sound_url: "file://D:\\DataFiles\\Windows\\Music\\\u9648\u5B50\u5D14 - \u4E00\u5207\
+      \u7686\u95F2\u9759\uFF08\u94A2\u7434\u66F2\uFF09.flac"
+    source: localmusic
+    source_url: ''
+    title: "\u4E00\u5207\u7686\u95F2\u9759\uFF08\u94A2\u7434\u66F2\uFF09"
+  - album: "\u9759\u5F85\u82B1\u5F00"
+    album_id: "lmalbum_\u9759\u5F85\u82B1\u5F00"
+    artist: "\u9648\u5B50\u5D14"
+    artist_id: "lmartist_\u9648\u5B50\u5D14"
+    id: "lmtrack_D:\\DataFiles\\Windows\\Music\\\u9648\u5B50\u5D14 - \u5357\u65B9\u6625\
+      \u5929\uFF08\u94A2\u7434\u66F2\uFF09.flac"
+    img_url: ''
+    sound_url: "file://D:\\DataFiles\\Windows\\Music\\\u9648\u5B50\u5D14 - \u5357\u65B9\
+      \u6625\u5929\uFF08\u94A2\u7434\u66F2\uFF09.flac"
+    source: localmusic
+    source_url: ''
+    title: "\u5357\u65B9\u6625\u5929\uFF08\u94A2\u7434\u66F2\uFF09"
+  - album: "\u590F\u65E5\u4E4B\u65C5"
+    album_id: "lmalbum_\u590F\u65E5\u4E4B\u65C5"
+    artist: "\u66FE\u7B80\u5355"
+    artist_id: "lmartist_\u66FE\u7B80\u5355"
+    id: "lmtrack_D:\\DataFiles\\Windows\\Music\\\u66FE\u7B80\u5355 - \u590F\u6CAB\
+      .flac"
+    img_url: ''
+    sound_url: "file://D:\\DataFiles\\Windows\\Music\\\u66FE\u7B80\u5355 - \u590F\u6CAB\
+      .flac"
+    source: localmusic
+    source_url: ''
+    title: "\u590F\u6CAB"
+  - album: "\u5C71\u6709\u6728\u516E\u6728\u6709\u679D\uFF0C\u5FC3\u60A6\u541B\u516E\
+      \u541B\u4E0D\u77E5"
+    album_id: "lmalbum_\u5C71\u6709\u6728\u516E\u6728\u6709\u679D\uFF0C\u5FC3\u60A6\
+      \u541B\u516E\u541B\u4E0D\u77E5"
+    artist: "\u843D\u8475"
+    artist_id: "lmartist_\u843D\u8475"
+    id: "lmtrack_D:\\DataFiles\\Windows\\Music\\\u4E0D\u67D3 (\u94A2\u7434\u7248)\
+      \ - \u843D\u8475.flac"
+    img_url: ''
+    sound_url: "file://D:\\DataFiles\\Windows\\Music\\\u4E0D\u67D3 (\u94A2\u7434\u7248\
+      ) - \u843D\u8475.flac"
+    source: localmusic
+    source_url: ''
+    title: "\u4E0D\u67D3 (\u94A2\u7434\u7248)"
+  - album: "\u534A\u751F\u96EA"
+    album_id: "lmalbum_\u534A\u751F\u96EA"
+    artist: "\u4E03\u53D4\uFF08\u53F6\u6CFD\u6D69\uFF09"
+    artist_id: "lmartist_\u4E03\u53D4\uFF08\u53F6\u6CFD\u6D69\uFF09"
+    id: "lmtrack_D:\\DataFiles\\Windows\\Music\\\u534A\u751F\u96EA - \u4E03\u53D4\uFF08\
+      \u53F6\u6CFD\u6D69\uFF09.flac"
+    img_url: ''
+    sound_url: "file://D:\\DataFiles\\Windows\\Music\\\u534A\u751F\u96EA - \u4E03\u53D4\
+      \uFF08\u53F6\u6CFD\u6D69\uFF09.flac"
+    source: localmusic
+    source_url: ''
+    title: "\u534A\u751F\u96EA"
+  - album: "\u5C71\u5DDD\u6E56\u6D77 \u663C\u591C\u4E0E\u7231"
+    album_id: "lmalbum_\u5C71\u5DDD\u6E56\u6D77 \u663C\u591C\u4E0E\u7231"
+    artist: "\u6797\u82AC\u5B87"
+    artist_id: "lmartist_\u6797\u82AC\u5B87"
+    id: "lmtrack_D:\\DataFiles\\Windows\\Music\\\u5B89\u548C\u6865\u95F4\u594F - \u6797\
+      \u82AC\u5B87.mp3"
+    img_url: ''
+    sound_url: "file://D:\\DataFiles\\Windows\\Music\\\u5B89\u548C\u6865\u95F4\u594F\
+      \ - \u6797\u82AC\u5B87.mp3"
+    source: localmusic
+    source_url: ''
+    title: "\u5B89\u548C\u6865\u95F4\u594F"
+  - album: "\u30D4\u30A2\u30CE\u306B\u3088\u308B\u73E0\u7389\u306E\u30A2\u30CB\u30E1\
+      \u6620\u753B\u4E3B\u984C\u6B4C\u96C6 \u3044\u3064\u3082\u4F55\u5EA6\u3067\u3082\
+      \uFF0F\u3082\u306E\u306E\u3051\u59EB"
+    album_id: "lmalbum_\u30D4\u30A2\u30CE\u306B\u3088\u308B\u73E0\u7389\u306E\u30A2\
+      \u30CB\u30E1\u6620\u753B\u4E3B\u984C\u6B4C\u96C6 \u3044\u3064\u3082\u4F55\u5EA6\
+      \u3067\u3082\uFF0F\u3082\u306E\u306E\u3051\u59EB"
+    artist: "\u5965\u6238\u5DF4\u5BFF (Okudo Tomohisa)"
+    artist_id: "lmartist_\u5965\u6238\u5DF4\u5BFF (Okudo Tomohisa)"
+    id: "lmtrack_D:\\DataFiles\\Windows\\Music\\\u3044\u3064\u3082\u4F55\u5EA6\u3067\
+      \u3082 - \u5965\u6238\u5DF4\u5BFF (Okudo Tomohisa).flac"
+    img_url: ''
+    sound_url: "file://D:\\DataFiles\\Windows\\Music\\\u3044\u3064\u3082\u4F55\u5EA6\
+      \u3067\u3082 - \u5965\u6238\u5DF4\u5BFF (Okudo Tomohisa).flac"
+    source: localmusic
+    source_url: ''
+    title: "\u3044\u3064\u3082\u4F55\u5EA6\u3067\u3082"
+  - album: Windy Hill
+    album_id: lmalbum_Windy Hill
+    artist: "\u7FBD\u80BF"
+    artist_id: "lmartist_\u7FBD\u80BF"
+    id: "lmtrack_D:\\DataFiles\\Windows\\Music\\Windy Hill - \u7FBD\u80BF.flac"
+    img_url: ''
+    sound_url: "file://D:\\DataFiles\\Windows\\Music\\Windy Hill - \u7FBD\u80BF.flac"
+    source: localmusic
+    source_url: ''
+    title: Windy Hill
+  - album: Take
+    album_id: lmalbum_Take
+    artist: "SHAUN (\uC200)"
+    artist_id: "lmartist_SHAUN (\uC200)"
+    id: "lmtrack_D:\\DataFiles\\Windows\\Music\\Way Back Home - SHAUN (\uC200).flac"
+    img_url: ''
+    sound_url: "file://D:\\DataFiles\\Windows\\Music\\Way Back Home - SHAUN (\uC200\
+      ).flac"
+    source: localmusic
+    source_url: ''
+    title: Way Back Home
+  - album: Battlecry
+    album_id: lmalbum_Battlecry
+    artist: Two Steps From Hell/Thomas Bergersen
+    artist_id: lmartist_Two Steps From Hell/Thomas Bergersen
+    id: lmtrack_D:\DataFiles\Windows\Music\Victory - Two Steps From Hell _ Thomas
+      Bergersen.flac
+    img_url: ''
+    sound_url: file://D:\DataFiles\Windows\Music\Victory - Two Steps From Hell _ Thomas
+      Bergersen.flac
+    source: localmusic
+    source_url: ''
+    title: Victory
+  - album: Trip
+    album_id: lmalbum_Trip
+    artist: Axero
+    artist_id: lmartist_Axero
+    id: lmtrack_D:\DataFiles\Windows\Music\Trip (Original Mix) - Axero.flac
+    img_url: ''
+    sound_url: file://D:\DataFiles\Windows\Music\Trip (Original Mix) - Axero.flac
+    source: localmusic
+    source_url: ''
+    title: Trip (Original Mix)
+  - album: "Town of Windmill (\u98CE\u8F66\u5C0F\u9547)"
+    album_id: "lmalbum_Town of Windmill (\u98CE\u8F66\u5C0F\u9547)"
+    artist: a_hisa
+    artist_id: lmartist_a_hisa
+    id: "lmtrack_D:\\DataFiles\\Windows\\Music\\Town of Windmill (\u98CE\u8F66\u5C0F\
+      \u9547) - a_hisa.mp3"
+    img_url: ''
+    sound_url: "file://D:\\DataFiles\\Windows\\Music\\Town of Windmill (\u98CE\u8F66\
+      \u5C0F\u9547) - a_hisa.mp3"
+    source: localmusic
+    source_url: ''
+    title: "Town of Windmill (\u98CE\u8F66\u5C0F\u9547)"
+  - album: Astronomia (Jiaye Bootleg)
+    album_id: lmalbum_Astronomia (Jiaye Bootleg)
+    artist: Jiaye
+    artist_id: lmartist_Jiaye
+    id: lmtrack_D:\DataFiles\Windows\Music\Tony Igy - Astronomia (Jiaye Bootleg) -
+      Jiaye.flac
+    img_url: ''
+    sound_url: file://D:\DataFiles\Windows\Music\Tony Igy - Astronomia (Jiaye Bootleg)
+      - Jiaye.flac
+    source: localmusic
+    source_url: ''
+    title: Tony Igy - Astronomia (Jiaye Bootleg)
+  - album: Time Back
+    album_id: lmalbum_Time Back
+    artist: Bad Style
+    artist_id: lmartist_Bad Style
+    id: "lmtrack_D:\\DataFiles\\Windows\\Music\\Time Back (\u94A2\u7434\u7248) - Bad\
+      \ Style.flac"
+    img_url: ''
+    sound_url: "file://D:\\DataFiles\\Windows\\Music\\Time Back (\u94A2\u7434\u7248\
+      ) - Bad Style.flac"
+    source: localmusic
+    source_url: ''
+    title: "Time Back (\u94A2\u7434\u7248)"
+  - album: "\u5B8C\u7F8E\u65E0\u7455"
+    album_id: "lmalbum_\u5B8C\u7F8E\u65E0\u7455"
+    artist: Kevin Kern
+    artist_id: lmartist_Kevin Kern
+    id: lmtrack_D:\DataFiles\Windows\Music\Through the Arbor - Kevin Kern.flac
+    img_url: ''
+    sound_url: file://D:\DataFiles\Windows\Music\Through the Arbor - Kevin Kern.flac
+    source: localmusic
+    source_url: ''
+    title: Through the Arbor
+  - album: Pianoboy
+    album_id: lmalbum_Pianoboy
+    artist: "Pianoboy\u9AD8\u81F3\u8C6A"
+    artist_id: "lmartist_Pianoboy\u9AD8\u81F3\u8C6A"
+    id: "lmtrack_D:\\DataFiles\\Windows\\Music\\The Truth That You Leave - Pianoboy\u9AD8\
+      \u81F3\u8C6A.flac"
+    img_url: ''
+    sound_url: "file://D:\\DataFiles\\Windows\\Music\\The Truth That You Leave - Pianoboy\u9AD8\
+      \u81F3\u8C6A.flac"
+    source: localmusic
+    source_url: ''
+    title: The Truth That You Leave
+  - album: Sunburst
+    album_id: lmalbum_Sunburst
+    artist: Tobu/Itro
+    artist_id: lmartist_Tobu/Itro
+    id: lmtrack_D:\DataFiles\Windows\Music\Sunburst - Tobu _ Itro.flac
+    img_url: ''
+    sound_url: file://D:\DataFiles\Windows\Music\Sunburst - Tobu _ Itro.flac
+    source: localmusic
+    source_url: ''
+    title: Sunburst
+  - album: Sun
+    album_id: lmalbum_Sun
+    artist: Steerner/Martell
+    artist_id: lmartist_Steerner/Martell
+    id: lmtrack_D:\DataFiles\Windows\Music\Sun - Steerner _ Martell.flac
+    img_url: ''
+    sound_url: file://D:\DataFiles\Windows\Music\Sun - Steerner _ Martell.flac
+    source: localmusic
+    source_url: ''
+    title: Sun
+  - album_id: lmalbum_undefined
+    artist: "\u7EAF\u97F3\u4E50"
+    artist_id: "lmartist_\u7EAF\u97F3\u4E50"
+    id: "lmtrack_D:\\DataFiles\\Windows\\Music\\Shape of You (\u4F60\u7684\u8EAB\u59FF\
+      )(\u53E4\u7B5D\u7535\u97F3\u7248) (DJ\u7248) - \u7EAF\u97F3\u4E50.flac"
+    img_url: ''
+    sound_url: "file://D:\\DataFiles\\Windows\\Music\\Shape of You (\u4F60\u7684\u8EAB\
+      \u59FF)(\u53E4\u7B5D\u7535\u97F3\u7248) (DJ\u7248) - \u7EAF\u97F3\u4E50.flac"
+    source: localmusic
+    source_url: ''
+    title: "Shape of You (\u4F60\u7684\u8EAB\u59FF)(\u53E4\u7B5D\u7535\u97F3\u7248\
+      ) (DJ\u7248)"
+  - album: "\u7A7A"
+    album_id: "lmalbum_\u7A7A"
+    artist: Lindsey Stirling
+    artist_id: lmartist_Lindsey Stirling
+    id: lmtrack_D:\DataFiles\Windows\Music\Senbonzakura - Lindsey Stirling.mp3
+    img_url: ''
+    sound_url: file://D:\DataFiles\Windows\Music\Senbonzakura - Lindsey Stirling.mp3
+    source: localmusic
+    source_url: ''
+    title: Senbonzakura
+  - album: Sansa Lala
+    album_id: lmalbum_Sansa Lala
+    artist: Kayaz
+    artist_id: lmartist_Kayaz
+    id: lmtrack_D:\DataFiles\Windows\Music\Sansa Lala - Kayaz.flac
+    img_url: ''
+    sound_url: file://D:\DataFiles\Windows\Music\Sansa Lala - Kayaz.flac
+    source: localmusic
+    source_url: ''
+    title: Sansa Lala
+  - album: "\u58F9\u4F0D\u58F9\u634C\xB7\u79BB"
+    album_id: "lmalbum_\u58F9\u4F0D\u58F9\u634C\xB7\u79BB"
+    artist: Snigellin
+    artist_id: lmartist_Snigellin
+    id: lmtrack_D:\DataFiles\Windows\Music\Sakura Tears - Snigellin.flac
+    img_url: ''
+    sound_url: file://D:\DataFiles\Windows\Music\Sakura Tears - Snigellin.flac
+    source: localmusic
+    source_url: ''
+    title: Sakura Tears
+  - album: Piano Moods, Vol. 1
+    album_id: lmalbum_Piano Moods, Vol. 1
+    artist: Tim King
+    artist_id: lmartist_Tim King
+    id: lmtrack_D:\DataFiles\Windows\Music\River Flows in You - Tim King.flac
+    img_url: ''
+    sound_url: file://D:\DataFiles\Windows\Music\River Flows in You - Tim King.flac
+    source: localmusic
+    source_url: ''
+    title: River Flows in You
+  - album: "\u6211\u4E2D\u610F\u4F60"
+    album_id: "lmalbum_\u6211\u4E2D\u610F\u4F60"
+    artist: "\u838E\u838E"
+    artist_id: "lmartist_\u838E\u838E"
+    id: "lmtrack_D:\\DataFiles\\Windows\\Music\\remember our summer (\u5C0F\u63D0\u7434\
+      \u5B8C\u6574\u7248) - \u838E\u838E.mp3"
+    img_url: ''
+    sound_url: "file://D:\\DataFiles\\Windows\\Music\\remember our summer (\u5C0F\u63D0\
+      \u7434\u5B8C\u6574\u7248) - \u838E\u838E.mp3"
+    source: localmusic
+    source_url: ''
+    title: "remember our summer (\u5C0F\u63D0\u7434\u5B8C\u6574\u7248)"
+  - album: Rain After Summer
+    album_id: lmalbum_Rain After Summer
+    artist: "\u7FBD\u80BF"
+    artist_id: "lmartist_\u7FBD\u80BF"
+    id: "lmtrack_D:\\DataFiles\\Windows\\Music\\Rain After Summer - \u7FBD\u80BF.flac"
+    img_url: ''
+    sound_url: "file://D:\\DataFiles\\Windows\\Music\\Rain After Summer - \u7FBD\u80BF\
+      .flac"
+    source: localmusic
+    source_url: ''
+    title: Rain After Summer
+  - album: "3\u30E9\u30E0\u30B8 (3 Lambsey)"
+    album_id: "lmalbum_3\u30E9\u30E0\u30B8 (3 Lambsey)"
+    artist: "Lambsey (\u30E9\u30E0\u30B8)"
+    artist_id: "lmartist_Lambsey (\u30E9\u30E0\u30B8)"
+    id: "lmtrack_D:\\DataFiles\\Windows\\Music\\PLANET - Lambsey (\u30E9\u30E0\u30B8\
+      ).flac"
+    img_url: ''
+    sound_url: "file://D:\\DataFiles\\Windows\\Music\\PLANET - Lambsey (\u30E9\u30E0\
+      \u30B8).flac"
+    source: localmusic
+    source_url: ''
+    title: PLANET
+  - album: "PDD<\u6D2A\u8352\u4E4B\u529B>"
+    album_id: "lmalbum_PDD<\u6D2A\u8352\u4E4B\u529B>"
+    artist: "\u9752\u7A1Am"
+    artist_id: "lmartist_\u9752\u7A1Am"
+    id: "lmtrack_D:\\DataFiles\\Windows\\Music\\PDD\u6D2A\u8352\u4E4B\u529B - \u9752\
+      \u7A1Am.mp3"
+    img_url: ''
+    sound_url: "file://D:\\DataFiles\\Windows\\Music\\PDD\u6D2A\u8352\u4E4B\u529B\
+      \ - \u9752\u7A1Am.mp3"
+    source: localmusic
+    source_url: ''
+    title: "PDD\u6D2A\u8352\u4E4B\u529B"
+  - album: Paris
+    album_id: lmalbum_Paris
+    artist: Else
+    artist_id: lmartist_Else
+    id: lmtrack_D:\DataFiles\Windows\Music\Paris - Else.flac
+    img_url: ''
+    sound_url: file://D:\DataFiles\Windows\Music\Paris - Else.flac
+    source: localmusic
+    source_url: ''
+    title: Paris
+  - album: "Ng\u1EABu H\u1EE9ng"
+    album_id: "lmalbum_Ng\u1EABu H\u1EE9ng"
+    artist: MonBet/Hoaprox
+    artist_id: lmartist_MonBet/Hoaprox
+    id: "lmtrack_D:\\DataFiles\\Windows\\Music\\Ng\u1EABu H\u1EE9ng (MonBet Remix)\
+      \ - MonBet _ Hoaprox.mp3"
+    img_url: ''
+    sound_url: "file://D:\\DataFiles\\Windows\\Music\\Ng\u1EABu H\u1EE9ng (MonBet\
+      \ Remix) - MonBet _ Hoaprox.mp3"
+    source: localmusic
+    source_url: ''
+    title: "Ng\u1EABu H\u1EE9ng (MonBet Remix)"
+  - album: Nevada
+    album_id: lmalbum_Nevada
+    artist: Vicetone/Cozi Zuehlsdorff
+    artist_id: lmartist_Vicetone/Cozi Zuehlsdorff
+    id: lmtrack_D:\DataFiles\Windows\Music\Nevada - Vicetone _ Cozi Zuehlsdorff.flac
+    img_url: ''
+    sound_url: file://D:\DataFiles\Windows\Music\Nevada - Vicetone _ Cozi Zuehlsdorff.flac
+    source: localmusic
+    source_url: ''
+    title: Nevada
+  - album: Time
+    album_id: lmalbum_Time
+    artist: JULY
+    artist_id: lmartist_JULY
+    id: lmtrack_D:\DataFiles\Windows\Music\My Soul - JULY.flac
+    img_url: ''
+    sound_url: file://D:\DataFiles\Windows\Music\My Soul - JULY.flac
+    source: localmusic
+    source_url: ''
+    title: My Soul
+  - album: An Old Song
+    album_id: lmalbum_An Old Song
+    artist: MoreanP
+    artist_id: lmartist_MoreanP
+    id: lmtrack_D:\DataFiles\Windows\Music\MoreanP - An Old Song.mp3
+    img_url: ''
+    sound_url: file://D:\DataFiles\Windows\Music\MoreanP - An Old Song.mp3
+    source: localmusic
+    source_url: ''
+    title: An Old Song
+  - album: "\u661F\u6CB3\u7480\u74A8\u5982\u4F60"
+    album_id: "lmalbum_\u661F\u6CB3\u7480\u74A8\u5982\u4F60"
+    artist: "\u6800hen"
+    artist_id: "lmartist_\u6800hen"
+    id: "lmtrack_D:\\DataFiles\\Windows\\Music\\May i see u again - \u6800hen.mp3"
+    img_url: ''
+    sound_url: "file://D:\\DataFiles\\Windows\\Music\\May i see u again - \u6800hen.mp3"
+    source: localmusic
+    source_url: ''
+    title: May i see u again
+  - album: Manie+
+    album_id: lmalbum_Manie+
+    artist: "MANYO (\u307E\u306B\u3087\u3063)"
+    artist_id: "lmartist_MANYO (\u307E\u306B\u3087\u3063)"
+    id: "lmtrack_D:\\DataFiles\\Windows\\Music\\MANYO (\u307E\u306B\u3087\u3063) -\
+      \ \u6708\u306E\u6D99.mp3"
+    img_url: ''
+    sound_url: "file://D:\\DataFiles\\Windows\\Music\\MANYO (\u307E\u306B\u3087\u3063\
+      ) - \u6708\u306E\u6D99.mp3"
+    source: localmusic
+    source_url: ''
+    title: "\u6708\u306E\u6D99"
+  - album: Seventeen Music Piano Collection
+    album_id: lmalbum_Seventeen Music Piano Collection
+    artist: Shin Giwon Piano
+    artist_id: lmartist_Shin Giwon Piano
+    id: lmtrack_D:\DataFiles\Windows\Music\Maiochiruhanabira(Fallin' Flower) - Shin
+      Giwon Piano.flac
+    img_url: ''
+    sound_url: file://D:\DataFiles\Windows\Music\Maiochiruhanabira(Fallin' Flower)
+      - Shin Giwon Piano.flac
+    source: localmusic
+    source_url: ''
+    title: Maiochiruhanabira(Fallin' Flower)
+  - album: "PC\u30B2\u30FC\u30E0\u300C\u3072\u3050\u3089\u3057\u306E\u306A\u304F\u9803\
+      \u306B \u89E3\u300D\u30AA\u30EA\u30B8\u30CA\u30EB\u30B5\u30A6\u30F3\u30C9\u30C8\
+      \u30E9\u30C3\u30AF (PC\u6E38\u620F\u300A\u5BD2\u8749\u9E23\u6CE3\u4E4B\u65F6\
+      \ \u89E3\u300B\u539F\u58F0\u5E26)"
+    album_id: "lmalbum_PC\u30B2\u30FC\u30E0\u300C\u3072\u3050\u3089\u3057\u306E\u306A\
+      \u304F\u9803\u306B \u89E3\u300D\u30AA\u30EA\u30B8\u30CA\u30EB\u30B5\u30A6\u30F3\
+      \u30C9\u30C8\u30E9\u30C3\u30AF (PC\u6E38\u620F\u300A\u5BD2\u8749\u9E23\u6CE3\
+      \u4E4B\u65F6 \u89E3\u300B\u539F\u58F0\u5E26)"
+    artist: M.Graveyard
+    artist_id: lmartist_M.Graveyard
+    id: lmtrack_D:\DataFiles\Windows\Music\M_Graveyard - you.flac
+    img_url: ''
+    sound_url: file://D:\DataFiles\Windows\Music\M_Graveyard - you.flac
+    source: localmusic
+    source_url: ''
+    title: you
+  - album: "\u661F\u8FB0"
+    album_id: "lmalbum_\u661F\u8FB0"
+    artist: "\u5F7C\u5CB8\u7434\u5E08"
+    artist_id: "lmartist_\u5F7C\u5CB8\u7434\u5E08"
+    id: "lmtrack_D:\\DataFiles\\Windows\\Music\\Love Is Gone (\u94A2\u7434\u6CBB\u6108\
+      \u7248) - \u5F7C\u5CB8\u7434\u5E08.flac"
+    img_url: ''
+    sound_url: "file://D:\\DataFiles\\Windows\\Music\\Love Is Gone (\u94A2\u7434\u6CBB\
+      \u6108\u7248) - \u5F7C\u5CB8\u7434\u5E08.flac"
+    source: localmusic
+    source_url: ''
+    title: "Love Is Gone (\u94A2\u7434\u6CBB\u6108\u7248)"
+  - album: "\u65E5\u66AE"
+    album_id: "lmalbum_\u65E5\u66AE"
+    artist: "Li\u4F9B\u517B"
+    artist_id: "lmartist_Li\u4F9B\u517B"
+    id: "lmtrack_D:\\DataFiles\\Windows\\Music\\Li\u4F9B\u517B - \u65E5\u66AE.flac"
+    img_url: ''
+    sound_url: "file://D:\\DataFiles\\Windows\\Music\\Li\u4F9B\u517B - \u65E5\u66AE\
+      .flac"
+    source: localmusic
+    source_url: ''
+    title: "\u65E5\u66AE"
+  - album: "Limitless\uFF08\u65E0\u9650\uFF09"
+    album_id: "lmalbum_Limitless\uFF08\u65E0\u9650\uFF09"
+    artist: SeVen.13
+    artist_id: lmartist_SeVen.13
+    id: "lmtrack_D:\\DataFiles\\Windows\\Music\\Limitless\uFF08\u65E0\u9650\uFF09\
+      \ - SeVen_13.mp3"
+    img_url: ''
+    sound_url: "file://D:\\DataFiles\\Windows\\Music\\Limitless\uFF08\u65E0\u9650\uFF09\
+      \ - SeVen_13.mp3"
+    source: localmusic
+    source_url: ''
+    title: "Limitless\uFF08\u65E0\u9650\uFF09"
+  - album: "\u6E29\u67D4\u4FBF\u662F\u7231"
+    album_id: "lmalbum_\u6E29\u67D4\u4FBF\u662F\u7231"
+    artist: "\u5C0F\u5148\u751F\u3001"
+    artist_id: "lmartist_\u5C0F\u5148\u751F\u3001"
+    id: "lmtrack_D:\\DataFiles\\Windows\\Music\\Letter - \u5C0F\u5148\u751F\u3001\
+      .mp3"
+    img_url: ''
+    sound_url: "file://D:\\DataFiles\\Windows\\Music\\Letter - \u5C0F\u5148\u751F\u3001\
+      .mp3"
+    source: localmusic
+    source_url: ''
+    title: Letter
+  - album: Concerto Je T''Aime
+    album_id: lmalbum_Concerto Je T''Aime
+    artist: Richard Clayderman
+    artist_id: lmartist_Richard Clayderman
+    id: lmtrack_D:\DataFiles\Windows\Music\Les premiers sourires de Vanessa (Paul
+      de Senneville _ Olivier Toussaint) - Richard Clayderman.flac
+    img_url: ''
+    sound_url: file://D:\DataFiles\Windows\Music\Les premiers sourires de Vanessa
+      (Paul de Senneville _ Olivier Toussaint) - Richard Clayderman.flac
+    source: localmusic
+    source_url: ''
+    title: Les premiers sourires de Vanessa (Paul de Senneville / Olivier Toussaint)
+  - album: Late Night Melancholy
+    album_id: lmalbum_Late Night Melancholy
+    artist: Rude Boy
+    artist_id: lmartist_Rude Boy
+    id: lmtrack_D:\DataFiles\Windows\Music\Late Night Melancholy - Rude Boy.mp3
+    img_url: ''
+    sound_url: file://D:\DataFiles\Windows\Music\Late Night Melancholy - Rude Boy.mp3
+    source: localmusic
+    source_url: ''
+    title: Late Night Melancholy
+  - album: Time...
+    album_id: lmalbum_Time...
+    artist: "July (\uC904\uB77C\uC774)"
+    artist_id: "lmartist_July (\uC904\uB77C\uC774)"
+    id: "lmtrack_D:\\DataFiles\\Windows\\Music\\July (\uC904\uB77C\uC774) - My Soul.mp3"
+    img_url: ''
+    sound_url: "file://D:\\DataFiles\\Windows\\Music\\July (\uC904\uB77C\uC774) -\
+      \ My Soul.mp3"
+    source: localmusic
+    source_url: ''
+    title: My Soul
+  - album: Escape
+    album_id: lmalbum_Escape
+    artist: Capo Productions
+    artist_id: lmartist_Capo Productions
+    id: lmtrack_D:\DataFiles\Windows\Music\Journey - Capo Productions.flac
+    img_url: ''
+    sound_url: file://D:\DataFiles\Windows\Music\Journey - Capo Productions.flac
+    source: localmusic
+    source_url: ''
+    title: Journey
+  - album: Endless Daydream
+    album_id: lmalbum_Endless Daydream
+    artist: Shirfine
+    artist_id: lmartist_Shirfine
+    id: lmtrack_D:\DataFiles\Windows\Music\Illusionary Daytime - Shirfine.flac
+    img_url: ''
+    sound_url: file://D:\DataFiles\Windows\Music\Illusionary Daytime - Shirfine.flac
+    source: localmusic
+    source_url: ''
+    title: Illusionary Daytime
+  - album: Horizon
+    album_id: lmalbum_Horizon
+    artist: Janji
+    artist_id: lmartist_Janji
+    id: lmtrack_D:\DataFiles\Windows\Music\Horizon - Janji.flac
+    img_url: ''
+    sound_url: file://D:\DataFiles\Windows\Music\Horizon - Janji.flac
+    source: localmusic
+    source_url: ''
+    title: Horizon
+  - album: Friendships (Lost My Love)
+    album_id: lmalbum_Friendships (Lost My Love)
+    artist: Pascal Letoublon/Leony
+    artist_id: lmartist_Pascal Letoublon/Leony
+    id: lmtrack_D:\DataFiles\Windows\Music\Friendships (Lost My Love) - Pascal Letoublon
+      _ Leony.mp3
+    img_url: ''
+    sound_url: file://D:\DataFiles\Windows\Music\Friendships (Lost My Love) - Pascal
+      Letoublon _ Leony.mp3
+    source: localmusic
+    source_url: ''
+    title: Friendships (Lost My Love)
+  - album: "\u82B1\u821EI"
+    album_id: "lmalbum_\u82B1\u821EI"
+    artist: "Pianomob\uFF08\u94A2\u7434\u66B4\u5F92\uFF09"
+    artist_id: "lmartist_Pianomob\uFF08\u94A2\u7434\u66B4\u5F92\uFF09"
+    id: "lmtrack_D:\\DataFiles\\Windows\\Music\\Flower Dance (\u94A2\u7434\u7248)\
+      \ - Pianomob\uFF08\u94A2\u7434\u66B4\u5F92\uFF09.flac"
+    img_url: ''
+    sound_url: "file://D:\\DataFiles\\Windows\\Music\\Flower Dance (\u94A2\u7434\u7248\
+      ) - Pianomob\uFF08\u94A2\u7434\u66B4\u5F92\uFF09.flac"
+    source: localmusic
+    source_url: ''
+    title: "Flower Dance (\u94A2\u7434\u7248)"
+  - album: Fade
+    album_id: lmalbum_Fade
+    artist: Alan Walker
+    artist_id: lmartist_Alan Walker
+    id: lmtrack_D:\DataFiles\Windows\Music\Fade - Alan Walker.flac
+    img_url: ''
+    sound_url: file://D:\DataFiles\Windows\Music\Fade - Alan Walker.flac
+    source: localmusic
+    source_url: ''
+    title: Fade
+  - album: Vintage Sunshine
+    album_id: lmalbum_Vintage Sunshine
+    artist: Deep East Music
+    artist_id: lmartist_Deep East Music
+    id: lmtrack_D:\DataFiles\Windows\Music\Deep East Music - Old Threads.mp3
+    img_url: ''
+    sound_url: file://D:\DataFiles\Windows\Music\Deep East Music - Old Threads.mp3
+    source: localmusic
+    source_url: ''
+    title: Old Threads
+  - album: Rainy Emotion
+    album_id: lmalbum_Rainy Emotion
+    artist: "Crepe (\uD06C\uB808\uD398)"
+    artist_id: "lmartist_Crepe (\uD06C\uB808\uD398)"
+    id: "lmtrack_D:\\DataFiles\\Windows\\Music\\Crepe (\uD06C\uB808\uD398) - \uC791\
+      \uC740 \uC5B4\uAE68 \uB098\uBE44\uCC98\uB7FC \uBC18\uC9DD\uC774\uACA0\uB124\
+      \ (\u5C0F\u5C0F\u7684\u80A9\u8180\u50CF\u8774\u8776\u4E00\u6837\u95EA\u7740\u5149\
+      \u8292).mp3"
+    img_url: ''
+    sound_url: "file://D:\\DataFiles\\Windows\\Music\\Crepe (\uD06C\uB808\uD398) -\
+      \ \uC791\uC740 \uC5B4\uAE68 \uB098\uBE44\uCC98\uB7FC \uBC18\uC9DD\uC774\uACA0\
+      \uB124 (\u5C0F\u5C0F\u7684\u80A9\u8180\u50CF\u8774\u8776\u4E00\u6837\u95EA\u7740\
+      \u5149\u8292).mp3"
+    source: localmusic
+    source_url: ''
+    title: "\uC791\uC740 \uC5B4\uAE68 \uB098\uBE44\uCC98\uB7FC \uBC18\uC9DD\uC774\uACA0\
+      \uB124 (\u5C0F\u5C0F\u7684\u80A9\u8180\u50CF\u8774\u8776\u4E00\u6837\u95EA\u7740\
+      \u5149\u8292)"
+  - album: Iris
+    album_id: lmalbum_Iris
+    artist: "Crepe (\uD06C\uB808\uD398)"
+    artist_id: "lmartist_Crepe (\uD06C\uB808\uD398)"
+    id: "lmtrack_D:\\DataFiles\\Windows\\Music\\Crepe (\uD06C\uB808\uD398) - \uAE30\
+      \uC05C \uC18C\uC2DD\uB9CC \uC8FC\uACE0 \uC2F6\uC5B4.mp3"
+    img_url: ''
+    sound_url: "file://D:\\DataFiles\\Windows\\Music\\Crepe (\uD06C\uB808\uD398) -\
+      \ \uAE30\uC05C \uC18C\uC2DD\uB9CC \uC8FC\uACE0 \uC2F6\uC5B4.mp3"
+    source: localmusic
+    source_url: ''
+    title: "\uAE30\uC05C \uC18C\uC2DD\uB9CC \uC8FC\uACE0 \uC2F6\uC5B4"
+  - album_id: lmalbum_undefined
+    artist_id: lmartist_undefined
+    id: lmtrack_D:\DataFiles\Windows\Music\cishan.mp3
+    img_url: ''
+    sound_url: file://D:\DataFiles\Windows\Music\cishan.mp3
+    source: localmusic
+    source_url: ''
+    title: cishan
+  - album: Not Angry
+    album_id: lmalbum_Not Angry
+    artist: Chris James
+    artist_id: lmartist_Chris James
+    id: lmtrack_D:\DataFiles\Windows\Music\Chris James - Not Angry.mp3
+    img_url: ''
+    sound_url: file://D:\DataFiles\Windows\Music\Chris James - Not Angry.mp3
+    source: localmusic
+    source_url: ''
+    title: Not Angry
+  - album: Canon in D Major
+    album_id: lmalbum_Canon in D Major
+    artist: dylanf
+    artist_id: lmartist_dylanf
+    id: "lmtrack_D:\\DataFiles\\Windows\\Music\\Canon in D Major\uFF08\u7ECF\u5178\
+      \u94A2\u7434\u7248\uFF09 - dylanf.flac"
+    img_url: ''
+    sound_url: "file://D:\\DataFiles\\Windows\\Music\\Canon in D Major\uFF08\u7ECF\
+      \u5178\u94A2\u7434\u7248\uFF09 - dylanf.flac"
+    source: localmusic
+    source_url: ''
+    title: "Canon in D Major\uFF08\u7ECF\u5178\u94A2\u7434\u7248\uFF09"
+  - album: "\u30AF\u30C9\u308F\u3075\u305F\u30FC \u30AA\u30EA\u30B8\u30CA\u30EB \u30B5\
+      \u30A6\u30F3\u30C9\u30C8\u30E9\u30C3\u30AF (\u30EA\u30C8\u30EB\u30D0\u30B9\u30BF\
+      \u30FC\u30BA!Converted Edition Vita \u30C9\u30E9\u30DECD)"
+    album_id: "lmalbum_\u30AF\u30C9\u308F\u3075\u305F\u30FC \u30AA\u30EA\u30B8\u30CA\
+      \u30EB \u30B5\u30A6\u30F3\u30C9\u30C8\u30E9\u30C3\u30AF (\u30EA\u30C8\u30EB\u30D0\
+      \u30B9\u30BF\u30FC\u30BA!Converted Edition Vita \u30C9\u30E9\u30DECD)"
+    artist: "Key Sounds Label (\u30AD\u30FC\u30FB\u30B5\u30A6\u30F3\u30BA\u30FB\u30EC\
+      \u30FC\u30D9\u30EB)"
+    artist_id: "lmartist_Key Sounds Label (\u30AD\u30FC\u30FB\u30B5\u30A6\u30F3\u30BA\
+      \u30FB\u30EC\u30FC\u30D9\u30EB)"
+    id: "lmtrack_D:\\DataFiles\\Windows\\Music\\Bloom of Youth (\u98CE\u534E\u6B63\
+      \u8302) - Key Sounds Label (\u30AD\u30FC\u30FB\u30B5\u30A6\u30F3\u30BA\u30FB\
+      \u30EC\u30FC\u30D9\u30EB).flac"
+    img_url: ''
+    sound_url: "file://D:\\DataFiles\\Windows\\Music\\Bloom of Youth (\u98CE\u534E\
+      \u6B63\u8302) - Key Sounds Label (\u30AD\u30FC\u30FB\u30B5\u30A6\u30F3\u30BA\
+      \u30FB\u30EC\u30FC\u30D9\u30EB).flac"
+    source: localmusic
+    source_url: ''
+    title: "Bloom of Youth (\u98CE\u534E\u6B63\u8302)"
+  - album: "\u5E8A\u5934\u6292\u60C5\u8F7B\u97F3\u4E50"
+    album_id: "lmalbum_\u5E8A\u5934\u6292\u60C5\u8F7B\u97F3\u4E50"
+    artist: Bandari
+    artist_id: lmartist_Bandari
+    id: lmtrack_D:\DataFiles\Windows\Music\BEYOND THE INVISIBLE - Bandari.flac
+    img_url: ''
+    sound_url: file://D:\DataFiles\Windows\Music\BEYOND THE INVISIBLE - Bandari.flac
+    source: localmusic
+    source_url: ''
+    title: BEYOND THE INVISIBLE
+  - album: "\u7EAF\u97F3\u4E50\u4E32\u70E7DJ"
+    album_id: "lmalbum_\u7EAF\u97F3\u4E50\u4E32\u70E7DJ"
+    artist: "\u827E\u65AF"
+    artist_id: "lmartist_\u827E\u65AF"
+    id: "lmtrack_D:\\DataFiles\\Windows\\Music\\autumn\u6296\u97F3\u7248 - \u827E\u65AF\
+      .mp3"
+    img_url: ''
+    sound_url: "file://D:\\DataFiles\\Windows\\Music\\autumn\u6296\u97F3\u7248 - \u827E\
+      \u65AF.mp3"
+    source: localmusic
+    source_url: ''
+    title: "autumn\u6296\u97F3\u7248"
+  - album: Asphyxia (Piano Ver.)
+    album_id: lmalbum_Asphyxia (Piano Ver.)
+    artist: NSZX
+    artist_id: lmartist_NSZX
+    id: lmtrack_D:\DataFiles\Windows\Music\Asphyxia(PianoVer_) - NSZX.flac
+    img_url: ''
+    sound_url: file://D:\DataFiles\Windows\Music\Asphyxia(PianoVer_) - NSZX.flac
+    source: localmusic
+    source_url: ''
+    title: Asphyxia(PianoVer.)
+  - album: Different World
+    album_id: lmalbum_Different World
+    artist: Alan Walker
+    artist_id: lmartist_Alan Walker
+    id: lmtrack_D:\DataFiles\Windows\Music\Alan Walker - Faded.mp3
+    img_url: ''
+    sound_url: file://D:\DataFiles\Windows\Music\Alan Walker - Faded.mp3
+    source: localmusic
+    source_url: ''
+    title: Faded
+  - album: "\u30AF\u30C9\u308F\u3075\u305F\u30FC \u30AA\u30EA\u30B8\u30CA\u30EB \u30B5\
+      \u30A6\u30F3\u30C9\u30C8\u30E9\u30C3\u30AF (\u30EA\u30C8\u30EB\u30D0\u30B9\u30BF\
+      \u30FC\u30BA!Converted Edition Vita \u30C9\u30E9\u30DECD)"
+    album_id: "lmalbum_\u30AF\u30C9\u308F\u3075\u305F\u30FC \u30AA\u30EA\u30B8\u30CA\
+      \u30EB \u30B5\u30A6\u30F3\u30C9\u30C8\u30E9\u30C3\u30AF (\u30EA\u30C8\u30EB\u30D0\
+      \u30B9\u30BF\u30FC\u30BA!Converted Edition Vita \u30C9\u30E9\u30DECD)"
+    artist: "Key Sounds Label (\u30AD\u30FC\u30FB\u30B5\u30A6\u30F3\u30BA\u30FB\u30EC\
+      \u30FC\u30D9\u30EB)"
+    artist_id: "lmartist_Key Sounds Label (\u30AD\u30FC\u30FB\u30B5\u30A6\u30F3\u30BA\
+      \u30FB\u30EC\u30FC\u30D9\u30EB)"
+    id: "lmtrack_D:\\DataFiles\\Windows\\Music\\Adagio for Summer Wind - Key Sounds\
+      \ Label (\u30AD\u30FC\u30FB\u30B5\u30A6\u30F3\u30BA\u30FB\u30EC\u30FC\u30D9\u30EB\
+      ).flac"
+    img_url: ''
+    sound_url: "file://D:\\DataFiles\\Windows\\Music\\Adagio for Summer Wind - Key\
+      \ Sounds Label (\u30AD\u30FC\u30FB\u30B5\u30A6\u30F3\u30BA\u30FB\u30EC\u30FC\
+      \u30D9\u30EB).flac"
+    source: localmusic
+    source_url: ''
+    title: Adagio for Summer Wind
+  - album: My View
+    album_id: lmalbum_My View
+    artist: "Valentin (\u30F4\u30A1\u30EC\u30F3\u30C6\u30A3\u30F3)"
+    artist_id: "lmartist_Valentin (\u30F4\u30A1\u30EC\u30F3\u30C6\u30A3\u30F3)"
+    id: "lmtrack_D:\\DataFiles\\Windows\\Music\\A Little Story - Valentin (\u30F4\u30A1\
+      \u30EC\u30F3\u30C6\u30A3\u30F3).mp3"
+    img_url: ''
+    sound_url: "file://D:\\DataFiles\\Windows\\Music\\A Little Story - Valentin (\u30F4\
+      \u30A1\u30EC\u30F3\u30C6\u30A3\u30F3).mp3"
+    source: localmusic
+    source_url: ''
+    title: A Little Story
+  - album: "#Lov3 #Ng\u1EABu H\u1EE9ng"
+    album_id: "lmalbum_#Lov3 #Ng\u1EABu H\u1EE9ng"
+    artist: Hoaprox
+    artist_id: lmartist_Hoaprox
+    id: "lmtrack_D:\\DataFiles\\Windows\\Music\\#Lov3 #Ng\u1EABu H\u1EE9ng - Hoaprox.flac"
+    img_url: ''
+    sound_url: "file://D:\\DataFiles\\Windows\\Music\\#Lov3 #Ng\u1EABu H\u1EE9ng -\
+      \ Hoaprox.flac"
+    source: localmusic
+    source_url: ''
+    title: "#Lov3 #Ng\u1EABu H\u1EE9ng"
+nealbum_34751237:
+  info:
+    cover_img_url: https://p2.music.126.net/5RwN-tkCXO3Q_55Ni6Xryw==/3444769934928859.jpg
+    id: nealbum_34751237
+    source_url: https://music.163.com/#/album?id=34751237
+    title: "\u9EC4\u6CB3\u5927\u5408\u5531(\u73CD\u85CF\u7248)"
+  is_fav: 1
+neartist_33496397:
+  info:
+    cover_img_url: https://p2.music.126.net/jrEvpzAufQUsRpF88crfog==/109951165642394991.jpg
+    id: neartist_33496397
+    source_url: https://music.163.com/#/artist?id=33496397
+    title: "\u8DEF\u7070\u6C14\u7403"
+  is_fav: 1
+openSidebar: true
+player-settings:
+  nowplaying_track_id: qqtrack_003ThnHE0lOP3W
+  playmode: 0
+  volume: 100
+playerlists:
+  - myplaylist_f4022669-650c-0672-560a-38ef5f1f3612
+  - myplaylist_fd1fa6f2-3926-2144-8117-0523902143a5
+  - myplaylist_391c8816-a0b0-a32b-52d0-c8589d173839
+  - myplaylist_3bd63b8b-135e-50a8-7c7d-1df7c91f1465
+  - myplaylist_66d2ea18-eee0-60a3-6b7f-659ed700e372
+playlists:
+  qqplaylist_3821289344:
+    info:
+      cover_img_url: http://qpic.y.qq.com/music_cover/kqQSokRy4iaWbOdYYNrPjRKQaRBZnOSxCqQabNJaVjicPdBIftPAibpgg/300?n=1
+      id: qqplaylist_3821289344
+      source_url: https://y.qq.com/n/ryqq/playlist/3821289344
+      title: " \u6301\u7EED\u66F4\u65B0\uFF1A\u6296\u97F3\u6700\u5168BGM\uFF01"
+    is_fav: 1
+  qqplaylist_8113597595:
+    info:
+      cover_img_url: http://qpic.y.qq.com/music_cover/7YAiaa7cbt6IghUK8kjibwJ2vwpBtUMB5PzH8yib5AUKtpTxibaWKxsw8g/300?n=1
+      id: qqplaylist_8113597595
+      source_url: https://y.qq.com/n/ryqq/playlist/8113597595
+      title: "\u7F13\u89E3\u8F7B\u97F3\uFF5C\u81EA\u6211\u89C5\u6E05\u5E7D \u968F\u65F6\
+        \u9759\u5FC3"
+    is_fav: 1
+  neplaylist_2209538297:
+    info:
+      cover_img_url: https://p1.music.126.net/zQsuZvhJygPTFTM_FFnqhQ==/109951164139588912.jpg
+      id: neplaylist_2209538297
+      source_url: https://music.163.com/#/playlist?id=2209538297
+      title: "\u300C\u8F7B\u97F3\u4E50\xB7\u5B89\u9759\u300D\u8212\u7F13\u653E\u677E\
+        \uFF0C\u7F13\u89E3\u538B\u529B"
+    is_fav: 1
+  neplaylist_2312165875:
+    info:
+      cover_img_url: https://p1.music.126.net/Cl0-NpZ0ESTDjJ1HmZ33KA==/109951163460576279.jpg
+      id: neplaylist_2312165875
+      source_url: https://music.163.com/#/playlist?id=2312165875
+      title: "100\u9996\u534E\u8BED\u6C11\u8C23\uFF0C\u56E0\u4E3A\u61C2\u5F97\u624D\u6709\
+        \u5171\u9E23"
+    is_fav: 1
+  neplaylist_2890348606:
+    info:
+      cover_img_url: https://p1.music.126.net/Mw3xbzgjt2TVNU3IJXdVVg==/109951166035756338.jpg
+      id: neplaylist_2890348606
+      source_url: https://music.163.com/#/playlist?id=2890348606
+      title: "[\u52A9\u7720\u96F7\u96E8\u58F0] \u4E3A\u4F60\u96E8\u4E0B\u4E00\u6574\u665A"
+    is_fav: 1
+  neplaylist_2919023249:
+    info:
+      cover_img_url: https://p1.music.126.net/zuCsw2OgrNwPGHQrhrhd-A==/109951166035702632.jpg
+      id: neplaylist_2919023249
+      source_url: https://music.163.com/#/playlist?id=2919023249
+      title: "[\u5927\u81EA\u7136\u7EAF\u97F3] \u7EAF\u51C0\u81EA\u7136\u97F3\u4E50\u4F34\
+        \u4F60\u653E\u677E\u8EAB\u5FC3"
+    is_fav: 1
+  neplaylist_360062344:
+    info:
+      cover_img_url: https://p1.music.126.net/92NWlGo76ha-if-WMK3vCg==/1410673428769729.jpg
+      id: neplaylist_360062344
+      source_url: https://music.163.com/#/playlist?id=360062344
+      title: "\u4E16\u754C\u4E0A\u5F88\u597D\u542C\u7684\u7EAF\u97F3\u4E50\uFF08\u7ECF\
+        \u5178\u4E0D\u673D\uFF09"
+    is_fav: 1
+  neplaylist_5166241095:
+    info:
+      cover_img_url: https://p1.music.126.net/OctrEvNzkQMpefYQZDRbAQ==/109951165211977072.jpg
+      id: neplaylist_5166241095
+      source_url: https://music.163.com/#/playlist?id=5166241095
+      title: "\u300C\u9759\u5FC3\u7EAF\u97F3\u300D\u653E\u4E0B\u624B\u673A\uFF0C\u8046\
+        \u542C\u4E16\u754C"
+    is_fav: 1
+  neplaylist_623813202:
+    info:
+      cover_img_url: https://p1.music.126.net/q9lmpyYPfPnOiDXrH-dCiA==/109951163612786772.jpg
+      id: neplaylist_623813202
+      source_url: https://music.163.com/#/playlist?id=623813202
+      title: "E8r\u3010300\u9996\u9002\u5408\u5E26\u4E0A\u8033\u673A\u770B\u4E66\u5237\
+        \u9898\u7EAF\u97F3\u3011\u2764"
+    is_fav: 1
+  neplaylist_7481237292:
+    info:
+      cover_img_url: https://p1.music.126.net/owBtjpFAtUHkO8b_qZh5rA==/109951167536079670.jpg
+      id: neplaylist_7481237292
+      source_url: https://music.163.com/#/playlist?id=7481237292
+      title: "[\u60F3\u54ED\u5C31\u54ED\u5427] \u7528\u5FC3\u9178\u60C5\u6B4C\u6CBB\u6108\
+        \u7834\u788E\u7684\u5FC3"
+    is_fav: 1
+  myplaylist_391c8816-a0b0-a32b-52d0-c8589d173839:
+    info:
+      cover_img_url: images/mycover.jpg
+      id: myplaylist_391c8816-a0b0-a32b-52d0-c8589d173839
+      source_url: ''
+      title: "\u7AE5\u5E74\u56DE\u5FC6"
+    is_mine: 1
+    tracks:
+      - $$hashKey: object:7684
+        album: "\u4EAC\u5267\u732B"
+        album_id: nealbum_35080011
+        artist: "\u80E1\u838E\u838E"
+        artist_id: neartist_805488
+        bitrate: 320kbps
+        disabled: false
+        id: netrack_448722019
+        img_url: https://p1.music.126.net/30Xmkv_9xmky-magxYFXmQ==/18678503534920540.jpg
+        index: 21
+        platform: netease
+        platformText: "\u7F51\u6613"
+        playNow: true
+        source: netease
+        sourceName: "\u7F51\u6613"
+        source_url: https://music.163.com/#/song?id=448722019
+        title: "\u4EAC\u5267\u732B"
+        url: http://m7.music.126.net/20221227115826/aea8f0704be74297c347f623722f4461/ymusic/64c1/9fbd/f01e/fbb7440f15556722fc32d8c0dd561113.mp3
+      - album: "\u6700\u70AB\u6C11\u65CF\u98CE"
+        album_id: qqalbum_0021YkiD1WR578
+        artist: "\u51E4\u51F0\u4F20\u5947"
+        artist_id: qqartist_0021sRlK1Ge1aY
+        disabled: false
+        id: qqtrack_000Gvego33nCu7
+        img_url: https://y.gtimg.cn/music/photo_new/T002R300x300M0000021YkiD1WR578.jpg
+        index: 414
+        platform: kuwo
+        platformText: "\u9177\u6211"
+        playNow: true
+        source: qq
+        source_url: https://y.qq.com/#type=song&mid=000Gvego33nCu7&tpl=yqq_song_detail
+        title: "\u5929\u84DD\u84DD"
+        url: http://ea.sycdn.kuwo.cn/c3297d9a5e41ef6081a118c6cd2cf644/633d2350/resource/n3/67/72/3282043681.mp3
+      - album: "\u5C0F\u6C34\u679C"
+        album_id: qqalbum_003DexKz4UCi50
+        artist: "\u7B77\u5B50\u5144\u5F1F"
+        artist_id: qqartist_002Sm9iK4RIsCr
+        bitrate: 128kbps
+        disabled: false
+        id: qqtrack_002mfms13qHIeh
+        img_url: https://y.gtimg.cn/music/photo_new/T002R300x300M000003DexKz4UCi50.jpg
+        index: 413
+        platform: netease
+        platformText: "\u7F51\u6613"
+        playNow: true
+        source: qq
+        source_url: https://y.qq.com/#type=song&mid=002mfms13qHIeh&tpl=yqq_song_detail
+        title: "\u5C0F\u6C34\u679C"
+        url: http://m7.music.126.net/20221005144914/1a63ad1c51743ce0e10ea4f467674840/ymusic/0eaa/e858/13f5/b12cf61d070028dfb4c4cfceb8ce0a48.mp3
+      - album: "\u6700\u70AB\u6C11\u65CF\u98CE"
+        album_id: qqalbum_0021YkiD1WR578
+        artist: "\u51E4\u51F0\u4F20\u5947"
+        artist_id: qqartist_0021sRlK1Ge1aY
+        disabled: false
+        id: qqtrack_003ziBRN4WIQuj
+        img_url: https://y.gtimg.cn/music/photo_new/T002R300x300M0000021YkiD1WR578.jpg
+        index: 410
+        platform: kuwo
+        platformText: "\u9177\u6211"
+        playNow: true
+        source: qq
+        source_url: https://y.qq.com/#type=song&mid=003ziBRN4WIQuj&tpl=yqq_song_detail
+        title: "\u6700\u70AB\u6C11\u65CF\u98CE"
+        url: http://ea.sycdn.kuwo.cn/85c208b9d5415bda2f6fcd481f88d093/633d222f/resource/n1/22/25/2987168851.mp3
+      - album: "\u6211\u4ECE\u8349\u539F\u6765"
+        album_id: qqalbum_002jdWB13atXv8
+        artist: "\u51E4\u51F0\u4F20\u5947"
+        artist_id: qqartist_0021sRlK1Ge1aY
+        id: qqtrack_004Zeemn1ScQMX
+        img_url: https://y.gtimg.cn/music/photo_new/T002R300x300M000002jdWB13atXv8.jpg
+        source: qq
+        source_url: https://y.qq.com/#type=song&mid=004Zeemn1ScQMX&tpl=yqq_song_detail
+        title: "\u8377\u5858\u6708\u8272"
+        url: ''
+      - album: "\u5409\u7965\u5982\u610F"
+        album_id: qqalbum_000xdvfH2DxJ4f
+        artist: "\u51E4\u51F0\u4F20\u5947"
+        artist_id: qqartist_0021sRlK1Ge1aY
+        id: qqtrack_002Ba1Td137VC7
+        img_url: https://y.gtimg.cn/music/photo_new/T002R300x300M000000xdvfH2DxJ4f.jpg
+        source: qq
+        source_url: https://y.qq.com/#type=song&mid=002Ba1Td137VC7&tpl=yqq_song_detail
+        title: "\u81EA\u7531\u98DE\u7FD4"
+        url: ''
+      - $$hashKey: object:64945
+        album: "\u9031\u672B\u72C2\u71B1 \u97F3\u6A02\u5927\u5E2B 25 \u7D93\u517805 (Single\
+          \ Hot Weeken Feve)"
+        album_id: qqalbum_0030fLV54BvXBe
+        artist: Milly
+        artist_id: qqartist_0046HZm11zrh5a
+        bitrate: 128kbps
+        disabled: false
+        id: qqtrack_002rkG6c2o7fPR
+        img_url: https://y.gtimg.cn/music/photo_new/T002R300x300M0000030fLV54BvXBe.jpg
+        platform: qq
+        platformText: QQ
+        source: qq
+        sourceName: QQ
+        source_url: https://y.qq.com/#type=song&mid=002rkG6c2o7fPR&tpl=yqq_song_detail
+        title: Pengun's Game
+        url: ''
+  myplaylist_3bd63b8b-135e-50a8-7c7d-1df7c91f1465:
+    info:
+      cover_img_url: https://y.gtimg.cn/music/photo_new/T002R300x300M000003PNNFo1Ol1U9.jpg
+      id: myplaylist_3bd63b8b-135e-50a8-7c7d-1df7c91f1465
+      source_url: https://y.qq.com/#type=album&mid=003PNNFo1Ol1U9
+      title: Minecraft - Volume Alpha
+    is_mine: 1
+    tracks:
+      - album: Minecraft - Volume Alpha
+        album_id: qqalbum_003PNNFo1Ol1U9
+        artist: C418
+        artist_id: qqartist_0039Q4nA2UPVTU
+        id: qqtrack_000ToYTQ17jitY
+        img_url: https://y.gtimg.cn/music/photo_new/T002R300x300M000003PNNFo1Ol1U9.jpg
+        source: qq
+        source_url: https://y.qq.com/#type=song&mid=000ToYTQ17jitY&tpl=yqq_song_detail
+        title: Key
+      - album: Minecraft - Volume Alpha
+        album_id: qqalbum_003PNNFo1Ol1U9
+        artist: C418
+        artist_id: qqartist_0039Q4nA2UPVTU
+        id: qqtrack_004IPtXo06MFj5
+        img_url: https://y.gtimg.cn/music/photo_new/T002R300x300M000003PNNFo1Ol1U9.jpg
+        source: qq
+        source_url: https://y.qq.com/#type=song&mid=004IPtXo06MFj5&tpl=yqq_song_detail
+        title: Door
+      - album: Minecraft - Volume Alpha
+        album_id: qqalbum_003PNNFo1Ol1U9
+        artist: C418
+        artist_id: qqartist_0039Q4nA2UPVTU
+        id: qqtrack_002WOKWG4WEt9X
+        img_url: https://y.gtimg.cn/music/photo_new/T002R300x300M000003PNNFo1Ol1U9.jpg
+        source: qq
+        source_url: https://y.qq.com/#type=song&mid=002WOKWG4WEt9X&tpl=yqq_song_detail
+        title: Subwoofer Lullaby
+      - album: Minecraft - Volume Alpha
+        album_id: qqalbum_003PNNFo1Ol1U9
+        artist: C418
+        artist_id: qqartist_0039Q4nA2UPVTU
+        id: qqtrack_0021hcgX1jH2fm
+        img_url: https://y.gtimg.cn/music/photo_new/T002R300x300M000003PNNFo1Ol1U9.jpg
+        source: qq
+        source_url: https://y.qq.com/#type=song&mid=0021hcgX1jH2fm&tpl=yqq_song_detail
+        title: Death
+      - album: Minecraft - Volume Alpha
+        album_id: qqalbum_003PNNFo1Ol1U9
+        artist: C418
+        artist_id: qqartist_0039Q4nA2UPVTU
+        id: qqtrack_0046z3O93TXlEG
+        img_url: https://y.gtimg.cn/music/photo_new/T002R300x300M000003PNNFo1Ol1U9.jpg
+        source: qq
+        source_url: https://y.qq.com/#type=song&mid=0046z3O93TXlEG&tpl=yqq_song_detail
+        title: Living Mice
+      - album: Minecraft - Volume Alpha
+        album_id: qqalbum_003PNNFo1Ol1U9
+        artist: C418
+        artist_id: qqartist_0039Q4nA2UPVTU
+        id: qqtrack_003RKGOC1wJrDh
+        img_url: https://y.gtimg.cn/music/photo_new/T002R300x300M000003PNNFo1Ol1U9.jpg
+        source: qq
+        source_url: https://y.qq.com/#type=song&mid=003RKGOC1wJrDh&tpl=yqq_song_detail
+        title: Moog City
+      - album: Minecraft - Volume Alpha
+        album_id: qqalbum_003PNNFo1Ol1U9
+        artist: C418
+        artist_id: qqartist_0039Q4nA2UPVTU
+        id: qqtrack_001fYZKj0VNrYV
+        img_url: https://y.gtimg.cn/music/photo_new/T002R300x300M000003PNNFo1Ol1U9.jpg
+        source: qq
+        source_url: https://y.qq.com/#type=song&mid=001fYZKj0VNrYV&tpl=yqq_song_detail
+        title: Haggstrom
+      - album: Minecraft - Volume Alpha
+        album_id: qqalbum_003PNNFo1Ol1U9
+        artist: C418
+        artist_id: qqartist_0039Q4nA2UPVTU
+        id: qqtrack_002d93C33jxJFq
+        img_url: https://y.gtimg.cn/music/photo_new/T002R300x300M000003PNNFo1Ol1U9.jpg
+        source: qq
+        source_url: https://y.qq.com/#type=song&mid=002d93C33jxJFq&tpl=yqq_song_detail
+        title: Minecraft
+      - album: Minecraft - Volume Alpha
+        album_id: qqalbum_003PNNFo1Ol1U9
+        artist: C418
+        artist_id: qqartist_0039Q4nA2UPVTU
+        id: qqtrack_001gUTF601k8E3
+        img_url: https://y.gtimg.cn/music/photo_new/T002R300x300M000003PNNFo1Ol1U9.jpg
+        source: qq
+        source_url: https://y.qq.com/#type=song&mid=001gUTF601k8E3&tpl=yqq_song_detail
+        title: "Oxyg\xE8ne"
+      - album: Minecraft - Volume Alpha
+        album_id: qqalbum_003PNNFo1Ol1U9
+        artist: C418
+        artist_id: qqartist_0039Q4nA2UPVTU
+        id: qqtrack_000LzXMN3Tx7jX
+        img_url: https://y.gtimg.cn/music/photo_new/T002R300x300M000003PNNFo1Ol1U9.jpg
+        source: qq
+        source_url: https://y.qq.com/#type=song&mid=000LzXMN3Tx7jX&tpl=yqq_song_detail
+        title: "\xC9quinoxe"
+      - album: Minecraft - Volume Alpha
+        album_id: qqalbum_003PNNFo1Ol1U9
+        artist: C418
+        artist_id: qqartist_0039Q4nA2UPVTU
+        id: qqtrack_000UG4Rm2vJ7pY
+        img_url: https://y.gtimg.cn/music/photo_new/T002R300x300M000003PNNFo1Ol1U9.jpg
+        source: qq
+        source_url: https://y.qq.com/#type=song&mid=000UG4Rm2vJ7pY&tpl=yqq_song_detail
+        title: Mice on Venus
+      - album: Minecraft - Volume Alpha
+        album_id: qqalbum_003PNNFo1Ol1U9
+        artist: C418
+        artist_id: qqartist_0039Q4nA2UPVTU
+        id: qqtrack_003IS4LT2vAVLO
+        img_url: https://y.gtimg.cn/music/photo_new/T002R300x300M000003PNNFo1Ol1U9.jpg
+        source: qq
+        source_url: https://y.qq.com/#type=song&mid=003IS4LT2vAVLO&tpl=yqq_song_detail
+        title: Dry Hands
+      - album: Minecraft - Volume Alpha
+        album_id: qqalbum_003PNNFo1Ol1U9
+        artist: C418
+        artist_id: qqartist_0039Q4nA2UPVTU
+        id: qqtrack_001POSiZ2Y9WFf
+        img_url: https://y.gtimg.cn/music/photo_new/T002R300x300M000003PNNFo1Ol1U9.jpg
+        source: qq
+        source_url: https://y.qq.com/#type=song&mid=001POSiZ2Y9WFf&tpl=yqq_song_detail
+        title: Wet Hands
+      - album: Minecraft - Volume Alpha
+        album_id: qqalbum_003PNNFo1Ol1U9
+        artist: C418
+        artist_id: qqartist_0039Q4nA2UPVTU
+        id: qqtrack_002J6pkB1tqRI6
+        img_url: https://y.gtimg.cn/music/photo_new/T002R300x300M000003PNNFo1Ol1U9.jpg
+        source: qq
+        source_url: https://y.qq.com/#type=song&mid=002J6pkB1tqRI6&tpl=yqq_song_detail
+        title: Clark
+      - album: Minecraft - Volume Alpha
+        album_id: qqalbum_003PNNFo1Ol1U9
+        artist: C418
+        artist_id: qqartist_0039Q4nA2UPVTU
+        id: qqtrack_002qRkyC0JdBYA
+        img_url: https://y.gtimg.cn/music/photo_new/T002R300x300M000003PNNFo1Ol1U9.jpg
+        source: qq
+        source_url: https://y.qq.com/#type=song&mid=002qRkyC0JdBYA&tpl=yqq_song_detail
+        title: Chris
+      - album: Minecraft - Volume Alpha
+        album_id: qqalbum_003PNNFo1Ol1U9
+        artist: C418
+        artist_id: qqartist_0039Q4nA2UPVTU
+        id: qqtrack_001KSw0q2C1sTQ
+        img_url: https://y.gtimg.cn/music/photo_new/T002R300x300M000003PNNFo1Ol1U9.jpg
+        source: qq
+        source_url: https://y.qq.com/#type=song&mid=001KSw0q2C1sTQ&tpl=yqq_song_detail
+        title: Thirteen
+      - album: Minecraft - Volume Alpha
+        album_id: qqalbum_003PNNFo1Ol1U9
+        artist: C418
+        artist_id: qqartist_0039Q4nA2UPVTU
+        id: qqtrack_002Woqds1tfziQ
+        img_url: https://y.gtimg.cn/music/photo_new/T002R300x300M000003PNNFo1Ol1U9.jpg
+        source: qq
+        source_url: https://y.qq.com/#type=song&mid=002Woqds1tfziQ&tpl=yqq_song_detail
+        title: Excuse
+      - album: Minecraft - Volume Alpha
+        album_id: qqalbum_003PNNFo1Ol1U9
+        artist: C418
+        artist_id: qqartist_0039Q4nA2UPVTU
+        id: qqtrack_003p6Gf14Pljc4
+        img_url: https://y.gtimg.cn/music/photo_new/T002R300x300M000003PNNFo1Ol1U9.jpg
+        source: qq
+        source_url: https://y.qq.com/#type=song&mid=003p6Gf14Pljc4&tpl=yqq_song_detail
+        title: Sweden
+      - album: Minecraft - Volume Alpha
+        album_id: qqalbum_003PNNFo1Ol1U9
+        artist: C418
+        artist_id: qqartist_0039Q4nA2UPVTU
+        id: qqtrack_000edOaL1WZOWq
+        img_url: https://y.gtimg.cn/music/photo_new/T002R300x300M000003PNNFo1Ol1U9.jpg
+        source: qq
+        source_url: https://y.qq.com/#type=song&mid=000edOaL1WZOWq&tpl=yqq_song_detail
+        title: Cat
+      - album: Minecraft - Volume Alpha
+        album_id: qqalbum_003PNNFo1Ol1U9
+        artist: C418
+        artist_id: qqartist_0039Q4nA2UPVTU
+        id: qqtrack_000Cb6wm4QrU6H
+        img_url: https://y.gtimg.cn/music/photo_new/T002R300x300M000003PNNFo1Ol1U9.jpg
+        source: qq
+        source_url: https://y.qq.com/#type=song&mid=000Cb6wm4QrU6H&tpl=yqq_song_detail
+        title: Dog
+      - album: Minecraft - Volume Alpha
+        album_id: qqalbum_003PNNFo1Ol1U9
+        artist: C418
+        artist_id: qqartist_0039Q4nA2UPVTU
+        id: qqtrack_004FxzoX3uRF2H
+        img_url: https://y.gtimg.cn/music/photo_new/T002R300x300M000003PNNFo1Ol1U9.jpg
+        source: qq
+        source_url: https://y.qq.com/#type=song&mid=004FxzoX3uRF2H&tpl=yqq_song_detail
+        title: Danny
+      - album: Minecraft - Volume Alpha
+        album_id: qqalbum_003PNNFo1Ol1U9
+        artist: C418
+        artist_id: qqartist_0039Q4nA2UPVTU
+        id: qqtrack_002Q8ED61xsPil
+        img_url: https://y.gtimg.cn/music/photo_new/T002R300x300M000003PNNFo1Ol1U9.jpg
+        source: qq
+        source_url: https://y.qq.com/#type=song&mid=002Q8ED61xsPil&tpl=yqq_song_detail
+        title: Beginning
+      - album: Minecraft - Volume Alpha
+        album_id: qqalbum_003PNNFo1Ol1U9
+        artist: C418
+        artist_id: qqartist_0039Q4nA2UPVTU
+        id: qqtrack_0005CJtQ4UC4Vr
+        img_url: https://y.gtimg.cn/music/photo_new/T002R300x300M000003PNNFo1Ol1U9.jpg
+        source: qq
+        source_url: https://y.qq.com/#type=song&mid=0005CJtQ4UC4Vr&tpl=yqq_song_detail
+        title: Droopy likes ricochet
+      - album: Minecraft - Volume Alpha
+        album_id: qqalbum_003PNNFo1Ol1U9
+        artist: C418
+        artist_id: qqartist_0039Q4nA2UPVTU
+        id: qqtrack_000kqBBk1NIHqZ
+        img_url: https://y.gtimg.cn/music/photo_new/T002R300x300M000003PNNFo1Ol1U9.jpg
+        source: qq
+        source_url: https://y.qq.com/#type=song&mid=000kqBBk1NIHqZ&tpl=yqq_song_detail
+        title: Droopy likes your face
+  myplaylist_66d2ea18-eee0-60a3-6b7f-659ed700e372:
+    info:
+      cover_img_url: https://y.gtimg.cn/music/photo_new/T002R300x300M000003cMkiY3d17k0.jpg
+      id: myplaylist_66d2ea18-eee0-60a3-6b7f-659ed700e372
+      source_url: https://y.qq.com/#type=album&mid=003cMkiY3d17k0
+      title: Minecraft - Volume Beta
+    is_mine: 1
+    tracks:
+      - album: Minecraft - Volume Beta
+        album_id: qqalbum_003cMkiY3d17k0
+        artist: C418
+        artist_id: qqartist_0039Q4nA2UPVTU
+        id: qqtrack_003POODK1uENGV
+        img_url: https://y.gtimg.cn/music/photo_new/T002R300x300M000003cMkiY3d17k0.jpg
+        source: qq
+        source_url: https://y.qq.com/#type=song&mid=003POODK1uENGV&tpl=yqq_song_detail
+        title: Ki
+      - album: Minecraft - Volume Beta
+        album_id: qqalbum_003cMkiY3d17k0
+        artist: C418
+        artist_id: qqartist_0039Q4nA2UPVTU
+        id: qqtrack_004Jbibm0JWY6m
+        img_url: https://y.gtimg.cn/music/photo_new/T002R300x300M000003cMkiY3d17k0.jpg
+        source: qq
+        source_url: https://y.qq.com/#type=song&mid=004Jbibm0JWY6m&tpl=yqq_song_detail
+        title: Alpha
+      - album: Minecraft - Volume Beta
+        album_id: qqalbum_003cMkiY3d17k0
+        artist: C418
+        artist_id: qqartist_0039Q4nA2UPVTU
+        id: qqtrack_002xNcpe43btv9
+        img_url: https://y.gtimg.cn/music/photo_new/T002R300x300M000003cMkiY3d17k0.jpg
+        source: qq
+        source_url: https://y.qq.com/#type=song&mid=002xNcpe43btv9&tpl=yqq_song_detail
+        title: Dead Voxel
+      - album: Minecraft - Volume Beta
+        album_id: qqalbum_003cMkiY3d17k0
+        artist: C418
+        artist_id: qqartist_0039Q4nA2UPVTU
+        id: qqtrack_004PrZg73s8Q5a
+        img_url: https://y.gtimg.cn/music/photo_new/T002R300x300M000003cMkiY3d17k0.jpg
+        source: qq
+        source_url: https://y.qq.com/#type=song&mid=004PrZg73s8Q5a&tpl=yqq_song_detail
+        title: Blind Spots
+      - album: Minecraft - Volume Beta
+        album_id: qqalbum_003cMkiY3d17k0
+        artist: C418
+        artist_id: qqartist_0039Q4nA2UPVTU
+        id: qqtrack_002BHYts0qfDuy
+        img_url: https://y.gtimg.cn/music/photo_new/T002R300x300M000003cMkiY3d17k0.jpg
+        source: qq
+        source_url: https://y.qq.com/#type=song&mid=002BHYts0qfDuy&tpl=yqq_song_detail
+        title: Flake
+      - album: Minecraft - Volume Beta
+        album_id: qqalbum_003cMkiY3d17k0
+        artist: C418
+        artist_id: qqartist_0039Q4nA2UPVTU
+        id: qqtrack_003bSRv30OzSjf
+        img_url: https://y.gtimg.cn/music/photo_new/T002R300x300M000003cMkiY3d17k0.jpg
+        source: qq
+        source_url: https://y.qq.com/#type=song&mid=003bSRv30OzSjf&tpl=yqq_song_detail
+        title: Moog City 2
+      - album: Minecraft - Volume Beta
+        album_id: qqalbum_003cMkiY3d17k0
+        artist: C418
+        artist_id: qqartist_0039Q4nA2UPVTU
+        id: qqtrack_000KzeOU19jqeI
+        img_url: https://y.gtimg.cn/music/photo_new/T002R300x300M000003cMkiY3d17k0.jpg
+        source: qq
+        source_url: https://y.qq.com/#type=song&mid=000KzeOU19jqeI&tpl=yqq_song_detail
+        title: Concrete Halls
+      - album: Minecraft - Volume Beta
+        album_id: qqalbum_003cMkiY3d17k0
+        artist: C418
+        artist_id: qqartist_0039Q4nA2UPVTU
+        id: qqtrack_001uXuA608aO5H
+        img_url: https://y.gtimg.cn/music/photo_new/T002R300x300M000003cMkiY3d17k0.jpg
+        source: qq
+        source_url: https://y.qq.com/#type=song&mid=001uXuA608aO5H&tpl=yqq_song_detail
+        title: Biome Fest
+      - album: Minecraft - Volume Beta
+        album_id: qqalbum_003cMkiY3d17k0
+        artist: C418
+        artist_id: qqartist_0039Q4nA2UPVTU
+        id: qqtrack_0044TuBC1nLxg2
+        img_url: https://y.gtimg.cn/music/photo_new/T002R300x300M000003cMkiY3d17k0.jpg
+        source: qq
+        source_url: https://y.qq.com/#type=song&mid=0044TuBC1nLxg2&tpl=yqq_song_detail
+        title: Mutation
+      - album: Minecraft - Volume Beta
+        album_id: qqalbum_003cMkiY3d17k0
+        artist: C418
+        artist_id: qqartist_0039Q4nA2UPVTU
+        id: qqtrack_001dzL613mCXjM
+        img_url: https://y.gtimg.cn/music/photo_new/T002R300x300M000003cMkiY3d17k0.jpg
+        source: qq
+        source_url: https://y.qq.com/#type=song&mid=001dzL613mCXjM&tpl=yqq_song_detail
+        title: Haunt Muskie
+      - album: Minecraft - Volume Beta
+        album_id: qqalbum_003cMkiY3d17k0
+        artist: C418
+        artist_id: qqartist_0039Q4nA2UPVTU
+        id: qqtrack_001Vxlea3Y7sw7
+        img_url: https://y.gtimg.cn/music/photo_new/T002R300x300M000003cMkiY3d17k0.jpg
+        source: qq
+        source_url: https://y.qq.com/#type=song&mid=001Vxlea3Y7sw7&tpl=yqq_song_detail
+        title: Warmth
+      - album: Minecraft - Volume Beta
+        album_id: qqalbum_003cMkiY3d17k0
+        artist: C418
+        artist_id: qqartist_0039Q4nA2UPVTU
+        id: qqtrack_000rAcI23PHGtE
+        img_url: https://y.gtimg.cn/music/photo_new/T002R300x300M000003cMkiY3d17k0.jpg
+        source: qq
+        source_url: https://y.qq.com/#type=song&mid=000rAcI23PHGtE&tpl=yqq_song_detail
+        title: Floating Trees
+      - album: Minecraft - Volume Beta
+        album_id: qqalbum_003cMkiY3d17k0
+        artist: C418
+        artist_id: qqartist_0039Q4nA2UPVTU
+        id: qqtrack_004GkiTY18ZBJr
+        img_url: https://y.gtimg.cn/music/photo_new/T002R300x300M000003cMkiY3d17k0.jpg
+        source: qq
+        source_url: https://y.qq.com/#type=song&mid=004GkiTY18ZBJr&tpl=yqq_song_detail
+        title: Aria Math
+      - album: Minecraft - Volume Beta
+        album_id: qqalbum_003cMkiY3d17k0
+        artist: C418
+        artist_id: qqartist_0039Q4nA2UPVTU
+        id: qqtrack_00467a1T2MeQbD
+        img_url: https://y.gtimg.cn/music/photo_new/T002R300x300M000003cMkiY3d17k0.jpg
+        source: qq
+        source_url: https://y.qq.com/#type=song&mid=00467a1T2MeQbD&tpl=yqq_song_detail
+        title: Kyoto
+      - album: Minecraft - Volume Beta
+        album_id: qqalbum_003cMkiY3d17k0
+        artist: C418
+        artist_id: qqartist_0039Q4nA2UPVTU
+        id: qqtrack_0022HIfD0l1RCP
+        img_url: https://y.gtimg.cn/music/photo_new/T002R300x300M000003cMkiY3d17k0.jpg
+        source: qq
+        source_url: https://y.qq.com/#type=song&mid=0022HIfD0l1RCP&tpl=yqq_song_detail
+        title: Ballad of the Cats
+      - album: Minecraft - Volume Beta
+        album_id: qqalbum_003cMkiY3d17k0
+        artist: C418
+        artist_id: qqartist_0039Q4nA2UPVTU
+        id: qqtrack_002sLWJn3NM2Om
+        img_url: https://y.gtimg.cn/music/photo_new/T002R300x300M000003cMkiY3d17k0.jpg
+        source: qq
+        source_url: https://y.qq.com/#type=song&mid=002sLWJn3NM2Om&tpl=yqq_song_detail
+        title: Taswell
+      - album: Minecraft - Volume Beta
+        album_id: qqalbum_003cMkiY3d17k0
+        artist: C418
+        artist_id: qqartist_0039Q4nA2UPVTU
+        id: qqtrack_001L3r5i2m6Muw
+        img_url: https://y.gtimg.cn/music/photo_new/T002R300x300M000003cMkiY3d17k0.jpg
+        source: qq
+        source_url: https://y.qq.com/#type=song&mid=001L3r5i2m6Muw&tpl=yqq_song_detail
+        title: Beginning 2
+      - album: Minecraft - Volume Beta
+        album_id: qqalbum_003cMkiY3d17k0
+        artist: C418
+        artist_id: qqartist_0039Q4nA2UPVTU
+        id: qqtrack_000gF40c2L3C0J
+        img_url: https://y.gtimg.cn/music/photo_new/T002R300x300M000003cMkiY3d17k0.jpg
+        source: qq
+        source_url: https://y.qq.com/#type=song&mid=000gF40c2L3C0J&tpl=yqq_song_detail
+        title: Dreiton
+      - album: Minecraft - Volume Beta
+        album_id: qqalbum_003cMkiY3d17k0
+        artist: C418
+        artist_id: qqartist_0039Q4nA2UPVTU
+        id: qqtrack_003jLKz02IITPr
+        img_url: https://y.gtimg.cn/music/photo_new/T002R300x300M000003cMkiY3d17k0.jpg
+        source: qq
+        source_url: https://y.qq.com/#type=song&mid=003jLKz02IITPr&tpl=yqq_song_detail
+        title: The End
+      - album: Minecraft - Volume Beta
+        album_id: qqalbum_003cMkiY3d17k0
+        artist: C418
+        artist_id: qqartist_0039Q4nA2UPVTU
+        id: qqtrack_000qwP9Y3DF2Bd
+        img_url: https://y.gtimg.cn/music/photo_new/T002R300x300M000003cMkiY3d17k0.jpg
+        source: qq
+        source_url: https://y.qq.com/#type=song&mid=000qwP9Y3DF2Bd&tpl=yqq_song_detail
+        title: Chirp
+      - album: Minecraft - Volume Beta
+        album_id: qqalbum_003cMkiY3d17k0
+        artist: C418
+        artist_id: qqartist_0039Q4nA2UPVTU
+        id: qqtrack_001Gvj7k0iSfCf
+        img_url: https://y.gtimg.cn/music/photo_new/T002R300x300M000003cMkiY3d17k0.jpg
+        source: qq
+        source_url: https://y.qq.com/#type=song&mid=001Gvj7k0iSfCf&tpl=yqq_song_detail
+        title: Wait
+      - album: Minecraft - Volume Beta
+        album_id: qqalbum_003cMkiY3d17k0
+        artist: C418
+        artist_id: qqartist_0039Q4nA2UPVTU
+        id: qqtrack_0032C1sj07MgLf
+        img_url: https://y.gtimg.cn/music/photo_new/T002R300x300M000003cMkiY3d17k0.jpg
+        source: qq
+        source_url: https://y.qq.com/#type=song&mid=0032C1sj07MgLf&tpl=yqq_song_detail
+        title: Mellohi
+      - album: Minecraft - Volume Beta
+        album_id: qqalbum_003cMkiY3d17k0
+        artist: C418
+        artist_id: qqartist_0039Q4nA2UPVTU
+        id: qqtrack_004WQOWu1ma0PS
+        img_url: https://y.gtimg.cn/music/photo_new/T002R300x300M000003cMkiY3d17k0.jpg
+        source: qq
+        source_url: https://y.qq.com/#type=song&mid=004WQOWu1ma0PS&tpl=yqq_song_detail
+        title: Stal
+      - album: Minecraft - Volume Beta
+        album_id: qqalbum_003cMkiY3d17k0
+        artist: C418
+        artist_id: qqartist_0039Q4nA2UPVTU
+        id: qqtrack_0039vLxW2ISSKj
+        img_url: https://y.gtimg.cn/music/photo_new/T002R300x300M000003cMkiY3d17k0.jpg
+        source: qq
+        source_url: https://y.qq.com/#type=song&mid=0039vLxW2ISSKj&tpl=yqq_song_detail
+        title: Strad
+      - album: Minecraft - Volume Beta
+        album_id: qqalbum_003cMkiY3d17k0
+        artist: C418
+        artist_id: qqartist_0039Q4nA2UPVTU
+        id: qqtrack_00014AmX1pS5YP
+        img_url: https://y.gtimg.cn/music/photo_new/T002R300x300M000003cMkiY3d17k0.jpg
+        source: qq
+        source_url: https://y.qq.com/#type=song&mid=00014AmX1pS5YP&tpl=yqq_song_detail
+        title: Eleven
+      - album: Minecraft - Volume Beta
+        album_id: qqalbum_003cMkiY3d17k0
+        artist: C418
+        artist_id: qqartist_0039Q4nA2UPVTU
+        id: qqtrack_000bgFks0aPgTD
+        img_url: https://y.gtimg.cn/music/photo_new/T002R300x300M000003cMkiY3d17k0.jpg
+        source: qq
+        source_url: https://y.qq.com/#type=song&mid=000bgFks0aPgTD&tpl=yqq_song_detail
+        title: Ward
+      - album: Minecraft - Volume Beta
+        album_id: qqalbum_003cMkiY3d17k0
+        artist: C418
+        artist_id: qqartist_0039Q4nA2UPVTU
+        id: qqtrack_001SYfw63he7Cp
+        img_url: https://y.gtimg.cn/music/photo_new/T002R300x300M000003cMkiY3d17k0.jpg
+        source: qq
+        source_url: https://y.qq.com/#type=song&mid=001SYfw63he7Cp&tpl=yqq_song_detail
+        title: Mall
+      - album: Minecraft - Volume Beta
+        album_id: qqalbum_003cMkiY3d17k0
+        artist: C418
+        artist_id: qqartist_0039Q4nA2UPVTU
+        id: qqtrack_002eA5Gv3H0fn6
+        img_url: https://y.gtimg.cn/music/photo_new/T002R300x300M000003cMkiY3d17k0.jpg
+        source: qq
+        source_url: https://y.qq.com/#type=song&mid=002eA5Gv3H0fn6&tpl=yqq_song_detail
+        title: Blocks
+      - album: Minecraft - Volume Beta
+        album_id: qqalbum_003cMkiY3d17k0
+        artist: C418
+        artist_id: qqartist_0039Q4nA2UPVTU
+        id: qqtrack_0016GqRq4gXH8c
+        img_url: https://y.gtimg.cn/music/photo_new/T002R300x300M000003cMkiY3d17k0.jpg
+        source: qq
+        source_url: https://y.qq.com/#type=song&mid=0016GqRq4gXH8c&tpl=yqq_song_detail
+        title: Far
+      - album: Minecraft - Volume Beta
+        album_id: qqalbum_003cMkiY3d17k0
+        artist: C418
+        artist_id: qqartist_0039Q4nA2UPVTU
+        id: qqtrack_002FkWjY4Fh9nt
+        img_url: https://y.gtimg.cn/music/photo_new/T002R300x300M000003cMkiY3d17k0.jpg
+        source: qq
+        source_url: https://y.qq.com/#type=song&mid=002FkWjY4Fh9nt&tpl=yqq_song_detail
+        title: Intro
+  myplaylist_f4022669-650c-0672-560a-38ef5f1f3612:
+    info:
+      cover_img_url: images/mycover.jpg
+      id: myplaylist_f4022669-650c-0672-560a-38ef5f1f3612
+      source_url: ''
+      title: "\u9AD8\u80FD\u91CF"
+    is_mine: 1
+    tracks:
+      - album_id: lmalbum_undefined
+        artist_id: lmartist_undefined
+        id: "lmtrack_D:\\DataFiles\\Windows\\Music\\\u4E07\u7269\u9882 9.4 4.mp3"
+        img_url: ''
+        sound_url: "file://D:\\DataFiles\\Windows\\Music\\\u4E07\u7269\u9882 9.4 4.mp3"
+        source: localmusic
+        source_url: ''
+        title: "\u4E07\u7269\u9882 9.4 4"
+      - $$hashKey: object:2103
+        album: "\u5341\u4E94\u58F0\u58F0"
+        album_id: nealbum_148009608
+        artist: "\u6CFD\u65FA\u62C9\u59C6"
+        artist_id: neartist_30547841
+        id: netrack_1963488447
+        img_url: https://p2.music.126.net/OyfCjEcoe8uCCyF7qH4Nmw==/109951167772979869.jpg
+        source: netease
+        sourceName: "\u7F51\u6613"
+        source_url: https://music.163.com/#/song?id=1963488447
+        title: "\u91D1\u521A\u94E0\u7532\u5FC3\u5492"
+      - $$hashKey: object:5724
+        album: OM Zone 432 Hz
+        album_id: qqalbum_000zZXRe0rI5nz
+        artist: Steven Halpern
+        artist_id: qqartist_001A8jxz23XOTq
+        id: qqtrack_000EAB3X1pgssO
+        img_url: https://y.gtimg.cn/music/photo_new/T002R300x300M000000zZXRe0rI5nz.jpg
+        source: qq
+        sourceName: QQ
+        source_url: https://y.qq.com/#type=song&mid=000EAB3X1pgssO&tpl=yqq_song_detail
+        title: OM Zone 432 Hz (Part 1)
+        url: ''
+      - album: "\u7597\u6108\u8F7B\u97F3 | \u4E94\u810F\u80FD\u91CF\u517B\u751F\u97F3\u4E50"
+        album_id: qqalbum_001CLwj42cqaCI
+        artist: "\u592A\u6781\u9053\u5218\u541B\u8FC8"
+        artist_id: qqartist_002OHH6Y0b2Xm4
+        id: qqtrack_001Z2BD645MlNf
+        img_url: https://y.gtimg.cn/music/photo_new/T002R300x300M000001CLwj42cqaCI.jpg
+        source: qq
+        source_url: https://y.qq.com/#type=song&mid=001Z2BD645MlNf&tpl=yqq_song_detail
+        title: "\u4E94\u810F\u80FD\u91CF\u97F3\u4E50\uFF1A\u3010\u80BE\u3011\u4E4B\u5929\
+          \u6DA7"
+      - album: "\u7597\u6108\u8F7B\u97F3 | \u4E94\u810F\u80FD\u91CF\u517B\u751F\u97F3\u4E50"
+        album_id: qqalbum_001CLwj42cqaCI
+        artist: "\u592A\u6781\u9053\u5218\u541B\u8FC8"
+        artist_id: qqartist_002OHH6Y0b2Xm4
+        id: qqtrack_002RuBmg3rvdMe
+        img_url: https://y.gtimg.cn/music/photo_new/T002R300x300M000001CLwj42cqaCI.jpg
+        source: qq
+        source_url: https://y.qq.com/#type=song&mid=002RuBmg3rvdMe&tpl=yqq_song_detail
+        title: "\u4E94\u810F\u80FD\u91CF\u97F3\u4E50\uFF1A\u3010\u80BA\u3011\u4E4B\u4E91\
+          \u51DD"
+      - album: "\u7597\u6108\u8F7B\u97F3 | \u4E94\u810F\u80FD\u91CF\u517B\u751F\u97F3\u4E50"
+        album_id: qqalbum_001CLwj42cqaCI
+        artist: "\u592A\u6781\u9053\u5218\u541B\u8FC8"
+        artist_id: qqartist_002OHH6Y0b2Xm4
+        id: qqtrack_004BKcLH1Pywbc
+        img_url: https://y.gtimg.cn/music/photo_new/T002R300x300M000001CLwj42cqaCI.jpg
+        source: qq
+        source_url: https://y.qq.com/#type=song&mid=004BKcLH1Pywbc&tpl=yqq_song_detail
+        title: "\u4E94\u810F\u80FD\u91CF\u97F3\u4E50\uFF1A\u3010\u813E\u3011\u4E4B\u5408\
+          \u548C"
+      - album: "\u7597\u6108\u8F7B\u97F3 | \u4E94\u810F\u80FD\u91CF\u517B\u751F\u97F3\u4E50"
+        album_id: qqalbum_001CLwj42cqaCI
+        artist: "\u592A\u6781\u9053\u5218\u541B\u8FC8"
+        artist_id: qqartist_002OHH6Y0b2Xm4
+        id: qqtrack_002PyhBc3G8mid
+        img_url: https://y.gtimg.cn/music/photo_new/T002R300x300M000001CLwj42cqaCI.jpg
+        source: qq
+        source_url: https://y.qq.com/#type=song&mid=002PyhBc3G8mid&tpl=yqq_song_detail
+        title: "\u4E94\u810F\u80FD\u91CF\u97F3\u4E50\uFF1A\u3010\u5FC3\u3011\u4E4B\u7EFD\
+          \u653E"
+      - album: "\u7597\u6108\u8F7B\u97F3 | \u4E94\u810F\u80FD\u91CF\u517B\u751F\u97F3\u4E50"
+        album_id: qqalbum_001CLwj42cqaCI
+        artist: "\u592A\u6781\u9053\u5218\u541B\u8FC8"
+        artist_id: qqartist_002OHH6Y0b2Xm4
+        id: qqtrack_004QHhiI3DF8bZ
+        img_url: https://y.gtimg.cn/music/photo_new/T002R300x300M000001CLwj42cqaCI.jpg
+        source: qq
+        source_url: https://y.qq.com/#type=song&mid=004QHhiI3DF8bZ&tpl=yqq_song_detail
+        title: "\u4E94\u810F\u80FD\u91CF\u97F3\u4E50\uFF1A\u3010\u809D\u3011\u4E4B\u7834\
+          \u8327"
+      - $$hashKey: object:2045
+        album: Himalaya - The Rearing of a Chief (Original Motion Picture Soundtrack)
+        album_id: qqalbum_0043zjfg4dU7zz
+        artist: Bruno Coulais
+        artist_id: qqartist_002V28DK2ulTcQ
+        id: qqtrack_004JDt2X169mAQ
+        img_url: https://y.gtimg.cn/music/photo_new/T002R300x300M0000043zjfg4dU7zz.jpg
+        source: qq
+        sourceName: QQ
+        source_url: https://y.qq.com/#type=song&mid=004JDt2X169mAQ&tpl=yqq_song_detail
+        title: Karma
+        url: ''
+      - album: "\u4E07\u8C61"
+        album_id: nealbum_132833702
+        artist: "\u5DEB\u7F57\xB7\u6D77Wulohai"
+        artist_id: neartist_49617513
+        id: netrack_1897621911
+        img_url: https://p2.music.126.net/NhgvMlTvHWBbLHPmbxw_0A==/109951167192535649.jpg
+        source: netease
+        source_url: https://music.163.com/#/song?id=1897621911
+        title: "\u5524"
+      - album: "\u661F\u8FB0"
+        album_id: nealbum_150168319
+        artist: "\u5DEB\u7F57\xB7\u6D77Wulohai"
+        artist_id: neartist_49617513
+        id: netrack_1974686660
+        img_url: https://p2.music.126.net/Jz44L7s8EXqA32V2V39viw==/109951167915326684.jpg
+        source: netease
+        source_url: https://music.163.com/#/song?id=1974686660
+        title: "\u661F\u8FB0"
+      - album: "\u4E07\u8C61"
+        album_id: nealbum_132833702
+        artist: "\u5DEB\u7F57\xB7\u6D77Wulohai"
+        artist_id: neartist_49617513
+        id: netrack_1897621184
+        img_url: https://p2.music.126.net/NhgvMlTvHWBbLHPmbxw_0A==/109951167192535649.jpg
+        source: netease
+        source_url: https://music.163.com/#/song?id=1897621184
+        title: "\u6C34"
+      - album: "\u4E07\u8C61"
+        album_id: nealbum_132833702
+        artist: "\u5DEB\u7F57\xB7\u6D77Wulohai"
+        artist_id: neartist_49617513
+        id: netrack_1893321118
+        img_url: https://p2.music.126.net/NhgvMlTvHWBbLHPmbxw_0A==/109951167192535649.jpg
+        source: netease
+        source_url: https://music.163.com/#/song?id=1893321118
+        title: "\u98CE"
+      - album: "\u6D77"
+        album_id: nealbum_146090283
+        artist: "\u5DEB\u7F57\xB7\u6D77Wulohai"
+        artist_id: neartist_49617513
+        id: netrack_1953869806
+        img_url: https://p2.music.126.net/YlqIgPiyNvNmQ7ZOCFXdaw==/109951167519825507.jpg
+        source: netease
+        source_url: https://music.163.com/#/song?id=1953869806
+        title: "\u5E8F"
+      - album: "\u4E07\u8C61"
+        album_id: nealbum_132833702
+        artist: "\u5DEB\u7F57\xB7\u6D77Wulohai"
+        artist_id: neartist_49617513
+        id: netrack_1890721085
+        img_url: https://p2.music.126.net/NhgvMlTvHWBbLHPmbxw_0A==/109951167192535649.jpg
+        source: netease
+        source_url: https://music.163.com/#/song?id=1890721085
+        title: "\u5730"
+      - album: "\u6D77"
+        album_id: nealbum_146090283
+        artist: "\u5DEB\u7F57\xB7\u6D77Wulohai"
+        artist_id: neartist_49617513
+        id: netrack_1953864471
+        img_url: https://p2.music.126.net/YlqIgPiyNvNmQ7ZOCFXdaw==/109951167519825507.jpg
+        source: netease
+        source_url: https://music.163.com/#/song?id=1953864471
+        title: "\u6D77\u98CE"
+      - album: "\u4E07\u8C61"
+        album_id: nealbum_132833702
+        artist: "\u5DEB\u7F57\xB7\u6D77Wulohai"
+        artist_id: neartist_49617513
+        id: netrack_1875909425
+        img_url: https://p2.music.126.net/NhgvMlTvHWBbLHPmbxw_0A==/109951167192535649.jpg
+        source: netease
+        source_url: https://music.163.com/#/song?id=1875909425
+        title: "\u7A7A"
+      - album: "\u6D77"
+        album_id: nealbum_146090283
+        artist: "\u5DEB\u7F57\xB7\u6D77Wulohai"
+        artist_id: neartist_49617513
+        id: netrack_1953864470
+        img_url: https://p2.music.126.net/YlqIgPiyNvNmQ7ZOCFXdaw==/109951167519825507.jpg
+        source: netease
+        source_url: https://music.163.com/#/song?id=1953864470
+        title: "\u6D77\u6D6A"
+      - $$hashKey: object:4489
+        album: "\u4E07\u8C61"
+        album_id: nealbum_132833702
+        artist: "\u5DEB\u7F57\xB7\u6D77Wulohai"
+        artist_id: neartist_49617513
+        id: netrack_1897621185
+        img_url: https://p1.music.126.net/NhgvMlTvHWBbLHPmbxw_0A==/109951167192535649.jpg
+        source: netease
+        sourceName: "\u7F51\u6613"
+        source_url: https://music.163.com/#/song?id=1897621185
+        title: "\u706B"
+      - $$hashKey: object:4488
+        album: "\u5B89\u62C9\u4F0A\u5B50\u54DF\u563F"
+        album_id: nealbum_145791240
+        artist: "\u5DEB\u7F57\xB7\u6D77Wulohai"
+        artist_id: neartist_49617513
+        id: netrack_1952219400
+        img_url: https://p1.music.126.net/Sdo4aJ2Upjf-9HVp5ybVvg==/109951167496680077.jpg
+        source: netease
+        sourceName: "\u7F51\u6613"
+        source_url: https://music.163.com/#/song?id=1952219400
+        title: "\u5B89\u62C9\u4F0A\u5B50\u54DF\u563F"
+      - $$hashKey: object:4487
+        album: "\u8FDC\u53E4\u547C\u5524"
+        album_id: nealbum_142670189
+        artist: "\u5DEB\u7F57\xB7\u6D77Wulohai"
+        artist_id: neartist_49617513
+        id: netrack_1933153455
+        img_url: https://p1.music.126.net/7-aiZ5Kj_J_1tIfWT1rRfg==/109951167215852906.jpg
+        source: netease
+        sourceName: "\u7F51\u6613"
+        source_url: https://music.163.com/#/song?id=1933153455
+        title: "\u8FDC\u53E4\u547C\u5524"
+      - $$hashKey: object:4486
+        album: "\u6D77"
+        album_id: nealbum_146090283
+        artist: "\u5DEB\u7F57\xB7\u6D77Wulohai"
+        artist_id: neartist_49617513
+        id: netrack_1953869807
+        img_url: https://p1.music.126.net/YlqIgPiyNvNmQ7ZOCFXdaw==/109951167519825507.jpg
+        source: netease
+        sourceName: "\u7F51\u6613"
+        source_url: https://music.163.com/#/song?id=1953869807
+        title: "\u6D77\u6D0B"
+      - $$hashKey: object:4485
+        album: "\u8212\u5FC3\u79D8\u5883"
+        album_id: nealbum_152237543
+        artist: "\u5DEB\u7F57\xB7\u6D77Wulohai"
+        artist_id: neartist_49617513
+        id: netrack_1984582106
+        img_url: https://p1.music.126.net/3LK_NhJ2bQXZSX4NCAvKMA==/109951167910280952.jpg
+        source: netease
+        sourceName: "\u7F51\u6613"
+        source_url: https://music.163.com/#/song?id=1984582106
+        title: "\u8212\u5FC3\u79D8\u5883"
+      - $$hashKey: object:4484
+        album: "\u57FA\u8BFA\u96E8\u6797"
+        album_id: nealbum_156605367
+        artist: "\u5DEB\u7F57\xB7\u6D77Wulohai"
+        artist_id: neartist_49617513
+        id: netrack_2006882510
+        img_url: https://p1.music.126.net/lyu-c07_Vypu8BwKpwmmSA==/109951168148672498.jpg
+        source: netease
+        sourceName: "\u7F51\u6613"
+        source_url: https://music.163.com/#/song?id=2006882510
+        title: "\u57FA\u8BFA\u96E8\u6797"
+      - $$hashKey: object:1105
+        album: "\u6148\u60B2\u5FC3\u667A\u6167\u5FC3"
+        album_id: nealbum_120297471
+        artist: "\u9053\u4E00\u6CD5\u5E08"
+        artist_id: neartist_37568772
+        id: netrack_1803460818
+        img_url: https://p1.music.126.net/7jgV1Kp8roRUNLvpJgknzQ==/109951165532690985.jpg
+        source: netease
+        sourceName: "\u7F51\u6613"
+        source_url: https://music.163.com/#/song?id=1803460818
+        title: "\u836F\u5E08\u4F5B\u5FC3\u5492"
+  myplaylist_fd1fa6f2-3926-2144-8117-0523902143a5:
+    info:
+      cover_img_url: http://y.gtimg.cn/mediastyle/y/img/cover_love_300.jpg
+      id: myplaylist_fd1fa6f2-3926-2144-8117-0523902143a5
+      source_url: https://y.qq.com/n/ryqq/playlist/8114753656
+      title: "\u6211\u559C\u6B22"
+    is_mine: 1
+    tracks:
+      - $$hashKey: object:4506
+        album: See You Again
+        album_id: nealbum_83498154
+        artist: See You Again
+        artist_id: neartist_33746860
+        bitrate: 128kbps
+        disabled: false
+        id: netrack_1404596131
+        img_url: https://p1.music.126.net/6MhAiNsF-Je1DtG15nY5ug==/109951164497419892.jpg
+        index: 23
+        platform: netease
+        platformText: "\u7F51\u6613"
+        playNow: true
+        source: netease
+        sourceName: "\u7F51\u6613"
+        source_url: https://music.163.com/#/song?id=1404596131
+        title: See You Again
+        url: http://m8.music.126.net/20230422154008/200116981e30735e5af4292214ab6de4/ymusic/5409/0153/070c/cc027bc7e069bff526670fed91cc6d99.mp3
+      - $$hashKey: object:3966
+        album: Time After Time
+        album_id: nealbum_74263822
+        artist: MKJ
+        artist_id: neartist_469200
+        bitrate: 128kbps
+        disabled: false
+        id: netrack_33035611
+        img_url: https://p1.music.126.net/lJ026dYsRXj7xewcymRWCw==/109951167869358342.jpg
+        index: 22
+        platform: netease
+        platformText: "\u7F51\u6613"
+        playNow: true
+        source: netease
+        sourceName: "\u7F51\u6613"
+        source_url: https://music.163.com/#/song?id=33035611
+        title: Time (Official)
+        url: http://m701.music.126.net/20230422101337/080bcb555f31990b49fdaa80783fbb41/jdymusic/obj/wo3DlMOGwrbDjj7DisKw/18845175777/115f/b6af/2a6f/7ba947e2db02fe2810a506804dd73dd8.mp3
+      - $$hashKey: object:3673
+        album: Take Me Hand
+        album_id: nealbum_99135673
+        artist: "C\xE9cile Corbel"
+        artist_id: neartist_51012
+        bitrate: 320kbps
+        disabled: false
+        id: netrack_1500439504
+        img_url: https://p2.music.126.net/FWzLBJfn2vzNI7-6PN7g8g==/109951165517555293.jpg
+        index: 21
+        platform: netease
+        platformText: "\u7F51\u6613"
+        playNow: true
+        source: netease
+        sourceName: "\u7F51\u6613"
+        source_url: https://music.163.com/#/song?id=1500439504
+        title: Take Me Hand
+        url: http://m801.music.126.net/20230422092643/c681d580326da7734a841f9cf15cd6ec/jdymusic/obj/wo3DlMOGwrbDjj7DisKw/5110905509/97ad/009a/dacc/57d4eb69f45f1e708bd8cbb4c3a2f8da.mp3
+      - $$hashKey: object:2279
+        album: Something Just Like This
+        album_id: nealbum_35196287
+        artist: The Chainsmokers
+        artist_id: neartist_893484
+        bitrate: 128kbps
+        disabled: false
+        id: netrack_461347998
+        img_url: https://p1.music.126.net/7tMKza9QbB9xsiQHMmLSKw==/109951167280335904.jpg
+        index: 19
+        platform: kugou
+        platformText: "\u9177\u72D7"
+        playNow: true
+        source: netease
+        sourceName: "\u7F51\u6613"
+        source_url: https://music.163.com/#/song?id=461347998
+        title: Something Just Like This
+        url: https://webfs.ali.kugou.com/202304220857/9dd2cf5ff724f742013ea38902064e11/v2/71b69fcfb5a5368104dcbd119103f1e1/G141/M09/0E/15/LYcBAFukSOKAaGsgAEMXYrDl700637.mp3
+      - $$hashKey: object:5336
+        album: "\u7476\u5149\u8BB0"
+        album_id: nealbum_132459984
+        artist: "\u6708\u4EAE\u4E0B\u7684dudu"
+        artist_id: neartist_48635739
+        bitrate: 320kbps
+        disabled: false
+        id: netrack_1873634323
+        img_url: https://p1.music.126.net/jXflgzjNzfu7wXZbk-UDCg==/109951166331844108.jpg
+        index: 117
+        platform: netease
+        platformText: "\u7F51\u6613"
+        playNow: true
+        source: netease
+        sourceName: "\u7F51\u6613"
+        source_url: https://music.163.com/#/song?id=1873634323
+        title: Proud of You
+        url: http://m701.music.126.net/20230408095250/b0453ea04c10a60acb1b2e4948ae5b7b/jdymusic/obj/wo3DlMOGwrbDjj7DisKw/10574576668/07dc/ead7/c874/15645f81f1fa71cf6e4ff50fa87b79da.mp3
+      - album: "\u6012\u653E\u7684\u751F\u547D"
+        album_id: qqalbum_003Bsiy90cPKND
+        artist: "\u6C6A\u5CF0"
+        artist_id: qqartist_001adLDR1SS40P
+        bitrate: 128kbps
+        id: qqtrack_001fgt6a0ZvBjD
+        img_url: https://y.gtimg.cn/music/photo_new/T002R300x300M000003Bsiy90cPKND.jpg
+        index: 73
+        platform: qq
+        platformText: QQ
+        playNow: true
+        source: qq
+        source_url: https://y.qq.com/#type=song&mid=001fgt6a0ZvBjD&tpl=yqq_song_detail
+        title: "\u6211\u7231\u4F60\u4E2D\u56FD"
+        url: http://ws.stream.qqmusic.qq.com/M500000jDBVd4A6R4L.mp3?guid=10000&vkey=AFCCBBA5BF4FAA0417EDEA301CC45A0697876AA68405A26045E22037F1472C61BC978EF7F17A83044723E2D7DD7997DFE5866FF1BA1CFF9E&uin=&fromtag=120042
+      - album: Blue Moon
+        album_id: nealbum_2943456
+        artist: Daveed
+        artist_id: neartist_53298
+        bitrate: 128kbps
+        id: netrack_31356097
+        img_url: https://p1.music.126.net/SPgXHOF-qB0y71aflpp3AQ==/109951164413511576.jpg
+        index: 85
+        platform: netease
+        platformText: "\u7F51\u6613"
+        playNow: true
+        source: netease
+        source_url: https://music.163.com/#/song?id=31356097
+        title: Starlight
+        url: http://m8.music.126.net/20221016151105/15a4367c7b6e41f984c95a8e9427855b/ymusic/5108/5652/040f/fb474b5c05a8ebe527d73e6362785224.mp3
+      - $$hashKey: object:41203
+        album: "\u7EA2\u9AD8\u7CB1 \u7535\u89C6\u5267\u539F\u58F0\u5E26"
+        album_id: qqalbum_00330vIN2JcQ33
+        artist: "\u97E9\u7EA2"
+        artist_id: qqartist_003WlPvN2EvRaj
+        id: qqtrack_002EUcZI0pOdcq
+        img_url: https://y.gtimg.cn/music/photo_new/T002R300x300M00000330vIN2JcQ33.jpg
+        source: qq
+        sourceName: QQ
+        source_url: https://y.qq.com/#type=song&mid=002EUcZI0pOdcq&tpl=yqq_song_detail
+        title: "\u4E5D\u513F"
+        url: ''
+      - album_id: lmalbum_undefined
+        artist_id: lmartist_undefined
+        id: lmtrack_D:\DataFiles\Windows\Music\cishan.mp3
+        img_url: ''
+        sound_url: file://D:\DataFiles\Windows\Music\cishan.mp3
+        source: localmusic
+        source_url: ''
+        title: cishan
+      - album: "\uBABD\uD658\uC758 \uC232 (\u68A6\u5E7B\u68EE\u6797)"
+        album_id: qqalbum_0032gLnG0duSdZ
+        artist: "\uC288\uBCA0\uB974\uD0F1\uBCA0\uB974\uBCA0\uB974 (Schubertang Beruberu)"
+        artist_id: qqartist_000Fh0FN44LXLW
+        id: qqtrack_002UrMna0mOGrt
+        img_url: https://y.gtimg.cn/music/photo_new/T002R300x300M0000032gLnG0duSdZ.jpg
+        source: qq
+        source_url: https://y.qq.com/#type=song&mid=002UrMna0mOGrt&tpl=yqq_song_detail
+        title: "\uBABD\uD658\uC758 \uC232 (\u68A6\u5E7B\u68EE\u6797)"
+      - album: "\u65F6\u95F4\u90FD\u53BB\u54EA\u513F\u4E86"
+        album_id: qqalbum_004flVDc2IF6Js
+        artist: "\u5F20\u4FE1\u54F2"
+        artist_id: qqartist_0000mFvh1jtLcz
+        id: qqtrack_002fbxHf15AO81
+        img_url: https://y.gtimg.cn/music/photo_new/T002R300x300M000004flVDc2IF6Js.jpg
+        source: qq
+        source_url: https://y.qq.com/#type=song&mid=002fbxHf15AO81&tpl=yqq_song_detail
+        title: "\u65F6\u95F4\u90FD\u53BB\u54EA\u513F\u4E86"
+      - album: "\u8DE8\u754C\u6B4C\u738B\u7B2C\u4E09\u5B63 \u7B2C11\u671F"
+        album_id: qqalbum_001ZQzSM3NaSpP
+        artist: "\u97E9\u4E1C\u541B"
+        artist_id: qqartist_000uBRkf1suQKC
+        id: qqtrack_001vKj5u08qEbF
+        img_url: https://y.gtimg.cn/music/photo_new/T002R300x300M000001ZQzSM3NaSpP.jpg
+        source: qq
+        source_url: https://y.qq.com/#type=song&mid=001vKj5u08qEbF&tpl=yqq_song_detail
+        title: "\u7236\u4EB2 (Live)"
+      - album: Sea Shanty Medley
+        album_id: qqalbum_002sxPYg3FnSLF
+        artist: Home Free
+        artist_id: qqartist_000mfiKg2HARDR
+        id: qqtrack_001im35p3l0ZAK
+        img_url: https://y.gtimg.cn/music/photo_new/T002R300x300M000002sxPYg3FnSLF.jpg
+        source: qq
+        source_url: https://y.qq.com/#type=song&mid=001im35p3l0ZAK&tpl=yqq_song_detail
+        title: Sea Shanty Medley
+      - album: "\u4E00\u8DEF\u751F\u82B1"
+        album_id: qqalbum_001MyK3Y47zLur
+        artist: "\u6E29\u5955\u5FC3"
+        artist_id: qqartist_003k64X11As4qX
+        id: qqtrack_004AxmlM3YihD2
+        img_url: https://y.gtimg.cn/music/photo_new/T002R300x300M000001MyK3Y47zLur.jpg
+        source: qq
+        source_url: https://y.qq.com/#type=song&mid=004AxmlM3YihD2&tpl=yqq_song_detail
+        title: "\u4E00\u8DEF\u751F\u82B1"
+      - album: Different World
+        album_id: qqalbum_0049de8x3025G8
+        artist: Alan Walker
+        artist_id: qqartist_0020PeOh4ZaCw1
+        id: qqtrack_004XCNCu3tl6fg
+        img_url: https://y.gtimg.cn/music/photo_new/T002R300x300M0000049de8x3025G8.jpg
+        source: qq
+        source_url: https://y.qq.com/#type=song&mid=004XCNCu3tl6fg&tpl=yqq_song_detail
+        title: Faded
+      - album: Time...
+        album_id: qqalbum_0046ubrE22eeMQ
+        artist: "July (\uC904\uB77C\uC774)"
+        artist_id: qqartist_002wBPxX3IGivF
+        id: qqtrack_002CuMDr4GlT48
+        img_url: https://y.gtimg.cn/music/photo_new/T002R300x300M0000046ubrE22eeMQ.jpg
+        source: qq
+        source_url: https://y.qq.com/#type=song&mid=002CuMDr4GlT48&tpl=yqq_song_detail
+        title: My Soul
+      - album: An Old Song
+        album_id: qqalbum_0026A10I4339Tu
+        artist: MoreanP
+        artist_id: qqartist_001XBM2M2eevui
+        id: qqtrack_001lxVbJ3nZy1V
+        img_url: https://y.gtimg.cn/music/photo_new/T002R300x300M0000026A10I4339Tu.jpg
+        source: qq
+        source_url: https://y.qq.com/#type=song&mid=001lxVbJ3nZy1V&tpl=yqq_song_detail
+        title: An Old Song
+      - album: Vintage Sunshine
+        album_id: qqalbum_001hQLqL3NbsgT
+        artist: Deep East Music
+        artist_id: qqartist_001rCJI20ildYl
+        id: qqtrack_003FQrte0NrlWO
+        img_url: https://y.gtimg.cn/music/photo_new/T002R300x300M000001hQLqL3NbsgT.jpg
+        source: qq
+        source_url: https://y.qq.com/#type=song&mid=003FQrte0NrlWO&tpl=yqq_song_detail
+        title: Old Threads
+      - album: Not Angry
+        album_id: qqalbum_00449U0p1F4HYG
+        artist: Chris James
+        artist_id: qqartist_003LMmjH0IpWY8
+        id: qqtrack_002sYTMz2RmyL1
+        img_url: https://y.gtimg.cn/music/photo_new/T002R300x300M00000449U0p1F4HYG.jpg
+        source: qq
+        source_url: https://y.qq.com/#type=song&mid=002sYTMz2RmyL1&tpl=yqq_song_detail
+        title: Not Angry
+      - album: "\u5B64\u52C7\u8005"
+        album_id: qqalbum_001uaPM93kxk1R
+        artist: "\u9648\u5955\u8FC5"
+        artist_id: qqartist_003Nz2So3XXYek
+        id: qqtrack_003UkWuI0E8U0l
+        img_url: https://y.gtimg.cn/music/photo_new/T002R300x300M000001uaPM93kxk1R.jpg
+        source: qq
+        source_url: https://y.qq.com/#type=song&mid=003UkWuI0E8U0l&tpl=yqq_song_detail
+        title: "\u5B64\u52C7\u8005"
+      - album: "\u9057\u5931\u7684\u98CE\u666F"
+        album_id: qqalbum_004RazOh01KgO2
+        artist: "\u6B66\u8A00\u5723"
+        artist_id: qqartist_003tBkX70WYewW
+        id: qqtrack_0018Wy1S2NqF1E
+        img_url: https://y.gtimg.cn/music/photo_new/T002R300x300M000004RazOh01KgO2.jpg
+        source: qq
+        source_url: https://y.qq.com/#type=song&mid=0018Wy1S2NqF1E&tpl=yqq_song_detail
+        title: "\u5931\u6563\u7684\u57CE\u5E02"
+      - album: "\u3010\u663C\u591C\u3011\u6D41\u884C\u94A2\u7434\u7FFB\u594F"
+        album_id: qqalbum_002gGJGv3eGtJ6
+        artist: "\u663C\u591C"
+        artist_id: qqartist_001KEKQd2dgMFy
+        id: qqtrack_000dkZDx1pwNRW
+        img_url: https://y.gtimg.cn/music/photo_new/T002R300x300M000002gGJGv3eGtJ6.jpg
+        source: qq
+        source_url: https://y.qq.com/#type=song&mid=000dkZDx1pwNRW&tpl=yqq_song_detail
+        title: "\u5343\u4E0E\u5343\u5BFB (\u94A2\u7434\u7248)"
+      - album: "\u6F2B\u5929\u661F\u96E8\uFF08\u6CBB\u6108\u94A2\u7434\u66F2\uFF09"
+        album_id: qqalbum_000PPtpf1kYoWh
+        artist: "\u675C\u8D34\u5FC3"
+        artist_id: qqartist_00294qDV2H786h
+        id: qqtrack_004PiFNh2b0c5x
+        img_url: https://y.gtimg.cn/music/photo_new/T002R300x300M000000PPtpf1kYoWh.jpg
+        source: qq
+        source_url: https://y.qq.com/#type=song&mid=004PiFNh2b0c5x&tpl=yqq_song_detail
+        title: "\u6F2B\u5929\u661F\u96E8\uFF08\u6CBB\u6108\u94A2\u7434\u66F2\uFF09"
+      - album: "\u968F\u5FC3"
+        album_id: qqalbum_001QPExa08nc71
+        artist: "\u6A59\u8A00"
+        artist_id: qqartist_001X4Mqs3dSmCB
+        id: qqtrack_002MZbC000BY5j
+        img_url: https://y.gtimg.cn/music/photo_new/T002R300x300M000001QPExa08nc71.jpg
+        source: qq
+        source_url: https://y.qq.com/#type=song&mid=002MZbC000BY5j&tpl=yqq_song_detail
+        title: "\u8F7B\u98CE"
+      - album: "\u8FDC\u79BB\u55A7\u56A3"
+        album_id: qqalbum_0023637U4afwDG
+        artist: "\u5C0F\u9690\u5728\u5C71\u6797"
+        artist_id: qqartist_004T2gU01SKFLY
+        id: qqtrack_001PFioW00Lydn
+        img_url: https://y.gtimg.cn/music/photo_new/T002R300x300M0000023637U4afwDG.jpg
+        source: qq
+        source_url: https://y.qq.com/#type=song&mid=001PFioW00Lydn&tpl=yqq_song_detail
+        title: "\u6E05"
+      - album: "\u661F\u306E\u6F6E"
+        album_id: qqalbum_0042hNmN4cYBYd
+        artist: GreyKy
+        artist_id: qqartist_002bzlj23FWvee
+        id: qqtrack_002mjqGH0SRyb0
+        img_url: https://y.gtimg.cn/music/photo_new/T002R300x300M0000042hNmN4cYBYd.jpg
+        source: qq
+        source_url: https://y.qq.com/#type=song&mid=002mjqGH0SRyb0&tpl=yqq_song_detail
+        title: "\u661F\u306E\u6F6E"
+      - album: "\u4F60\u4F3C\u661F\u8FB0\u5165\u6D77 \u5982\u4E07\u9CB8\u6210\u5B87\u5B99"
+        album_id: qqalbum_002lBq9j4drGU6
+        artist: ALisa
+        artist_id: qqartist_003sZ6914MQ4KC
+        id: qqtrack_003O9hlr4K353q
+        img_url: https://y.gtimg.cn/music/photo_new/T002R300x300M000002lBq9j4drGU6.jpg
+        source: qq
+        source_url: https://y.qq.com/#type=song&mid=003O9hlr4K353q&tpl=yqq_song_detail
+        title: "\u5982\u4E07\u9CB8\u6210\u5B87\u5B99"
+      - album: "\u6614\u5E74\u5149\u9634"
+        album_id: qqalbum_004UdiS93AXsgn
+        artist: Maker
+        artist_id: qqartist_003pf4go3gSbEY
+        id: qqtrack_003JfHRz4Y0eIn
+        img_url: https://y.gtimg.cn/music/photo_new/T002R300x300M000004UdiS93AXsgn.jpg
+        source: qq
+        source_url: https://y.qq.com/#type=song&mid=003JfHRz4Y0eIn&tpl=yqq_song_detail
+        title: "\u6614\u5E74\u65F6\u5149"
+      - album: "\u4F34\u4F60\u5165\u68A6\uFF083\uFF09"
+        album_id: qqalbum_00211JV01PTkOB
+        artist: Starry Sky
+        artist_id: qqartist_001IjfZa0Dyt5w
+        id: qqtrack_004b1mNy2wNAo4
+        img_url: https://y.gtimg.cn/music/photo_new/T002R300x300M00000211JV01PTkOB.jpg
+        source: qq
+        source_url: https://y.qq.com/#type=song&mid=004b1mNy2wNAo4&tpl=yqq_song_detail
+        title: "\u8FFD\u5149\u8005 (\u94A2\u7434\u7248)"
+      - album: "\u5C71\u6709\u6728\u516E\u6728\u6709\u679D\uFF0C\u5FC3\u60A6\u541B\u516E\
+          \u541B\u4E0D\u77E5"
+        album_id: qqalbum_001DikZQ1wrr3d
+        artist: "\u843D\u8475"
+        artist_id: qqartist_000csfhL4DcKeS
+        id: qqtrack_003QWDUY3858TZ
+        img_url: https://y.gtimg.cn/music/photo_new/T002R300x300M000001DikZQ1wrr3d.jpg
+        source: qq
+        source_url: https://y.qq.com/#type=song&mid=003QWDUY3858TZ&tpl=yqq_song_detail
+        title: "\u4E0D\u67D3 (\u94A2\u7434\u7248)"
+      - album: "\u4E94\u56DB\u7279\u522B\u7248\u9519\u4F4D\u65F6\u7A7A"
+        album_id: qqalbum_002LQNCa0vDDum
+        artist: "\u5171\u9752\u56E2\u4E2D\u592E"
+        artist_id: qqartist_003dSBXY4EnRAz
+        id: qqtrack_003UUxa61o6GcS
+        img_url: https://y.gtimg.cn/music/photo_new/T002R300x300M000002LQNCa0vDDum.jpg
+        source: qq
+        source_url: https://y.qq.com/#type=song&mid=003UUxa61o6GcS&tpl=yqq_song_detail
+        title: "\u4E94\u56DB\u7279\u522B\u7248\u9519\u4F4D\u65F6\u7A7A"
+      - album: "\u70DF\u82B1\u843D"
+        album_id: qqalbum_001Y48bQ0r8S8P
+        artist: DarkSpirit
+        artist_id: qqartist_002qADAG2oY1UR
+        id: qqtrack_001MMYK62Scbn2
+        img_url: https://y.gtimg.cn/music/photo_new/T002R300x300M000001Y48bQ0r8S8P.jpg
+        source: qq
+        source_url: https://y.qq.com/#type=song&mid=001MMYK62Scbn2&tpl=yqq_song_detail
+        title: "\u70DF\u82B1\u843D"
+      - album: "\u68A6\u4E0E\u7231\u4F5C\u68A6\u7684\u8BD7 (The Best of Daydream)"
+        album_id: qqalbum_002FVDDH0u4tva
+        artist: "Daydream (\u767D\u65E5\u68A6)"
+        artist_id: qqartist_0022t8Xs2sVZrK
+        id: qqtrack_003tuooW38CxuM
+        img_url: https://y.gtimg.cn/music/photo_new/T002R300x300M000002FVDDH0u4tva.jpg
+        source: qq
+        source_url: https://y.qq.com/#type=song&mid=003tuooW38CxuM&tpl=yqq_song_detail
+        title: "\u96E8\u4E2D\u6F2B\u6B65 (Stepping on The Rainy Street)"
+        url: ''
+      - album: "\u9CB8"
+        album_id: qqalbum_000WOd1r1xr8n3
+        artist: DInxm Robinson
+        artist_id: qqartist_003O8FVR3xXCht
+        id: qqtrack_002SDLyJ341nuG
+        img_url: https://y.gtimg.cn/music/photo_new/T002R300x300M000000WOd1r1xr8n3.jpg
+        source: qq
+        source_url: https://y.qq.com/#type=song&mid=002SDLyJ341nuG&tpl=yqq_song_detail
+        title: "\u9CB8"
+      - album: Sun
+        album_id: qqalbum_000cw0Bi07rE0d
+        artist: Steerner
+        artist_id: qqartist_004SPWtw0ExxdR
+        id: qqtrack_001cVnZX12F8tM
+        img_url: https://y.gtimg.cn/music/photo_new/T002R300x300M000000cw0Bi07rE0d.jpg
+        source: qq
+        source_url: https://y.qq.com/#type=song&mid=001cVnZX12F8tM&tpl=yqq_song_detail
+        title: Sun
+      - album: "\u56DB\u5B63\u6545\u4E8B"
+        album_id: qqalbum_001oN2621fDIr5
+        artist: "\u56DB\u5B63\u97F3\u8272"
+        artist_id: qqartist_001myysx1s44EK
+        id: qqtrack_0030nfvL02lDxg
+        img_url: https://y.gtimg.cn/music/photo_new/T002R300x300M000001oN2621fDIr5.jpg
+        source: qq
+        source_url: https://y.qq.com/#type=song&mid=0030nfvL02lDxg&tpl=yqq_song_detail
+        title: "\u590F\u591C"
+      - album: "\u6628\u665A\u53C8\u505A\u4E86\u4E00\u591C\u7684\u68A6"
+        album_id: qqalbum_004WQcRr39xA5L
+        artist: "\uC548\uD654\uD654"
+        artist_id: qqartist_0028tiI12c3Fh9
+        id: qqtrack_001cYFvt0qwPAY
+        img_url: https://y.gtimg.cn/music/photo_new/T002R300x300M000004WQcRr39xA5L.jpg
+        source: qq
+        source_url: https://y.qq.com/#type=song&mid=001cYFvt0qwPAY&tpl=yqq_song_detail
+        title: "\u661F\u8336\u4F1A"
+        url: ''
+      - album: "\u846C\u82B1"
+        album_id: qqalbum_002pEZjO0P85tp
+        artist: THT
+        artist_id: qqartist_0015LBfk0ttKUw
+        id: qqtrack_003K07yP4g35Ml
+        img_url: https://y.gtimg.cn/music/photo_new/T002R300x300M000002pEZjO0P85tp.jpg
+        source: qq
+        source_url: https://y.qq.com/#type=song&mid=003K07yP4g35Ml&tpl=yqq_song_detail
+        title: "\u846C\u82B1"
+      - album: Seventeen Music Piano Collection
+        album_id: qqalbum_0033obUp1WOFxU
+        artist: Shin Giwon Piano
+        artist_id: qqartist_003QHLCj3HOqpR
+        id: qqtrack_001c5NES1yZkU4
+        img_url: https://y.gtimg.cn/music/photo_new/T002R300x300M0000033obUp1WOFxU.jpg
+        source: qq
+        source_url: https://y.qq.com/#type=song&mid=001c5NES1yZkU4&tpl=yqq_song_detail
+        title: Maiochiruhanabira (Fallin' Flower)
+      - album: Take
+        album_id: qqalbum_003McTeF2IKawW
+        artist: "SHAUN (\uC200)"
+        artist_id: qqartist_001gvDP11v6Vx7
+        id: qqtrack_001mgo6u1tLENZ
+        img_url: https://y.gtimg.cn/music/photo_new/T002R300x300M000003McTeF2IKawW.jpg
+        source: qq
+        source_url: https://y.qq.com/#type=song&mid=001mgo6u1tLENZ&tpl=yqq_song_detail
+        title: Way Back Home
+      - album: "\u98CE\u5C45\u4F4F\u7684\u8857\u9053 (Piano ver)"
+        album_id: qqalbum_001PdwdO3glwBP
+        artist: "\u996D\u7897\u7684\u5F7C\u5CB8"
+        artist_id: qqartist_002r9pPo0bMvAl
+        id: qqtrack_004MOszt34SmPr
+        img_url: https://y.gtimg.cn/music/photo_new/T002R300x300M000001PdwdO3glwBP.jpg
+        source: qq
+        source_url: https://y.qq.com/#type=song&mid=004MOszt34SmPr&tpl=yqq_song_detail
+        title: "\u98CE\u5C45\u4F4F\u7684\u8857\u9053 (Piano ver)"
+      - album: "\u591C\u8BED\xB7\u5BC2\u9759\u4E4B\u7A7A"
+        album_id: qqalbum_000zoTmm4Qo2EZ
+        artist: "\u5085\u8BB8"
+        artist_id: qqartist_003Dmt8I0aP4Ma
+        id: qqtrack_001tOYrS1Pq9em
+        img_url: https://y.gtimg.cn/music/photo_new/T002R300x300M000000zoTmm4Qo2EZ.jpg
+        source: qq
+        source_url: https://y.qq.com/#type=song&mid=001tOYrS1Pq9em&tpl=yqq_song_detail
+        title: "\u5BC2\u9759\u4E4B\u7A7A"
+      - album: "\u6E05\u65B0\u7684\u5C0F\u5973\u5B69 (For Ma)"
+        album_id: qqalbum_000LIzpZ34YZ2T
+        artist: July Tun
+        artist_id: qqartist_000kyJ3n0IFlat
+        id: qqtrack_000xdt5M3OQlR7
+        img_url: https://y.gtimg.cn/music/photo_new/T002R300x300M000000LIzpZ34YZ2T.jpg
+        source: qq
+        source_url: https://y.qq.com/#type=song&mid=000xdt5M3OQlR7&tpl=yqq_song_detail
+        title: "\u6E05\u65B0\u7684\u5C0F\u5973\u5B69"
+      - album: "\u661F\u6CB3\u7480\u74A8\u5982\u4F60"
+        album_id: qqalbum_0041sHhs1OSFkP
+        artist: "\u6800hen"
+        artist_id: qqartist_001I6juZ0844Co
+        id: qqtrack_0027iiGn0tfeC9
+        img_url: https://y.gtimg.cn/music/photo_new/T002R300x300M0000041sHhs1OSFkP.jpg
+        source: qq
+        source_url: https://y.qq.com/#type=song&mid=0027iiGn0tfeC9&tpl=yqq_song_detail
+        title: May i see u again
+      - album: "\u661F\u8FB0"
+        album_id: qqalbum_002rPeGx064bdU
+        artist: "\u5F7C\u5CB8\u7434\u5E08"
+        artist_id: qqartist_001Pi9vo3Dd42x
+        id: qqtrack_000L5Dfm0FyBYQ
+        img_url: https://y.gtimg.cn/music/photo_new/T002R300x300M000002rPeGx064bdU.jpg
+        source: qq
+        source_url: https://y.qq.com/#type=song&mid=000L5Dfm0FyBYQ&tpl=yqq_song_detail
+        title: "Love Is Gone (\u94A2\u7434\u6CBB\u6108\u7248)"
+        url: ''
+      - album: "\u5B8C\u7F8E\u65E0\u7455"
+        album_id: qqalbum_004S6ZvT0yaqWd
+        artist: Kevin Kern
+        artist_id: qqartist_002dOalS38V3iH
+        id: qqtrack_003kJjgt02n51S
+        img_url: https://y.gtimg.cn/music/photo_new/T002R300x300M000004S6ZvT0yaqWd.jpg
+        source: qq
+        source_url: https://y.qq.com/#type=song&mid=003kJjgt02n51S&tpl=yqq_song_detail
+        title: Through the Arbor
+      - album: "\u30AF\u30C9\u308F\u3075\u305F\u30FC \u30AA\u30EA\u30B8\u30CA\u30EB \u30B5\
+          \u30A6\u30F3\u30C9\u30C8\u30E9\u30C3\u30AF (\u30EA\u30C8\u30EB\u30D0\u30B9\u30BF\
+          \u30FC\u30BA!Converted Edition Vita \u30C9\u30E9\u30DECD)"
+        album_id: qqalbum_001f2I4I3jRTAY
+        artist: "Key Sounds Label (\u30AD\u30FC\u30FB\u30B5\u30A6\u30F3\u30BA\u30FB\u30EC\
+          \u30FC\u30D9\u30EB)"
+        artist_id: qqartist_003VvRDb4IIGeg
+        id: qqtrack_001zWig33RiyyZ
+        img_url: https://y.gtimg.cn/music/photo_new/T002R300x300M000001f2I4I3jRTAY.jpg
+        source: qq
+        source_url: https://y.qq.com/#type=song&mid=001zWig33RiyyZ&tpl=yqq_song_detail
+        title: Adagio for Summer Wind
+      - album: "\u30D4\u30A2\u30CE\u306B\u3088\u308B\u73E0\u7389\u306E\u30A2\u30CB\u30E1\
+          \u6620\u753B\u4E3B\u984C\u6B4C\u96C6 \u3044\u3064\u3082\u4F55\u5EA6\u3067\u3082\
+          \uFF0F\u3082\u306E\u306E\u3051\u59EB"
+        album_id: qqalbum_0028nPWY49py9w
+        artist: "\u5965\u6238\u5DF4\u5BFF (Okudo Tomohisa)"
+        artist_id: qqartist_003GFb8s3euNJC
+        id: qqtrack_000ozixA07JqNb
+        img_url: https://y.gtimg.cn/music/photo_new/T002R300x300M0000028nPWY49py9w.jpg
+        source: qq
+        source_url: https://y.qq.com/#type=song&mid=000ozixA07JqNb&tpl=yqq_song_detail
+        title: "\u3044\u3064\u3082\u4F55\u5EA6\u3067\u3082 (\u6C38\u8FDC\u540C\u5728)"
+        url: ''
+      - album: "Town of Windmill (\u98CE\u8F66\u5C0F\u9547)"
+        album_id: qqalbum_002FoQIa1HHU5h
+        artist: a_hisa
+        artist_id: qqartist_002ZwrKF3IFGtg
+        id: qqtrack_004MiOS71vpeqJ
+        img_url: https://y.gtimg.cn/music/photo_new/T002R300x300M000002FoQIa1HHU5h.jpg
+        source: qq
+        source_url: https://y.qq.com/#type=song&mid=004MiOS71vpeqJ&tpl=yqq_song_detail
+        title: "Town of Windmill (\u98CE\u8F66\u5C0F\u9547)"
+      - album: "\u5C0F\u6E05\u65B0\u4E0E\u5C0F\u60C5\u7EEA-II"
+        album_id: qqalbum_0035euAe1JcFia
+        artist: "\u95EB\u4E1C\u709C"
+        artist_id: qqartist_004DsiWJ2a8Xr9
+        id: qqtrack_002ocsmn2l3ukH
+        img_url: https://y.gtimg.cn/music/photo_new/T002R300x300M0000035euAe1JcFia.jpg
+        source: qq
+        source_url: https://y.qq.com/#type=song&mid=002ocsmn2l3ukH&tpl=yqq_song_detail
+        title: "\u590F\u91CE\u4E0E\u6697\u604B"
+      - album: "\u5FAE\u7B11\u7684\u9C7C \u539F\u521B\u97F3\u4E50\u4E13\u8F91"
+        album_id: qqalbum_000qborW3wwC4F
+        artist: "\u51E0\u7C73"
+        artist_id: qqartist_004SpZvD2saxLH
+        id: qqtrack_002RkRaC1Rt4gM
+        img_url: https://y.gtimg.cn/music/photo_new/T002R300x300M000000qborW3wwC4F.jpg
+        source: qq
+        source_url: https://y.qq.com/#type=song&mid=002RkRaC1Rt4gM&tpl=yqq_song_detail
+        title: "\u62E5\u6709"
+      - album: "\u590F\u591C\u7684\u56DE\u5FC6"
+        album_id: qqalbum_0009450406GoHc
+        artist: "\u7434\u5C0F\u53F6"
+        artist_id: qqartist_003xJYds3Ictrw
+        id: qqtrack_00027Jdu0e1TUr
+        img_url: https://y.gtimg.cn/music/photo_new/T002R300x300M0000009450406GoHc.jpg
+        source: qq
+        source_url: https://y.qq.com/#type=song&mid=00027Jdu0e1TUr&tpl=yqq_song_detail
+        title: "\u590F\u591C\u7684\u56DE\u5FC6"
+      - album: "\u30AF\u30C9\u308F\u3075\u305F\u30FC \u30AA\u30EA\u30B8\u30CA\u30EB \u30B5\
+          \u30A6\u30F3\u30C9\u30C8\u30E9\u30C3\u30AF (\u30EA\u30C8\u30EB\u30D0\u30B9\u30BF\
+          \u30FC\u30BA!Converted Edition Vita \u30C9\u30E9\u30DECD)"
+        album_id: qqalbum_001f2I4I3jRTAY
+        artist: "Key Sounds Label (\u30AD\u30FC\u30FB\u30B5\u30A6\u30F3\u30BA\u30FB\u30EC\
+          \u30FC\u30D9\u30EB)"
+        artist_id: qqartist_003VvRDb4IIGeg
+        id: qqtrack_002wTCB845Pd70
+        img_url: https://y.gtimg.cn/music/photo_new/T002R300x300M000001f2I4I3jRTAY.jpg
+        source: qq
+        source_url: https://y.qq.com/#type=song&mid=002wTCB845Pd70&tpl=yqq_song_detail
+        title: Bloom of Youth
+      - album: "\u65B0\u5E74\u5FEB\u4E50\uFF08\u94A2\u7434\u4E13\u8F91\uFF09part 1"
+        album_id: qqalbum_000A9Csy1m7TZM
+        artist: Masque_Jupiter
+        artist_id: qqartist_001ra6KM2MwpIe
+        id: qqtrack_0022BiPr0xFbY1
+        img_url: https://y.gtimg.cn/music/photo_new/T002R300x300M000000A9Csy1m7TZM.jpg
+        source: qq
+        source_url: https://y.qq.com/#type=song&mid=0022BiPr0xFbY1&tpl=yqq_song_detail
+        title: "\u4EA1\u7075\u5E8F\u66F2 (\u94A2\u7434\u7248)"
+      - album: "\u58F9\u4F0D\u58F9\u634C\xB7\u79BB"
+        album_id: qqalbum_004XUIbc2ThASt
+        artist: Snigellin
+        artist_id: qqartist_004GbPNy25euY8
+        id: qqtrack_001DrNr22581j8
+        img_url: https://y.gtimg.cn/music/photo_new/T002R300x300M000004XUIbc2ThASt.jpg
+        source: qq
+        source_url: https://y.qq.com/#type=song&mid=001DrNr22581j8&tpl=yqq_song_detail
+        title: Sakura Tears
+      - album: "\u5C71\u5DDD\u6E56\u6D77 \u663C\u591C\u4E0E\u7231"
+        album_id: qqalbum_002hTUOk33eoxs
+        artist: "\u6797\u82AC\u5B87"
+        artist_id: qqartist_002EXCVf1RqVvu
+        id: qqtrack_001CLU2F1F05Vo
+        img_url: https://y.gtimg.cn/music/photo_new/T002R300x300M000002hTUOk33eoxs.jpg
+        source: qq
+        source_url: https://y.qq.com/#type=song&mid=001CLU2F1F05Vo&tpl=yqq_song_detail
+        title: "\u5B89\u548C\u6865\u95F4\u594F"
+      - album: "\u30AA\u30EA\u30B8\u30CA\u30EB\u30B5\u30A6\u30F3\u30C9\u30C8\u30E9\u30C3\
+          \u30AF\u30FB\u30D9\u30B9\u30C8\u30A2\u30EB\u30D0\u30E0 \u72AC\u591C\u53C9 \u97F3\
+          \u697D\u64B0\u96C6-\u6620\u753B\u7BC7- (\u7CBE\u9009\u539F\u58F0\u5E26 \u72AC\
+          \u591C\u53C9 \u97F3\u4E50\u96C6-\u7535\u5F71\u7BC7-)"
+        album_id: qqalbum_002sXaPA48YqGS
+        artist: "\u548C\u7530\u85AB (\u308F\u3060\u304B\u304A\u308B)"
+        artist_id: qqartist_002jWeWR3qL52H
+        id: qqtrack_000BH3xa3Wvqad
+        img_url: https://y.gtimg.cn/music/photo_new/T002R300x300M000002sXaPA48YqGS.jpg
+        source: qq
+        source_url: https://y.qq.com/#type=song&mid=000BH3xa3Wvqad&tpl=yqq_song_detail
+        title: "\u6642\u4EE3\u3092\u8D8A\u3048\u308B\u60F3\u3044 (\u7A7F\u8D8A\u65F6\u7A7A\
+          \u7684\u601D\u5FF5) (Piano Concerto~Bonus Track )"
+      - album: "\u96E8\u4E4B\u7FFC"
+        album_id: qqalbum_004NtgkJ4Ib16e
+        artist: Candy_Wind
+        artist_id: qqartist_002UDFIw0eXUKm
+        id: qqtrack_001yw1DW1phfeh
+        img_url: https://y.gtimg.cn/music/photo_new/T002R300x300M000004NtgkJ4Ib16e.jpg
+        source: qq
+        source_url: https://y.qq.com/#type=song&mid=001yw1DW1phfeh&tpl=yqq_song_detail
+        title: "\u9752\u7A7A"
+      - album: Piano Moods, Vol. 1
+        album_id: qqalbum_00093HIU2inu5u
+        artist: Tim King
+        artist_id: qqartist_0014NCt83x5Xrn
+        id: qqtrack_002RwavD0sdnQU
+        img_url: https://y.gtimg.cn/music/photo_new/T002R300x300M00000093HIU2inu5u.jpg
+        source: qq
+        source_url: https://y.qq.com/#type=song&mid=002RwavD0sdnQU&tpl=yqq_song_detail
+        title: River Flows in You
+      - album: Rain After Summer
+        album_id: qqalbum_004WSaON0zj4cf
+        artist: "\u7FBD\u80BF"
+        artist_id: qqartist_000XrqLN1iNv0f
+        id: qqtrack_000xUxDY3YO9Si
+        img_url: https://y.gtimg.cn/music/photo_new/T002R300x300M000004WSaON0zj4cf.jpg
+        source: qq
+        source_url: https://y.qq.com/#type=song&mid=000xUxDY3YO9Si&tpl=yqq_song_detail
+        title: Rain After Summer
+      - album: My View
+        album_id: qqalbum_004cldCj1shnFZ
+        artist: "Valentin (\u30F4\u30A1\u30EC\u30F3\u30C6\u30A3\u30F3)"
+        artist_id: qqartist_000HV9mD3U8apY
+        id: qqtrack_001hdT872SO92E
+        img_url: https://y.gtimg.cn/music/photo_new/T002R300x300M000004cldCj1shnFZ.jpg
+        source: qq
+        source_url: https://y.qq.com/#type=song&mid=001hdT872SO92E&tpl=yqq_song_detail
+        title: A Little Story
+      - album: "\u6740\u610F\u6E10\u8D77"
+        album_id: qqalbum_00004Hl30ko0MS
+        artist: "\u67AB\u603B"
+        artist_id: qqartist_004alO2o2NnXYN
+        id: qqtrack_0025nYkW2RUeVS
+        img_url: https://y.gtimg.cn/music/photo_new/T002R300x300M00000004Hl30ko0MS.jpg
+        source: qq
+        source_url: https://y.qq.com/#type=song&mid=0025nYkW2RUeVS&tpl=yqq_song_detail
+        title: "\u6240\u5FF5\u7686\u661F\u6CB3"
+      - album: "\u57CE\u5357\u82B1\u5DF2\u5F00"
+        album_id: qqalbum_001JyIeM0hK5lO
+        artist: "\u4E09\u4EA9\u5730"
+        artist_id: qqartist_000Z3blR18vfe0
+        id: qqtrack_0016hfoy28wyTn
+        img_url: https://y.gtimg.cn/music/photo_new/T002R300x300M000001JyIeM0hK5lO.jpg
+        source: qq
+        source_url: https://y.qq.com/#type=song&mid=0016hfoy28wyTn&tpl=yqq_song_detail
+        title: "\u57CE\u5357\u82B1\u5DF2\u5F00"
+      - album: "\u82B1\u821EI"
+        album_id: qqalbum_001mxzl74gKwYb
+        artist: "Pianomob\uFF08\u94A2\u7434\u66B4\u5F92\uFF09"
+        artist_id: qqartist_004f9MiD3kle8Y
+        id: qqtrack_001vWCZx0RZF5o
+        img_url: https://y.gtimg.cn/music/photo_new/T002R300x300M000001mxzl74gKwYb.jpg
+        source: qq
+        source_url: https://y.qq.com/#type=song&mid=001vWCZx0RZF5o&tpl=yqq_song_detail
+        title: "Flower Dance (\u94A2\u7434\u7248)"
+      - album: "3\u30E9\u30E0\u30B8 (3 Lambsey)"
+        album_id: qqalbum_0037Ak2V12ygLb
+        artist: "Lambsey (\u30E9\u30E0\u30B8)"
+        artist_id: qqartist_002mKsFq0j2uUf
+        id: qqtrack_001BaZ263wqkmP
+        img_url: https://y.gtimg.cn/music/photo_new/T002R300x300M0000037Ak2V12ygLb.jpg
+        source: qq
+        source_url: https://y.qq.com/#type=song&mid=001BaZ263wqkmP&tpl=yqq_song_detail
+        title: PLANET
+      - album: "\u6253\u4E0A\u82B1\u706B (\u521D\u56DE\u9650\u5B9A\u76E4)"
+        album_id: qqalbum_004HjUxU1o3HXf
+        artist: "DAOKO (\u30C0\u30F2\u30B3)"
+        artist_id: qqartist_001nmqIV2nx5Hu
+        id: qqtrack_001UiydT2NNPir
+        img_url: https://y.gtimg.cn/music/photo_new/T002R300x300M000004HjUxU1o3HXf.jpg
+        source: qq
+        source_url: https://y.qq.com/#type=song&mid=001UiydT2NNPir&tpl=yqq_song_detail
+        title: "\u6253\u4E0A\u82B1\u706B"
+        url: ''
+      - album: "\u76EE\u53CA\u7686\u662F\u4F60"
+        album_id: qqalbum_003dmKuv4689PG
+        artist: "\u5C0F\u84DD\u80CC\u5FC3"
+        artist_id: qqartist_000iW1zw4fSVdV
+        id: qqtrack_00126fAV2ZKaOd
+        img_url: https://y.gtimg.cn/music/photo_new/T002R300x300M000003dmKuv4689PG.jpg
+        source: qq
+        source_url: https://y.qq.com/#type=song&mid=00126fAV2ZKaOd&tpl=yqq_song_detail
+        title: "\u76EE\u53CA\u7686\u662F\u4F60"
+      - album: "\u5927\u9C7C\uFF08\u7EAF\u97F3\u4E50\uFF09"
+        album_id: qqalbum_002QD8jK1iiwVA
+        artist: May Pian
+        artist_id: qqartist_0043uSTc0oOyKj
+        id: qqtrack_0027I58m1njneF
+        img_url: https://y.gtimg.cn/music/photo_new/T002R300x300M000002QD8jK1iiwVA.jpg
+        source: qq
+        source_url: https://y.qq.com/#type=song&mid=0027I58m1njneF&tpl=yqq_song_detail
+        title: "\u9E1F\u4E4B\u8BD7 (Inst.)"
+        url: ''
+      - album: "PDD<\u6D2A\u8352\u4E4B\u529B>"
+        album_id: qqalbum_001BPYZW4UFBnh
+        artist: "\u9752\u7A1Am"
+        artist_id: qqartist_000bWW1K1erEba
+        id: qqtrack_0006hqBO3TjL1V
+        img_url: https://y.gtimg.cn/music/photo_new/T002R300x300M000001BPYZW4UFBnh.jpg
+        source: qq
+        source_url: https://y.qq.com/#type=song&mid=0006hqBO3TjL1V&tpl=yqq_song_detail
+        title: "PDD\u6D2A\u8352\u4E4B\u529B"
+      - album: "\u5B64\u57CE"
+        album_id: qqalbum_004A9M1H0sQZ6d
+        artist: "\u6D1B\u5148\u751F"
+        artist_id: qqartist_001cw0Sr12ZLc4
+        id: qqtrack_003knX2g0ME8kS
+        img_url: https://y.gtimg.cn/music/photo_new/T002R300x300M000004A9M1H0sQZ6d.jpg
+        source: qq
+        source_url: https://y.qq.com/#type=song&mid=003knX2g0ME8kS&tpl=yqq_song_detail
+        title: "\u5B64\u57CE"
+        url: ''
+      - album: Sunburst
+        album_id: qqalbum_000Ry6aJ0BrLMn
+        artist: Tobu
+        artist_id: qqartist_003l8tiY1To0yR
+        id: qqtrack_003PL8Kc3EksFh
+        img_url: https://y.gtimg.cn/music/photo_new/T002R300x300M000000Ry6aJ0BrLMn.jpg
+        source: qq
+        source_url: https://y.qq.com/#type=song&mid=003PL8Kc3EksFh&tpl=yqq_song_detail
+        title: Sunburst
+      - album: Late Night Melancholy
+        album_id: qqalbum_000M7W5S1G8nB8
+        artist: Rude Boy
+        artist_id: qqartist_004fLxdu05KeBq
+        id: qqtrack_003lflz30etBYc
+        img_url: https://y.gtimg.cn/music/photo_new/T002R300x300M000000M7W5S1G8nB8.jpg
+        source: qq
+        source_url: https://y.qq.com/#type=song&mid=003lflz30etBYc&tpl=yqq_song_detail
+        title: Late Night Melancholy
+      - album: Time Back
+        album_id: qqalbum_003GPUUL0fsips
+        artist: Bad Style
+        artist_id: qqartist_000gjRHr0rFYh0
+        id: qqtrack_004da6iM3cahhp
+        img_url: https://y.gtimg.cn/music/photo_new/T002R300x300M000003GPUUL0fsips.jpg
+        source: qq
+        source_url: https://y.qq.com/#type=song&mid=004da6iM3cahhp&tpl=yqq_song_detail
+        title: "Time Back (\u94A2\u7434\u7248)"
+      - album: Trip
+        album_id: qqalbum_003pugea1JhX3n
+        artist: Axero
+        artist_id: qqartist_004BEkqu2Oyx5R
+        id: qqtrack_003dok0o3kkDpn
+        img_url: https://y.gtimg.cn/music/photo_new/T002R300x300M000003pugea1JhX3n.jpg
+        source: qq
+        source_url: https://y.qq.com/#type=song&mid=003dok0o3kkDpn&tpl=yqq_song_detail
+        title: Trip (Original Mix)
+      - album: Sansa Lala
+        album_id: qqalbum_0002ehGT4IHfLI
+        artist: Kayaz
+        artist_id: qqartist_003swuVO2PA79S
+        id: qqtrack_000hytAN3vlqZu
+        img_url: https://y.gtimg.cn/music/photo_new/T002R300x300M0000002ehGT4IHfLI.jpg
+        source: qq
+        source_url: https://y.qq.com/#type=song&mid=000hytAN3vlqZu&tpl=yqq_song_detail
+        title: Sansa Lala (Inst.)
+      - album: After Hours
+        album_id: qqalbum_002BeHY10rM2by
+        artist: Timeflies
+        artist_id: qqartist_002pWJ0w1uzQMx
+        id: qqtrack_000yfYQI1e44IW
+        img_url: https://y.gtimg.cn/music/photo_new/T002R300x300M000002BeHY10rM2by.jpg
+        source: qq
+        source_url: https://y.qq.com/#type=song&mid=000yfYQI1e44IW&tpl=yqq_song_detail
+        title: Monsters
+        url: ''
+      - album: Unity
+        album_id: qqalbum_001JaAaM006YXT
+        artist: TheFatRat
+        artist_id: qqartist_0026mEMJ1LCsbT
+        id: qqtrack_0028g8kF15iSbz
+        img_url: https://y.gtimg.cn/music/photo_new/T002R300x300M000001JaAaM006YXT.jpg
+        source: qq
+        source_url: https://y.qq.com/#type=song&mid=0028g8kF15iSbz&tpl=yqq_song_detail
+        title: Unity
+        url: ''
+      - album: Horizon
+        album_id: qqalbum_001TQvmy3W0v3P
+        artist: Janji
+        artist_id: qqartist_0012PMlZ39pcW5
+        id: qqtrack_003g9zky0MXJC2
+        img_url: https://y.gtimg.cn/music/photo_new/T002R300x300M000001TQvmy3W0v3P.jpg
+        source: qq
+        source_url: https://y.qq.com/#type=song&mid=003g9zky0MXJC2&tpl=yqq_song_detail
+        title: Horizon
+        url: ''
+      - album: Single Collection
+        album_id: qqalbum_003LPXtU2rfFlC
+        artist: a_hisa
+        artist_id: qqartist_002ZwrKF3IFGtg
+        id: qqtrack_0038rIwR4DRoOo
+        img_url: https://y.gtimg.cn/music/photo_new/T002R300x300M000003LPXtU2rfFlC.jpg
+        source: qq
+        source_url: https://y.qq.com/#type=song&mid=0038rIwR4DRoOo&tpl=yqq_song_detail
+        title: Town of Windmill
+        url: ''
+      - album: Asphyxia (Piano Ver.)
+        album_id: qqalbum_000Z0veS2tAj2J
+        artist: NSZX
+        artist_id: qqartist_001lI7do0IeM7j
+        id: qqtrack_004PqYw134wACe
+        img_url: https://y.gtimg.cn/music/photo_new/T002R300x300M000000Z0veS2tAj2J.jpg
+        source: qq
+        source_url: https://y.qq.com/#type=song&mid=004PqYw134wACe&tpl=yqq_song_detail
+        title: Asphyxia(PianoVer.)
+        url: ''
+      - album: Astronomia (Jiaye Bootleg)
+        album_id: qqalbum_001kO7qb1HhDTR
+        artist: Jiaye
+        artist_id: qqartist_00449s7x1I2SWA
+        id: qqtrack_003dLwiV0P5pAr
+        img_url: https://y.gtimg.cn/music/photo_new/T002R300x300M000001kO7qb1HhDTR.jpg
+        source: qq
+        source_url: https://y.qq.com/#type=song&mid=003dLwiV0P5pAr&tpl=yqq_song_detail
+        title: Astronomia (Jiaye Bootleg)
+      - album: "\u7E41\u661F\u4E07\u5343\u4E0D\u53CA\u4F60"
+        album_id: qqalbum_002EF06f3To41R
+        artist: "\u8005\u601D\u8303"
+        artist_id: qqartist_003o70rM4KzsZQ
+        id: qqtrack_003pDMRd0zs7rC
+        img_url: https://y.gtimg.cn/music/photo_new/T002R300x300M000002EF06f3To41R.jpg
+        source: qq
+        source_url: https://y.qq.com/#type=song&mid=003pDMRd0zs7rC&tpl=yqq_song_detail
+        title: "\u89E3\u5FE7\u66F2"
+      - album: Time
+        album_id: qqalbum_002CCMNS2poYyn
+        artist: JULY
+        artist_id: qqartist_003SOFte3j7O3Z
+        id: qqtrack_002w70Nx1uZuyO
+        img_url: https://y.gtimg.cn/music/photo_new/T002R300x300M000002CCMNS2poYyn.jpg
+        source: qq
+        source_url: https://y.qq.com/#type=song&mid=002w70Nx1uZuyO&tpl=yqq_song_detail
+        title: My Soul
+      - album: "Ng\u1EABu H\u1EE9ng"
+        album_id: qqalbum_003jHogI35nwWV
+        artist: MonBet
+        artist_id: qqartist_004SfcTo2wg8zt
+        id: qqtrack_00285F3E1KXPvM
+        img_url: https://y.gtimg.cn/music/photo_new/T002R300x300M000003jHogI35nwWV.jpg
+        source: qq
+        source_url: https://y.qq.com/#type=song&mid=00285F3E1KXPvM&tpl=yqq_song_detail
+        title: "Ng\u1EABu H\u1EE9ng (MonBet Remix)"
+      - album: Nevada
+        album_id: qqalbum_002fNaQT07R61K
+        artist: Vicetone
+        artist_id: qqartist_003AD17D4PYPFR
+        id: qqtrack_0003f0rs1QRK8w
+        img_url: https://y.gtimg.cn/music/photo_new/T002R300x300M000002fNaQT07R61K.jpg
+        source: qq
+        source_url: https://y.qq.com/#type=song&mid=0003f0rs1QRK8w&tpl=yqq_song_detail
+        title: Nevada
+      - album: "\u591C\u7684\u94A2\u7434\u66F2\u4E94"
+        album_id: qqalbum_000nrzmS4SUyvG
+        artist: Bacn
+        artist_id: qqartist_0003jEnT2GxGdO
+        id: qqtrack_000bkODd3Jylmj
+        img_url: https://y.gtimg.cn/music/photo_new/T002R300x300M000000nrzmS4SUyvG.jpg
+        source: qq
+        source_url: https://y.qq.com/#type=song&mid=000bkODd3Jylmj&tpl=yqq_song_detail
+        title: "\u77F3\u8FDB - \u591C\u7684\u94A2\u7434\u66F2\u4E94"
+      - album: Windy Hill
+        album_id: qqalbum_003DginG3bPjhc
+        artist: "\u7FBD\u80BF"
+        artist_id: qqartist_000XrqLN1iNv0f
+        id: qqtrack_0009DtA34CLrKk
+        img_url: https://y.gtimg.cn/music/photo_new/T002R300x300M000003DginG3bPjhc.jpg
+        source: qq
+        source_url: https://y.qq.com/#type=song&mid=0009DtA34CLrKk&tpl=yqq_song_detail
+        title: Windy Hill
+      - album: Fade
+        album_id: qqalbum_00472CVU4VP4I3
+        artist: Alan Walker
+        artist_id: qqartist_0020PeOh4ZaCw1
+        id: qqtrack_0015PB9N15aKo2
+        img_url: https://y.gtimg.cn/music/photo_new/T002R300x300M00000472CVU4VP4I3.jpg
+        source: qq
+        source_url: https://y.qq.com/#type=song&mid=0015PB9N15aKo2&tpl=yqq_song_detail
+        title: Fade
+      - album: "#Lov3 #Ng\u1EABu H\u1EE9ng"
+        album_id: qqalbum_002thD870Ln28F
+        artist: Hoaprox
+        artist_id: qqartist_004ByU6T3G51FH
+        id: qqtrack_000VDjLU4c9CKh
+        img_url: https://y.gtimg.cn/music/photo_new/T002R300x300M000002thD870Ln28F.jpg
+        source: qq
+        source_url: https://y.qq.com/#type=song&mid=000VDjLU4c9CKh&tpl=yqq_song_detail
+        title: "#Lov3 #Ng\u1EABu H\u1EE9ng"
+      - album: ''
+        album_id: qqalbum_
+        artist: Lindsey Stirling
+        artist_id: qqartist_001dmX1l2wJmrf
+        id: qqtrack_001KmFD04Sh3UZ
+        img_url: https://y.gtimg.cn/music/photo_new/T002R300x300M000.jpg
+        source: qq
+        source_url: https://y.qq.com/#type=song&mid=001KmFD04Sh3UZ&tpl=yqq_song_detail
+        title: Senbonzakura
+      - album: "Limitless\uFF08\u65E0\u9650\uFF09"
+        album_id: qqalbum_000ODU4b3jj6cv
+        artist: SeVen.13
+        artist_id: qqartist_003dESR30ILHU7
+        id: qqtrack_002liAge1MX1l5
+        img_url: https://y.gtimg.cn/music/photo_new/T002R300x300M000000ODU4b3jj6cv.jpg
+        source: qq
+        source_url: https://y.qq.com/#type=song&mid=002liAge1MX1l5&tpl=yqq_song_detail
+        title: "Limitless\uFF08\u65E0\u9650\uFF09"
+      - album: "\u6628\u665A\u53C8\u505A\u4E86\u4E00\u591C\u7684\u68A6"
+        album_id: qqalbum_004WQcRr39xA5L
+        artist: "\uC548\uD654\uD654"
+        artist_id: qqartist_0028tiI12c3Fh9
+        id: qqtrack_004KlOgV4QYTV6
+        img_url: https://y.gtimg.cn/music/photo_new/T002R300x300M000004WQcRr39xA5L.jpg
+        source: qq
+        source_url: https://y.qq.com/#type=song&mid=004KlOgV4QYTV6&tpl=yqq_song_detail
+        title: "\u591C.\u8424\u706B\u866B\u548C\u4F60"
+        url: ''
+      - album: ''
+        album_id: qqalbum_
+        artist: "Piano\u83B1\u7279"
+        artist_id: qqartist_004SIee64YnQpP
+        id: qqtrack_003BC6kY2vpTgB
+        img_url: https://y.gtimg.cn/music/photo_new/T002R300x300M000.jpg
+        source: qq
+        source_url: https://y.qq.com/#type=song&mid=003BC6kY2vpTgB&tpl=yqq_song_detail
+        title: "\u52A0\u52D2\u6BD4\u6D77\u76D7"
+      - album: "\u60E0\u5A01\u8BD5\u97F3\u5929\u789F\u2164"
+        album_id: qqalbum_0016jcmD2FJaAR
+        artist: "\u8F9B\u8F9B\u7EB3\u63D0\u901A\u4FD7\u7BA1\u5F26\u4E50\u56E2"
+        artist_id: qqartist_003J7TMu3i7rf1
+        id: qqtrack_002EQDDK47LqcX
+        img_url: https://y.gtimg.cn/music/photo_new/T002R300x300M0000016jcmD2FJaAR.jpg
+        source: qq
+        source_url: https://y.qq.com/#type=song&mid=002EQDDK47LqcX&tpl=yqq_song_detail
+        title: "\u4E07\u5B9D\u8DEF\u8FDB\u884C\u66F2"
+      - album: Endless Daydream
+        album_id: qqalbum_001HLexc0bKxqA
+        artist: Shirfine
+        artist_id: qqartist_0032yzkw3vmmnm
+        id: qqtrack_000nBvXv2WNqGG
+        img_url: https://y.gtimg.cn/music/photo_new/T002R300x300M000001HLexc0bKxqA.jpg
+        source: qq
+        source_url: https://y.qq.com/#type=song&mid=000nBvXv2WNqGG&tpl=yqq_song_detail
+        title: Illusionary Daytime
+      - album: "\u91D1\u8033\u6735.\u53D1\u70E7\u6C11\u4E50"
+        album_id: qqalbum_003Dcjrv28A7S5
+        artist: "\u7EAF\u97F3\u4E50"
+        artist_id: qqartist_0049g5XN3DYLV9
+        id: qqtrack_0040VW0p1zIr8p
+        img_url: https://y.gtimg.cn/music/photo_new/T002R300x300M000003Dcjrv28A7S5.jpg
+        source: qq
+        source_url: https://y.qq.com/#type=song&mid=0040VW0p1zIr8p&tpl=yqq_song_detail
+        title: "\u9AD8\u5C71\u6D41\u6C34 (\u53E4\u7B5D)"
+        url: ''
+      - album: Battlecry
+        album_id: qqalbum_002hKKCC1LSc8y
+        artist: Two Steps From Hell
+        artist_id: qqartist_002Vj8o12l10eK
+        id: qqtrack_001xfrlS0fYS3z
+        img_url: https://y.gtimg.cn/music/photo_new/T002R300x300M000002hKKCC1LSc8y.jpg
+        source: qq
+        source_url: https://y.qq.com/#type=song&mid=001xfrlS0fYS3z&tpl=yqq_song_detail
+        title: Victory
+      - album: Paris
+        album_id: qqalbum_004eZzSZ4J1NyH
+        artist: Else
+        artist_id: qqartist_002npq6O1oW7rs
+        id: qqtrack_002AyRZ52FwRbJ
+        img_url: https://y.gtimg.cn/music/photo_new/T002R300x300M000004eZzSZ4J1NyH.jpg
+        source: qq
+        source_url: https://y.qq.com/#type=song&mid=002AyRZ52FwRbJ&tpl=yqq_song_detail
+        title: Paris
+      - album: ''
+        album_id: qqalbum_
+        artist: "\u7EAF\u97F3\u4E50"
+        artist_id: qqartist_0049g5XN3DYLV9
+        id: qqtrack_001VC7oQ32veDr
+        img_url: https://y.gtimg.cn/music/photo_new/T002R300x300M000.jpg
+        source: qq
+        source_url: https://y.qq.com/#type=song&mid=001VC7oQ32veDr&tpl=yqq_song_detail
+        title: "Shape of You (\u4F60\u7684\u8EAB\u59FF) (\u53E4\u7B5D\u7535\u97F3\u7248\
+          )"
+      - album: "\u7EAF\u97F3\u4E50\u4E32\u70E7DJ"
+        album_id: qqalbum_002oqa3r2FavUs
+        artist: "\u827E\u65AF"
+        artist_id: qqartist_003oiy241JM6lu
+        id: qqtrack_000SPN7t0vDU47
+        img_url: https://y.gtimg.cn/music/photo_new/T002R300x300M000002oqa3r2FavUs.jpg
+        source: qq
+        source_url: https://y.qq.com/#type=song&mid=000SPN7t0vDU47&tpl=yqq_song_detail
+        title: "autumn\u6296\u97F3\u7248"
+      - album: "\u6E29\u67D4\u4FBF\u662F\u7231"
+        album_id: qqalbum_004PUENj0Mx3hm
+        artist: "\u5C0F\u5148\u751F\u3001"
+        artist_id: qqartist_002CzGat2Xb49A
+        id: qqtrack_00187pUY1o5g61
+        img_url: https://y.gtimg.cn/music/photo_new/T002R300x300M000004PUENj0Mx3hm.jpg
+        source: qq
+        source_url: https://y.qq.com/#type=song&mid=00187pUY1o5g61&tpl=yqq_song_detail
+        title: Letter
+      - album: Canon in D Major
+        album_id: qqalbum_000tDyhy1DJfNx
+        artist: dylanf
+        artist_id: qqartist_003Cd2bv0Kjydf
+        id: qqtrack_000d0MYy3zPyKN
+        img_url: https://y.gtimg.cn/music/photo_new/T002R300x300M000000tDyhy1DJfNx.jpg
+        source: qq
+        source_url: https://y.qq.com/#type=song&mid=000d0MYy3zPyKN&tpl=yqq_song_detail
+        title: Canon in D Major
+      - album: The Golden Piano
+        album_id: qqalbum_002DOCBo3sFTDI
+        artist: K.Williams
+        artist_id: qqartist_004fzH2q08aQ7A
+        id: qqtrack_001h5eNo0o6o8S
+        img_url: https://y.gtimg.cn/music/photo_new/T002R300x300M000002DOCBo3sFTDI.jpg
+        source: qq
+        source_url: https://y.qq.com/#type=song&mid=001h5eNo0o6o8S&tpl=yqq_song_detail
+        title: "\u83CA\u6B21\u90CE\u7684\u590F\u5929"
+      - album: "\u71D5\u65E0\u6B47"
+        album_id: qqalbum_0000PlWG1tS3LL
+        artist: "\u4E03\u53D4\uFF08\u53F6\u6CFD\u6D69\uFF09"
+        artist_id: qqartist_004gGNH91beMrM
+        id: qqtrack_003qYzO34BNVmt
+        img_url: https://y.gtimg.cn/music/photo_new/T002R300x300M0000000PlWG1tS3LL.jpg
+        source: qq
+        source_url: https://y.qq.com/#type=song&mid=003qYzO34BNVmt&tpl=yqq_song_detail
+        title: "\u71D5\u65E0\u6B47"
+      - album: "\u5929\u7A7A\u4E4B\u57CE\uFF08\u7ECF\u5178\u94A2\u7434\u7248\uFF09"
+        album_id: qqalbum_002iBtTt3QEbx7
+        artist: dylanf
+        artist_id: qqartist_003Cd2bv0Kjydf
+        id: qqtrack_003VcqlQ2tBXqy
+        img_url: https://y.gtimg.cn/music/photo_new/T002R300x300M000002iBtTt3QEbx7.jpg
+        source: qq
+        source_url: https://y.qq.com/#type=song&mid=003VcqlQ2tBXqy&tpl=yqq_song_detail
+        title: "\u5929\u7A7A\u4E4B\u57CE (\u7ECF\u5178\u94A2\u7434\u7248)"
+      - album: "\u53BB\u5E74\u590F\u5929"
+        album_id: qqalbum_003eyd0o3lYmxM
+        artist: "\u738B\u5927\u6BDB"
+        artist_id: qqartist_00382QGR3zef9S
+        id: qqtrack_004XePmv4CsaEq
+        img_url: https://y.gtimg.cn/music/photo_new/T002R300x300M000003eyd0o3lYmxM.jpg
+        source: qq
+        source_url: https://y.qq.com/#type=song&mid=004XePmv4CsaEq&tpl=yqq_song_detail
+        title: "\u53BB\u5E74\u590F\u5929"
+        url: ''
+      - album: Friendships (Lost My Love)
+        album_id: qqalbum_004Bmcc01lykBa
+        artist: Pascal Letoublon
+        artist_id: qqartist_002rHmF40m7Ocq
+        id: qqtrack_000MSkW21BH6V1
+        img_url: https://y.gtimg.cn/music/photo_new/T002R300x300M000004Bmcc01lykBa.jpg
+        source: qq
+        source_url: https://y.qq.com/#type=song&mid=000MSkW21BH6V1&tpl=yqq_song_detail
+        title: Friendships (Lost My Love)
+      - album: "\u70ED\u7231105\xB0C\u7684\u4F60"
+        album_id: qqalbum_000iNQFf0Q60q0
+        artist: "\u963F\u8086"
+        artist_id: qqartist_003VJ4nP0Q19xJ
+        id: qqtrack_002Q0Pgw09MNCg
+        img_url: https://y.gtimg.cn/music/photo_new/T002R300x300M000000iNQFf0Q60q0.jpg
+        source: qq
+        source_url: https://y.qq.com/#type=song&mid=002Q0Pgw09MNCg&tpl=yqq_song_detail
+        title: "\u70ED\u7231105\xB0C\u7684\u4F60"
+      - album: "\u4F60\u7684\u773C\u775B\u50CF\u661F\u661F"
+        album_id: qqalbum_002LB6Bs4GKdVr
+        artist: "\u90ED\u6B63\u6B63"
+        artist_id: qqartist_003ZowuT3V6LU0
+        id: qqtrack_00116Toa1NbN1B
+        img_url: https://y.gtimg.cn/music/photo_new/T002R300x300M000002LB6Bs4GKdVr.jpg
+        source: qq
+        source_url: https://y.qq.com/#type=song&mid=00116Toa1NbN1B&tpl=yqq_song_detail
+        title: "\u4F60\u7684\u773C\u775B\u50CF\u661F\u661F"
+        url: ''
+      - album: "\u597D\u4E45\u4E0D\u89C1"
+        album_id: qqalbum_001ZRLii2nNg0Q
+        artist: "\u9646\u653F\u5EF7Lil Jet"
+        artist_id: qqartist_002wZNSL3YoGSC
+        id: qqtrack_0049Prtq3FCOsv
+        img_url: https://y.gtimg.cn/music/photo_new/T002R300x300M000001ZRLii2nNg0Q.jpg
+        source: qq
+        source_url: https://y.qq.com/#type=song&mid=0049Prtq3FCOsv&tpl=yqq_song_detail
+        title: "\u597D\u4E45\u4E0D\u89C1"
+      - album: "\u9A81"
+        album_id: qqalbum_004WUi1t0Ry5OD
+        artist: "\u4E95\u80E7"
+        artist_id: qqartist_00055w5N02mbEc
+        id: qqtrack_000zqcIw34Wv2H
+        img_url: https://y.gtimg.cn/music/photo_new/T002R300x300M000004WUi1t0Ry5OD.jpg
+        source: qq
+        source_url: https://y.qq.com/#type=song&mid=000zqcIw34Wv2H&tpl=yqq_song_detail
+        title: "\u9A81"
+      - album: "\u534A\u751F\u96EA"
+        album_id: qqalbum_003Idz5n3qz6PV
+        artist: "\u4E03\u53D4\uFF08\u53F6\u6CFD\u6D69\uFF09"
+        artist_id: qqartist_004gGNH91beMrM
+        id: qqtrack_0006wgUu1hHP0N
+        img_url: https://y.gtimg.cn/music/photo_new/T002R300x300M000003Idz5n3qz6PV.jpg
+        source: qq
+        source_url: https://y.qq.com/#type=song&mid=0006wgUu1hHP0N&tpl=yqq_song_detail
+        title: "\u534A\u751F\u96EA"
+      - album: Escape
+        album_id: qqalbum_000Xkryn0vUqzL
+        artist: Capo Productions
+        artist_id: qqartist_002iUG5m0Vdgap
+        id: qqtrack_001vH4Gg4H6c0P
+        img_url: https://y.gtimg.cn/music/photo_new/T002R300x300M000000Xkryn0vUqzL.jpg
+        source: qq
+        source_url: https://y.qq.com/#type=song&mid=001vH4Gg4H6c0P&tpl=yqq_song_detail
+        title: Journey
+      - album: Pianoboy
+        album_id: qqalbum_001tlCqV0UVXXA
+        artist: "Pianoboy\u9AD8\u81F3\u8C6A"
+        artist_id: qqartist_0034R9hT1SklZU
+        id: qqtrack_003nAZrO2vxO6p
+        img_url: https://y.gtimg.cn/music/photo_new/T002R300x300M000001tlCqV0UVXXA.jpg
+        source: qq
+        source_url: https://y.qq.com/#type=song&mid=003nAZrO2vxO6p&tpl=yqq_song_detail
+        title: The Truth That You Leave
+      - album: Concerto Je T''Aime
+        album_id: qqalbum_002c1YFk4X7q3l
+        artist: Richard Clayderman
+        artist_id: qqartist_0038poo73TW3Pa
+        id: qqtrack_002pQezU4Q6wT6
+        img_url: https://y.gtimg.cn/music/photo_new/T002R300x300M000002c1YFk4X7q3l.jpg
+        source: qq
+        source_url: https://y.qq.com/#type=song&mid=002pQezU4Q6wT6&tpl=yqq_song_detail
+        title: Les premiers sourires de Vanessa (Paul de Senneville / Olivier Toussaint)
+      - album: "\u5E8A\u5934\u6292\u60C5\u8F7B\u97F3\u4E50"
+        album_id: qqalbum_003INjZQ3e3MQM
+        artist: Bandari
+        artist_id: qqartist_000Tnqu44J2Ndk
+        id: qqtrack_003fHgYs04U58y
+        img_url: https://y.gtimg.cn/music/photo_new/T002R300x300M000003INjZQ3e3MQM.jpg
+        source: qq
+        source_url: https://y.qq.com/#type=song&mid=003fHgYs04U58y&tpl=yqq_song_detail
+        title: BEYOND THE INVISIBLE
+        url: ''
+qqartist_0048u7RY2K66ZC:
+  info:
+    cover_img_url: https://y.gtimg.cn/music/photo_new/T001R300x300M0000048u7RY2K66ZC.jpg
+    id: qqartist_0048u7RY2K66ZC
+    source_url: https://y.qq.com/#type=singer&mid=0048u7RY2K66ZC
+    title: "\u5DEB\u7F57\xB7\u6D77Wulohai"
+  is_fav: 1
+theme: black2

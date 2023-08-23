@@ -1,0 +1,124 @@
+errorCode: 0
+errorInfo: "\u64CD\u4F5C\u6210\u529F"
+result:
+  examTypeCode: midtermExam
+  paperList:
+    - beSubSubject: false
+      beVipExp: false
+      isSinglePublish: true
+      paperId: e4e5f900-6e9e-4851-8689-05de4fc56483
+      paperName: "\u516B\u5E74\u7EA7\u4E2D\u6BB5\u8003\u8BD5(\u8BED\u6587)"
+      scoringModel: 0
+      standardScore: 120.0
+      subjectCode: '01'
+      subjectName: "\u8BED\u6587"
+      tag:
+        code: '1'
+        name: "\u504F\u79D1"
+      title: "\u8BED\u6587"
+      userScore: 84.0
+    - beSubSubject: false
+      beVipExp: true
+      isSinglePublish: true
+      paperId: a93ec760-30ca-454d-b4ba-9e492e006a6e
+      paperName: "\u516B\u5E74\u7EA7\u4E2D\u6BB5\u8003\u8BD5(\u6570\u5B66)"
+      scoringModel: 0
+      standardScore: 120.0
+      subjectCode: '02'
+      subjectName: "\u6570\u5B66"
+      title: "\u6570\u5B66"
+      userScore: 116.0
+    - beSubSubject: false
+      beVipExp: false
+      isSinglePublish: true
+      paperId: cf41593c-a20b-4307-8bcd-d948f6f1c192
+      paperName: "\u516B\u5E74\u7EA7\u4E2D\u6BB5\u8003\u8BD5(\u82F1\u8BED)"
+      scoringModel: 0
+      standardScore: 90.0
+      subjectCode: '03'
+      subjectName: "\u82F1\u8BED"
+      title: "\u82F1\u8BED"
+      userScore: 84.5
+    - beSubSubject: false
+      beVipExp: false
+      isSinglePublish: true
+      paperId: 2ae3bdb7-15ca-4eb4-b20d-7bfb230e85c0
+      paperName: "\u516B\u5E74\u7EA7\u4E2D\u6BB5\u8003\u8BD5(\u7269\u7406)"
+      scoringModel: 0
+      standardScore: 100.0
+      subjectCode: '05'
+      subjectName: "\u7269\u7406"
+      tag:
+        code: '3'
+        name: "\u5F88\u8D5E"
+      title: "\u7269\u7406"
+      userScore: 96.0
+    - beSubSubject: false
+      beVipExp: false
+      isSinglePublish: true
+      paperId: 65d4cac5-cf81-4c72-922c-a3bc1dcf40a1
+      paperName: "\u516B\u5E74\u7EA7\u4E2D\u6BB5\u8003\u8BD5(\u751F\u7269)"
+      scoringModel: 0
+      standardScore: 100.0
+      subjectCode: '13'
+      subjectName: "\u751F\u7269"
+      title: "\u751F\u7269"
+      userScore: 88.0
+    - beSubSubject: false
+      beVipExp: false
+      isSinglePublish: true
+      paperId: 0273afb3-fabf-4c92-9332-e591cb2fe782
+      paperName: "\u516B\u5E74\u7EA7\u4E2D\u6BB5\u8003\u8BD5(\u653F\u6CBB)"
+      scoringModel: 0
+      standardScore: 100.0
+      subjectCode: '27'
+      subjectName: "\u653F\u6CBB"
+      title: "\u653F\u6CBB"
+      userScore: 80.0
+    - beSubSubject: false
+      beVipExp: false
+      isSinglePublish: true
+      paperId: 52a215c5-6503-44bf-ae18-1b37fb7573b6
+      paperName: "\u516B\u5E74\u7EA7\u4E2D\u6BB5\u8003\u8BD5(\u5386\u53F2)"
+      scoringModel: 0
+      standardScore: 100.0
+      subjectCode: '12'
+      subjectName: "\u5386\u53F2"
+      title: "\u5386\u53F2"
+      userScore: 82.0
+    - beSubSubject: false
+      beVipExp: false
+      isSinglePublish: true
+      paperId: fc9ca627-952a-45cd-83bf-2f376be61053
+      paperName: "\u516B\u5E74\u7EA7\u4E2D\u6BB5\u8003\u8BD5(\u5730\u7406)"
+      scoringModel: 0
+      standardScore: 100.0
+      subjectCode: '14'
+      subjectName: "\u5730\u7406"
+      title: "\u5730\u7406"
+      userScore: 82.0
+    - beSubSubject: false
+      beVipExp: false
+      isSinglePublish: true
+      paperId: 84dfd5c6-f8aa-4c2d-85f1-435d9f69a2c5
+      paperName: "\u516B\u5E74\u7EA7\u4E2D\u6BB5\u8003\u8BD5(\u82F1\u8BED\u542C\u529B\
+        )"
+      scoringModel: 0
+      standardScore: 30.0
+      subjectCode: 03B
+      subjectName: "\u82F1\u8BED\u542C\u529B"
+      title: "\u82F1\u8BED\u542C\u529B"
+      userScore: 25.0
+  showAnalysis: true
+  showDownload: false
+  showScoreLv: false
+  title: "\u5B66\u60C5\u62A5\u544A"
+  totalScore:
+    examId: 051ca0bd-2c92-4d27-bc12-5366cdeaefb2
+    examName: "\u516B\u5E74\u7EA7\u4E2D\u6BB5\u8003\u8BD5"
+    examinationType: 1
+    isSinglePublish: true
+    standardScore: 860.0
+    subjectName: "\u603B\u5206"
+    title: "\u5168\u79D1"
+    userScore: 737.5

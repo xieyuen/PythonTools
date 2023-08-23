@@ -1,0 +1,10 @@
+[MCDR] [2023-07-23 13:57:17] [MainThread/INFO]: MCDReforged is running on Python 3.11.1 environment
+[MCDR] [2023-07-23 13:57:17] [TaskExecutor/INFO]: Refreshing all plugins
+[MCDR] [2023-07-23 13:57:17] [TaskExecutor/INFO]: No plugin has changed; Active plugin amount: §72§r
+[MCDR] [2023-07-23 13:57:17] [MainThread/INFO]: Starting the server with command "java -Xms1G -Xmx2G -Dfile.encoding=UTF-8 -jar minecraft_server.jar nogui"
+[MCDR] [2023-07-23 13:57:17] [MainThread/INFO]: Server is running at PID 19124
+[MCDR] [2023-07-23 13:57:18] [MainThread/INFO]: Server process stopped with code 1
+[MCDR] [2023-07-23 13:57:18] [MainThread/INFO]: Server stopped
+[MCDR] [2023-07-23 13:57:18] [MainThread/INFO]: Stopping MCDR
+[MCDR] [2023-07-23 13:57:18] [MainThread/INFO]: Stopping advanced console
+[MCDR] [2023-07-23 13:57:18] [MainThread/INFO]: bye

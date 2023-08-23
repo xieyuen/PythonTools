@@ -1,0 +1,19 @@
+commands:
+  enable:
+    all: true
+    server:
+      all: true
+      exit: true
+      kill: true
+      restart: true
+      start: true
+      stop: true
+  permissions:
+    server:
+      exit: 4
+      kill: 4
+      restart: 3
+      start: 4
+      stop: 3
+test: true
+wait_for_server: 20

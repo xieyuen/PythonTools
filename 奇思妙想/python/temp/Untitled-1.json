@@ -1,0 +1,148 @@
+{
+    "errorCode": 0,
+    "errorInfo": "操作成功",
+    "result": {
+        "showAnalysis": true,
+        "examTypeCode": "midtermExam",
+        "showDownload": false,
+        "paperList": [
+            {
+                "beSubSubject": false,
+                "beVipExp": false,
+                "isSinglePublish": true,
+                "paperId": "e4e5f900-6e9e-4851-8689-05de4fc56483",
+                "paperName": "八年级中段考试(语文)",
+                "scoringModel": 0,
+                "standardScore": 120.0,
+                "subjectCode": "01",
+                "subjectName": "语文",
+                "tag": {
+                    "code": "1",
+                    "name": "偏科"
+                },
+                "title": "语文",
+                "userScore": 84.0
+            },
+            {
+                "beSubSubject": false,
+                "beVipExp": true,
+                "isSinglePublish": true,
+                "paperId": "a93ec760-30ca-454d-b4ba-9e492e006a6e",
+                "paperName": "八年级中段考试(数学)",
+                "scoringModel": 0,
+                "standardScore": 120.0,
+                "subjectCode": "02",
+                "subjectName": "数学",
+                "title": "数学",
+                "userScore": 116.0
+            },
+            {
+                "beSubSubject": false,
+                "beVipExp": false,
+                "isSinglePublish": true,
+                "paperId": "cf41593c-a20b-4307-8bcd-d948f6f1c192",
+                "paperName": "八年级中段考试(英语)",
+                "scoringModel": 0,
+                "standardScore": 90.0,
+                "subjectCode": "03",
+                "subjectName": "英语",
+                "title": "英语",
+                "userScore": 84.5
+            },
+            {
+                "beSubSubject": false,
+                "beVipExp": false,
+                "isSinglePublish": true,
+                "paperId": "2ae3bdb7-15ca-4eb4-b20d-7bfb230e85c0",
+                "paperName": "八年级中段考试(物理)",
+                "scoringModel": 0,
+                "standardScore": 100.0,
+                "subjectCode": "05",
+                "subjectName": "物理",
+                "tag": {
+                    "code": "3",
+                    "name": "很赞"
+                },
+                "title": "物理",
+                "userScore": 96.0
+            },
+            {
+                "beSubSubject": false,
+                "beVipExp": false,
+                "isSinglePublish": true,
+                "paperId": "65d4cac5-cf81-4c72-922c-a3bc1dcf40a1",
+                "paperName": "八年级中段考试(生物)",
+                "scoringModel": 0,
+                "standardScore": 100.0,
+                "subjectCode": "13",
+                "subjectName": "生物",
+                "title": "生物",
+                "userScore": 88.0
+            },
+            {
+                "beSubSubject": false,
+                "beVipExp": false,
+                "isSinglePublish": true,
+                "paperId": "0273afb3-fabf-4c92-9332-e591cb2fe782",
+                "paperName": "八年级中段考试(政治)",
+                "scoringModel": 0,
+                "standardScore": 100.0,
+                "subjectCode": "27",
+                "subjectName": "政治",
+                "title": "政治",
+                "userScore": 80.0
+            },
+            {
+                "beSubSubject": false,
+                "beVipExp": false,
+                "isSinglePublish": true,
+                "paperId": "52a215c5-6503-44bf-ae18-1b37fb7573b6",
+                "paperName": "八年级中段考试(历史)",
+                "scoringModel": 0,
+                "standardScore": 100.0,
+                "subjectCode": "12",
+                "subjectName": "历史",
+                "title": "历史",
+                "userScore": 82.0
+            },
+            {
+                "beSubSubject": false,
+                "beVipExp": false,
+                "isSinglePublish": true,
+                "paperId": "fc9ca627-952a-45cd-83bf-2f376be61053",
+                "paperName": "八年级中段考试(地理)",
+                "scoringModel": 0,
+                "standardScore": 100.0,
+                "subjectCode": "14",
+                "subjectName": "地理",
+                "title": "地理",
+                "userScore": 82.0
+            },
+            {
+                "beSubSubject": false,
+                "beVipExp": false,
+                "isSinglePublish": true,
+                "paperId": "84dfd5c6-f8aa-4c2d-85f1-435d9f69a2c5",
+                "paperName": "八年级中段考试(英语听力)",
+                "scoringModel": 0,
+                "standardScore": 30.0,
+                "subjectCode": "03B",
+                "subjectName": "英语听力",
+                "title": "英语听力",
+                "userScore": 25.0
+            }
+        ],
+        "title": "学情报告",
+        "totalScore": {
+            "examId": "051ca0bd-2c92-4d27-bc12-5366cdeaefb2",
+            "examName": "八年级中段考试",
+            "examinationType": 1,
+            "isSinglePublish": true,
+            "standardScore": 860.0,
+            "subjectName": "总分",
+            "title": "全科",
+            "userScore": 737.5
+        },
+        "showScoreLv": false
+    }
+}

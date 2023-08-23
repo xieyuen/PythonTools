@@ -1,0 +1,41 @@
+default: &default_map
+  !!str ‘: !!str ''''
+  !!str ’: !!str ''''
+  !!str “: !!str '"'
+  !!str ”: !!str '"'
+  !!str 【: !!str '['
+  !!str 】: !!str ']'
+  !!str 不等于: !!str '!='
+  !!str 乘: !!str '*'
+  !!str 从: !!str from
+  !!str 减: !!str '-'
+  !!str 加: !!str +
+  !!str 在: !!str in
+  !!str 大于: !!str '>'
+  !!str 小于等于: !!str <=
+  !!str 定义函数: !!str def
+  !!str 定义类: !!str class
+  !!str 导入: !!str import
+  !!str 小于: !!str <
+  !!str 大于等于: !!str '>='
+  !!str 循环: !!str while
+  !!str 整除: !!str //
+  !!str 是: !!str is
+  !!str 模: !!str '%'
+  !!str 的: !!str '**'
+  !!str 等于: !!str ==
+  !!str 获取输入: !!str input
+  !!str 赋值为: !!str '='
+  !!str 遍历: !!str for
+  !!str 除以: !!str /
+  !!str 若: !!str if
+  !!str 返回: !!str return
+  !!str （: !!str (
+  !!str ）: !!str )
+
+# 请不要动 default!
+# 要添加什么请在 map 上加
+
+map:
+  <<: *default_map
+  

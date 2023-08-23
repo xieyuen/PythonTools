@@ -1,6 +1,7 @@
 # Git ignore File
 .idea
 */__pycache__
+*.cpython
 */music
 *.jar
 */img
@@ -8,4 +9,5 @@
 */# *
 *.zip
 BetterPrint.py
-奇思妙想/*
+奇思妙想/ab=a-b.py
+奇思妙想/tool.py
