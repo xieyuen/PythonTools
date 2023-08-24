@@ -1,5 +1,4 @@
-import data
-import login
+from console import data, login
 
 config: dict = {}
 
