@@ -6,6 +6,29 @@ import shutil
 from mymodule import logger
 
 
+class Variables:
+    path = os.getcwd()
+    class Console:
+        echo = 'on'
+        version = '0.0.1'
+        license = 'MIT License'
+    class Help:
+        class Console:
+            logger = {
+                'debug':    '\033[34m', # 蓝色
+                'info':     '\033[92m', # 绿色
+                'warning':  '\033[93m', # 橙色
+                'error':    '\033[91m', # 红色
+                'critical': '\033[31;1m' # 红色加粗
+            }
+        plugin: dict
+    class Temp:
+        class Command:
+            class Space:
+                count = 0
+                index = 0
+
+
 # 全局变量
 global_vars = {
     'path': os.getcwd(),

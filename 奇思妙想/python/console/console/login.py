@@ -1,4 +1,4 @@
-from mymodule import logger
+from loguru import logger
 
 import data
 from utils import sha256

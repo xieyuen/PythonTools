@@ -1,34 +1,27 @@
-from hashlib import sha256 as _sha256, md5 as _md5
+from hashlib import sha256 as __sha256, md5 as __md5
 
 
-def md5(data: str | bytes) -> str:
+def md5(data: str | bytes, *, encode='utf-8') -> str:
     """
     md5 hash
     :param data:
+    :param encode: str.encode(encode)
     :return: hashlib.md5(data.encode('utf-8')).hexdigest()
     """
     if isinstance(data, bytes):
-        return _md5(data).hexdigest()
+        return __md5(data).hexdigest()
     if isinstance(data, str):
-        return _md5(data.encode('utf-8')).hexdigest()
+        return __md5(data.encode(encode)).hexdigest()
 
 
-def sha256(data: str | bytes) -> str:
+def sha256(data: str | bytes, *, encode='utf-8') -> str:
     """
     sha256 hash
     :param data:
+    :param encode: str.encode(encode)
     :return: hashlib.sha256(data.encode('utf-8')).hexdigest()
     """
     if isinstance(data, bytes):
-        return _sha256(data).hexdigest()
+        return __sha256(data).hexdigest()
     if isinstance(data, str):
-        return _sha256(data.encode('utf-8')).hexdigest()
-
-
-def account2dict(data: list) -> dict:
-    """
-    list[Account] to dict
-    :param data:
-    :return:
-    """
-    pass
+        return __sha256(data.encode(encode)).hexdigest()

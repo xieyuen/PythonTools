@@ -273,9 +273,9 @@ class Crawler:
             if name == None:
                 name = input("请输入歌曲名称:")
             if platfrom == None:
-                platfrom = self.get_music_platfrom() # 获取搜索的平台
+                platfrom = self.get_music_platform() # 获取搜索的平台
             else:
-                platfrom = self.invert_platfrom(platfrom)
+                platfrom = self.invert_platform(platfrom)
 
             print("-------------------------------------------------------")
 
@@ -573,10 +573,10 @@ class Tools:
                 2.9289682539682538
 
                 2)
-                >>> def f(x):
-                ...     y = 1 / x
-                ...     return y
-                ... sum(f, 1, 10)
+                >>> sum(
+                ...     lambda x: 1 / x,
+                ...     1, 10
+                ... )
                 2.9289682539682538
             '''
 
@@ -585,7 +585,7 @@ class Tools:
             match _start:
 
                 case '-infty'|'- infty'|'-\infty'|'-\\infty'|'- \infty'|'- \\infty':
-                    print('暂时不支持从负无穷开始求和')
+                    print('不支持从负无穷开始求和')
                     return None
 
             x = _start

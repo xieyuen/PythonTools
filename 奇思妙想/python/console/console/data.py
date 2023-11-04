@@ -2,7 +2,7 @@ import os
 import json
 import yaml
 
-from mymodule import logger
+from loguru import logger
 
 from utils import sha256
 
@@ -20,7 +20,7 @@ default_user_data: list[dict] = [
 
 
 def create_default_config():
-    with open('../config.yml', 'w', encoding='utf-8') as cfg_file:
+    with open('./config.yml', 'w', encoding='utf-8') as cfg_file:
         yaml.safe_dump(default_config, cfg_file, default_flow_style=False, allow_unicode=True)
 
 
@@ -33,8 +33,8 @@ def load_config() -> dict:
     while True:
         logger.info('Loading config file')
 
-        if os.path.exists('../config.yml'):
-            with open('../config.yml', 'r', encoding='utf-8') as cfg_file:
+        if os.path.exists('./config.yml'):
+            with open('./config.yml', 'r', encoding='utf-8') as cfg_file:
                 config = yaml.safe_load(cfg_file)
             break
 
@@ -43,7 +43,7 @@ def load_config() -> dict:
             with open('./config.json', 'r') as cfg_file:
                 config = json.load(cfg_file)
 
-            with open('../config.yml', 'w', encoding='utf-8') as cfg_file:
+            with open('./config.yml', 'w', encoding='utf-8') as cfg_file:
                 yaml.safe_dump(config, cfg_file, default_flow_style=False, allow_unicode=True)
             os.remove('./config.json')
             break
@@ -55,9 +55,9 @@ def load_config() -> dict:
 
 
 def create_default_user_data():
-    if not os.path.exists('../data/'):
-        os.mkdir('../data/')
-    with open("../data/user_data.json", "w", encoding='utf-8') as user_data_file:
+    if not os.path.exists('./data/'):
+        os.mkdir('./data/')
+    with open("./data/user_data.json", "w", encoding='utf-8') as user_data_file:
         json.dump(default_user_data, user_data_file, indent=4)
 
 
@@ -66,10 +66,10 @@ def load_user_data() -> list:
     Loads the user data file
     """
     global user_data
-    if not os.path.exists('../data/user_data.json'):
+    if not os.path.exists('./data/user_data.json'):
         logger.warning('User data file not found, creating new one')
         create_default_user_data()
-    with open("../data/user_data.json", "r", encoding='utf-8') as jsonfile:
+    with open("./data/user_data.json", "r", encoding='utf-8') as jsonfile:
         user_data = json.load(jsonfile)
     for acc in user_data:
         if not default_user_data[0].keys() == acc.keys():
@@ -81,5 +81,5 @@ def load_user_data() -> list:
 
 
 def save_user_data(new):
-    with open("../data/user_data.json", "w", encoding='utf-8') as user_data_file:
+    with open("./data/user_data.json", "w", encoding='utf-8') as user_data_file:
         json.dump(new, user_data_file, indent=4)

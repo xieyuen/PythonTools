@@ -1,4 +1,4 @@
-from mymodule import logger
+from loguru import logger
 
 from utils import sha256
 
@@ -13,6 +13,12 @@ class Account:
             self.password = sha256(password)
         else:
             self.password = password_sha256
+
+    def __eq__(self, other):
+        return self.username == other.username
+
+    def __repr__(self):
+        return f"Account(username='{self.username}', password='**********')"
 
     def dict(self) -> dict:
         return {
@@ -41,6 +47,7 @@ class Account:
         if self.authorized:
             self.username = new_username
             logger.info('改名成功')
+            self.authorized = False
 
     def change_password(self, new_password: str):
         logger.info('需要授权')
@@ -49,6 +56,7 @@ class Account:
         if self.authorized:
             self.username = new_password
             logger.info('密码已更改')
+            self.authorized = False
 
     @classmethod
     def load(cls, data: dict):
