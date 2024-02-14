@@ -21,8 +21,7 @@ def invert_platform(platform='n'):
     """
         检测并转换平台参数(大小写均可识别)
     """
-    if not isinstance(platform, str): platform = str(platform)
-    _platfrom = str.lower(platform)  # 将所有的大写字母转化为小写
+    _platfrom = str(platform).lower()  # 将所有的大写字母转化为小写
     match _platfrom:
         # 网易云 netease
         case '1' | 'n' | 'net' | 'wy' | 'wyy' | 'wangyi' | 'wangyiyun' | 'netease' | '网易' | '网易云' | '网易云音乐':

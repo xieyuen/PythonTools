@@ -1,93 +1,105 @@
-# 导入模块
-from tkinter import *
 import requests
-import jsonpath
-import os
-from urllib.request import urlretrieve
+from jsonpath import jsonpath
 
-# 2.功能实现
-"""
-    1.url
-    2.模拟浏览器请求
-    3.解析网页源代码
-    4.保存数据
-"""
-def song_download(url,title,author):
-    # 创建文件夹
-    os.makedirs("music",exist_ok=True)
-    path = 'music\{}.mp3'.format(title)
-    text.insert(END,'歌曲:{0}-{1},正在下载...'.format(title,author))
-    # 文本框滑动
-    text.see(END)
-    # 更新
-    text.update()
-    # 下载
-    urlretrieve(url,path)
-    text.insert(END,'下载完毕,{0}-{1},请试听'.format(title,author))
-    # 文本框滑动
-    text.see(END)
-    # 更新
-    text.update()
 
-def get_music_name():
-    """
-    搜索歌曲名称
-    :return:
-    """
-    name = entry.get()
-    platfrom = var.get()
-    # name = '白月光与朱砂痣'
-    url = 'https://music.liuzhijin.cn/'
+class Constants:
+    musicNotFoundMsg = "对不起，暂无搜索结果!"
+    searchURL = 'https://music.liuzhijin.cn/'
     headers = {
-        "user-agent":"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/87.0.4280.141 Safari/537.36",
+        "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/87.0.4280.141 Safari/537.36",
         # 判断请求是异步还是同步
-        "x-requested-with":"XMLHttpRequest",
+        "x-requested-with": "XMLHttpRequest",
     }
-    param = {
-        "input":name,
-        "filter":"name",
-        "type":platfrom,
-        "page": 1,
+    platformInfo = (
+        "脚本支持以下平台:\n"
+        "1.网易云:netease\n"
+        "2.QQ:qq\n"
+        "3.酷狗:kugou\n"
+        "4.酷我:kuwo\n"
+        "5.百度:baidu\n"
+        "6.喜马拉雅:ximalaya\n"
+        "请选择平台: "
+    )
+    platformMap = {
+        k: v for keys, v in
+        (
+            (
+                (
+                    '1', 'n', 'net', 'wy', 'wyy', 'wangyi', 'wangyiyun', 'netease', '网易', '网易云', '网易云音乐'
+                ), 'netease'
+            ), (
+                (
+                    '2', 'q', 'qq', 'qqmusic', 'qqyinyue', 'qq音乐', 'qq 音乐'
+                ), 'qq'
+            ), (
+                (
+                    '3', 'kg', 'ku', 'kou', 'gou', 'kugou', '酷狗'
+                ), 'kugou'
+            ), (
+                (
+                    '4', 'kw', 'ko', 'wo', 'kuwo', '酷我'
+                ), 'kuwo'
+            ), (
+                (
+                    '5', 'b', 'bd', 'bu', 'baidu', '百度'
+                ), 'baidu'
+            ), (
+                (
+                    '6', 'x', 'xi', 'xmly', 'xmla', 'ximalaya', '喜马拉雅'
+                ), 'xiamlaya'
+            ),
+        )
+        for k in keys
     }
-    res = requests.post(url=url,data=param,headers=headers)
-    json_text = res.json()
-
-    title = jsonpath.jsonpath(json_text,'$..title')
-    author = jsonpath.jsonpath(json_text,'$..author')
-    url = jsonpath.jsonpath(json_text, '$..url')
-    print(title,author,url)
-    song_download(url[0],title[0],author[0])
 
 
-# 1.用户界面
-# 创建画板
-root = Tk()
-# 设置窗口标题
-root.title('全网音乐下载器')
-# 设置窗口大小以及出现的位置
-root.geometry('560x450+400+200')
-# 标签组件
-label = Label(root,text="请输入下载的歌曲:",font=('楷体',20))
-# 定位与布局
-label.grid(row=0)
-# 输入框组件
-entry = Entry(root,font=('宋体',20))
-entry.grid(row=0,column=1)
-# 单选按钮
-var = StringVar()
-r1 = Radiobutton(root,text='网易云',variable=var,value='netease')
-r1.grid(row=1,column=0)
-r2 = Radiobutton(root,text='QQ',variable=var,value='qq')
-r2.grid(row=1,column=1)
-# 列表框
-text = Listbox(root,font=('楷体',16),width=50,height=15)
-text.grid(row=2,columnspan=2)
-# 下载按钮
-button1 = Button(root,text='开始下载',font=('楷体',15),command=get_music_name)
-button1.grid(row=3,column=0)
-button2 = Button(root,text='退出程序',font=('楷体',15),command=root.quit)
-button2.grid(row=3,column=1)
-# 显示界面
-root.mainloop()
+class Crawler:
+    @staticmethod
+    def getParam(name: str, platform: str) -> dict:
+        return {
+            "input": name,
+            "filter": "name",
+            "type": Constants.platformMap[platform],
+            "page": 1,
+        }
 
-# 如何将.py代码打包成.exe文件
+    @staticmethod
+    def getMusicContentData(url: str) -> bytes:
+        return requests.get(url).content
+
+    def download(self, url, author, title, path="./"):
+        print(f'{author}-{title} 正在下载...')
+        with open(f"{path}/{author}-{title}.mp3", mode='wb') as f:
+            f.write(self.getMusicContentData(url))
+
+    def main(self):
+        param = self.getParam(
+            name=input("请输入歌曲名:"),
+            platform=input(Constants.platformInfo)
+        )
+        json_text = requests.post(
+            url=Constants.searchURL,
+            data=param,
+            headers=Constants.headers,
+        ).json()
+
+        titles = jsonpath(json_text, '$..title')
+        authors = jsonpath(json_text, '$..author')
+        urls = jsonpath(json_text, '$..url')
+
+        if not titles:
+            raise ValueError(Constants.musicNotFoundMsg)
+
+        print("-------------------------------------------------------\n查找到以下歌曲:\n")
+        for index, (t, a) in enumerate(zip(titles, authors)):
+            print(f"{index + 1} | {t} - {a}")
+
+        indexes = input("请输入您想下载的歌曲版本(填序号,多个用英文逗号隔开):").split(',')
+        savePath = input("请输入保存路径(空则为脚本所在路径):")
+        for i in indexes:
+            i = int(i) - 1
+            self.download(urls[i], authors[i], titles[i], savePath)
+
+
+if __name__ == '__main__':
+    Crawler().main()

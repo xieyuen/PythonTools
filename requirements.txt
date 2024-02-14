@@ -1,0 +1,12 @@
+requests
+jsonpath
+pywin32
+PyYAML
+objprint
+loguru
+mcdreforged
+setuptools
+colorlog
+psutil
+parse
+colorama
