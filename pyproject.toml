@@ -5,3 +5,14 @@ description = "Add your description here"
 readme = "README.md"
 requires-python = ">=3.11"
 dependencies = []
+authors = [
+    { name = "xieyuen", email = "xieyuenol@outlook.com" }
+]
+license = { file = "LICENSE" }
+
+[tool.uv.pip]
+index-url = "https://mirrors.aliyun.com/pypi/simple/"
+
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
