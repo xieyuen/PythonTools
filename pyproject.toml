@@ -10,8 +10,9 @@ authors = [
 ]
 license = { file = "LICENSE" }
 
-[tool.uv.pip]
-index-url = "https://mirrors.aliyun.com/pypi/simple/"
+[[tool.uv.index]]
+url = "https://mirrors.aliyun.com/pypi/simple"
+default = true
 
 [build-system]
 requires = ["hatchling"]
