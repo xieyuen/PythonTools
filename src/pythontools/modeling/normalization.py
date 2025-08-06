@@ -1,5 +1,7 @@
 from abc import ABC, abstractmethod
+from typing import Self
 
+import numpy as np
 import pandas as pd
 
 
@@ -50,12 +52,13 @@ ZScoreScaler = StandardScaler = ZScoreNormalizer
 
 
 class MinMaxNormalizer(Normalizer):
-    def __init__(self, data: pd.DataFrame, target_range: tuple[float, float] = (0, 1)):
+    def __init__(self, data: pd.DataFrame, target_range: tuple[np.number, np.number] = (0, 1)):
         super().__init__(data)
-        self.target = target_range
+        self.target: tuple[np.number, np.number] = target_range
 
-    def set_target_range(self, a, b) -> None:
+    def set_target_range(self, a: np.number, b: np.number) -> Self:
         self.target = a, b
+        return self
 
     def normalize(self, data: pd.DataFrame | None = None) -> pd.DataFrame:
         if data is None:
