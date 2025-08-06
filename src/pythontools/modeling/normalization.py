@@ -1,13 +1,14 @@
 from abc import ABC, abstractmethod
-from typing import Self
+from typing import Self, Literal
 
 import numpy as np
 import pandas as pd
 
 
 class Normalizer(ABC):
-    def __init__(self, data: pd.DataFrame, *args, **kwargs) -> None:
+    def __init__(self, data: pd.DataFrame, ddof: Literal[0, 1] = 0, *args, **kwargs) -> None:
         self.data = data
+        self.ddof = ddof
 
     @property
     def max(self) -> pd.Series:
@@ -19,7 +20,7 @@ class Normalizer(ABC):
 
     @property
     def std(self) -> pd.Series:
-        return self.data.std()
+        return self.data.std(ddof=self.ddof)
 
     @property
     def mean(self) -> pd.Series:
