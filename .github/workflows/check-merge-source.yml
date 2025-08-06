@@ -1,0 +1,15 @@
+name: Check Merge Source
+on:
+  pull_request_target:
+    branches: [ master ]
+
+jobs:
+  check-merge:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Check if master is merging from dev
+        run: |
+          if [ "${{ github.event.pull_request.base.ref }}" != "master" ] || [ "${{ github.event.pull_request.head.ref }}" != "dev" ]; then
+            echo "错误：只能从 dev 分支合并到 master"
+            exit 1
+          fi
