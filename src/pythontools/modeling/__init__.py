@@ -67,7 +67,7 @@ def p(model: LinearModel, X, y):
     return p_value
 
 
-def related_r(x, y):
+def related_r(x: Series, y: Series):
     """样本相关系数"""
     length = len(x)
 
@@ -96,7 +96,7 @@ def print_result_for_lm(model: LinearModel, x, y):
     print("P值:", *p(model, x, y))
 
 
-__all__ = [
+__all__: list[str] = [
     # data handle
     "remove", "remove_na",
     # calc
