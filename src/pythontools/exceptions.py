@@ -1,8 +1,10 @@
-class PermissionError(Exception):
+class BasePermissionError(Exception):
     pass
 
-class PermissionReregisterError(PermissionError):
+
+class PermissionReregisterError(BasePermissionError):
     pass
 
-class UnknownPermission(PermissionError, ValueError):
+
+class UnknownPermission(BasePermissionError, ValueError):
     pass

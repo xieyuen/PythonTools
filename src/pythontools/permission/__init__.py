@@ -6,6 +6,7 @@ from pythontools.exceptions import PermissionReregisterError, UnknownPermission
 class Permission:
     __all_permissions: Dict[Any, int] = {}
     __length: int = 0
+    __locked: bool = False
 
     @classmethod
     def exists(cls, perm: Any) -> bool:
@@ -13,16 +14,22 @@ class Permission:
 
     @classmethod
     def register(cls, *perms: Any) -> None:
+        if cls.__locked:
+            raise RuntimeError("Permission is locked")
         for perm in perms:
             if cls.exists(perm):
                 raise PermissionReregisterError(perm)
             cls.__all_permissions[perm] = 2 ** cls.__length
             cls.__length += 1
-    
+
     @classmethod
     def get(cls, perm) -> Any:
         return cls.__all_permissions[perm]
-    
+
+    @classmethod
+    def lock(cls) -> None:
+        cls.__locked = not cls.__locked
+
     # ----------------------------------------------------
 
     def __init__(self, *perms: Any) -> None:
@@ -49,4 +56,3 @@ class Permission:
             if not Permission.exists(perm):
                 raise UnknownPermission(perm)
             self.__permissions &= ~Permission.get(perm)
-            
