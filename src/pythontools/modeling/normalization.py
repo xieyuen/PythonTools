@@ -68,7 +68,7 @@ class MinMaxNormalizer(Normalizer):
 
     def denormalize(self, data: pd.DataFrame) -> pd.DataFrame:
         a, b = self.target
-        return (data - b) * self.range / (a - b) + self.min
+        return (data - b) * self.range / (b - a) + self.min
 
 
 MinMaxScaler = MinMaxNormalizer
