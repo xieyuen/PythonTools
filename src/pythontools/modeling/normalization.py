@@ -4,7 +4,7 @@ import pandas as pd
 
 
 class Normalizer(ABC):
-    def __init__(self, data: pd.DataFrame, *args) -> None:
+    def __init__(self, data: pd.DataFrame, *args, **kwargs) -> None:
         self.data = data
 
     @property
