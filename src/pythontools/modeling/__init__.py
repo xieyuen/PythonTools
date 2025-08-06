@@ -5,6 +5,7 @@ from pandas import DataFrame, Series
 from scipy.stats import t
 
 from pythontools.modeling.normalization import *
+from pythontools.modeling import base
 from pythontools.types.modeling import Model, LinearModel
 
 
@@ -57,7 +58,7 @@ def p_values(model: LinearModel, X, y):
     mse = np.sum(residuals ** 2) / dof
 
     X_with_const = np.column_stack([np.ones(len(X)), X])  # 添加截距项
-    cov_matrix = np.linalg.inv(X_with_const.T @ X_with_const) * mse
+    cov_matrix = np.linalg.pinv(X_with_const.T @ X_with_const) * mse
     std_errors = np.sqrt(np.diag(cov_matrix))[1:]  # 忽略截距的标准误差
 
     # 计算t统计量和P值
@@ -67,24 +68,76 @@ def p_values(model: LinearModel, X, y):
     return p_value
 
 
+"""
+def p_values(model: LinearModel, X, y):
+    coefficients = model.coef_
+    y_pred = model.predict(X)
+
+    residuals = y - y_pred
+    dof = len(X) - len(coefficients)  # 自由度修正
+    if dof <= 0:
+        raise ValueError("自由度必须为正数，请检查输入数据")
+    
+    mse = np.sum(residuals ** 2) / dof
+
+    X_with_const = np.column_stack([np.ones(len(X)), X])  # 添加截距项
+    
+    # 使用更数值稳定的方法计算协方差矩阵
+    try:
+        # 使用solve方法避免直接求逆
+        XtX_inv = np.linalg.pinv(X_with_const.T @ X_with_const)
+        cov_matrix = XtX_inv * mse
+    except np.linalg.LinAlgError:
+        raise ValueError("无法计算协方差矩阵，可能是由于矩阵奇异")
+    
+    std_errors = np.sqrt(np.diag(cov_matrix))[1:]  # 忽略截距的标准误差
+    
+    # 避免除零错误
+    if np.any(std_errors == 0):
+        raise ValueError("标准误差不能为零")
+
+    # 计算t统计量和P值
+    t_stats = coefficients / std_errors
+    p_value = 2 * (1 - t.cdf(np.abs(t_stats), df=dof))
+
+    return p_value
+
+"""
+
+
 def related_r(x: Series, y: Series):
     """样本相关系数"""
     length = len(x)
 
-    x_mean = x.mean()
-    y_mean = y.mean()
+    if length <= 1:
+        raise ValueError("数据长度必须大于1")
+    if length != len(y):
+        raise ValueError("数据长度必须相同")
+    if x.isnull().any() or y.isnull().any():
+        raise ValueError("数据有空")
+    if np.isclose(x.std(), 0) or np.isclose(y.std(), 0):
+        return 0  # 常数据不存在相关性
 
-    sum_xiyi = np.sum(xi * yi for xi, yi in zip(x, y))
-    sum_xi2 = np.sum(xi ** 2 for xi in x)
-    sum_yi2 = np.sum(yi ** 2 for yi in y)
+    return np.sum((x - base.mean(x)) * (y - base.mean(y))) / (length * base.std(x) * base.std(y))
 
-    return (
-            (sum_xiyi - length * x_mean * y_mean)
-            / (
-                    np.sqrt(sum_xi2 - length * x_mean ** 2)
-                    * np.sqrt(sum_yi2 - length * y_mean ** 2)
-            )
-    )
+    # 算法 2
+
+    # x_mean = x.mean()
+    # y_mean = y.mean()
+    # xy = np.sum(x * y)
+    # x_squares = np.sum(x ** 2)
+    # y_squares = np.sum(y ** 2)
+
+    # return (
+    #         (xy - length * x_mean * y_mean)
+    #         / (
+    #                 np.sqrt(x_squares - length * x_mean ** 2)
+    #                 * np.sqrt(y_squares - length * y_mean ** 2)
+    #         )
+    # )
+
+
+corr = related_r
 
 
 def print_result_for_lm(model: LinearModel, x, y):
@@ -100,7 +153,7 @@ __all__: list[str] = [
     # data handle
     "remove", "remove_na",
     # calc
-    "related_r", "r_squared", "adjusted_r_squared", "p_values",
+    "related_r", "corr", "r_squared", "adjusted_r_squared", "p_values",
     # Normalizer
     "Normalizer",
     "ZScoreNormalizer", "ZScoreScaler", "StandardScaler",
