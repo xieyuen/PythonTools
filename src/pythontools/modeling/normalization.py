@@ -65,11 +65,11 @@ class MinMaxNormalizer(Normalizer):
         if data is None:
             data = self.data
         a, b = self.target
-        return (b - a) * (data - self.min) / self.range + b
+        return (b - a) * (data - self.min) / self.range + a
 
     def denormalize(self, data: pd.DataFrame) -> pd.DataFrame:
         a, b = self.target
-        return (data - b) * self.range / (b - a) + self.min
+        return (data - a) * self.range / (b - a) + self.min
 
 
 MinMaxScaler = MinMaxNormalizer
