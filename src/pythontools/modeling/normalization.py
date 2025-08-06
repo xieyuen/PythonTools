@@ -53,12 +53,33 @@ ZScoreScaler = StandardScaler = ZScoreNormalizer
 
 
 class MinMaxNormalizer(Normalizer):
+    """
+    把数据归一化到 [a,b]
+
+    Example:
+        >>> data = pd.DataFrame({
+        ...     "A": [1, 2, 3],
+        ...     "B": [4, 5, 6],
+        ... })
+        >>> normalizer = MinMaxNormalizer(data, (0, 1))
+        >>> normalizer.normalize()
+            A   B
+        1   0   0
+        2   0.5 0.5
+        3   1   1
+    """
+
     def __init__(self, data: pd.DataFrame, target_range: tuple[np.number, np.number] = (0, 1)):
         super().__init__(data)
         self.target: tuple[np.number, np.number] = target_range
+        assert self.__is_target_range_valid(), "Target range is not valid"
+
+    def __is_target_range_valid(self):
+        return self.target[0] < self.target[1]
 
     def set_target_range(self, a: np.number, b: np.number) -> Self:
         self.target = a, b
+        assert self.__is_target_range_valid(), "Target range is not valid"
         return self
 
     def normalize(self, data: pd.DataFrame | None = None) -> pd.DataFrame:
