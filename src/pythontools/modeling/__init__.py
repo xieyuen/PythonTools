@@ -74,16 +74,16 @@ def related_r(x: Series, y: Series):
     x_mean = x.mean()
     y_mean = y.mean()
 
+    sum_xiyi = np.sum(xi * yi for xi, yi in zip(x, y))
+    sum_xi2 = np.sum(xi ** 2 for xi in x)
+    sum_yi2 = np.sum(yi ** 2 for yi in y)
+
     return (
-            (np.sum(
-                [xi * yi for xi, yi in zip(x, y)]
-            ) - length * x_mean * y_mean)
-            /
-            (np.sqrt(
-                np.sum([xi ** 2 for xi in x]) - length * x_mean ** 2
-            ) * np.sqrt(
-                np.sum([yi ** 2 for yi in y]) - length * y_mean ** 2
-            ))
+            (sum_xiyi - length * x_mean * y_mean)
+            / (
+                    np.sqrt(sum_xi2 - length * x_mean ** 2)
+                    * np.sqrt(sum_yi2 - length * y_mean ** 2)
+            )
     )
 
 
