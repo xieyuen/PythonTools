@@ -48,7 +48,7 @@ def adjusted_r_squared(r2, X):
     return adjusted_r2
 
 
-def p(model: LinearModel, X, y):
+def p_values(model: LinearModel, X, y):
     coefficients = model.coef_
     y_pred = model.predict(X)
 
@@ -93,14 +93,14 @@ def print_result_for_lm(model: LinearModel, x, y):
     print(f"截距: {model.intercept_}")
     print(f"决定R方: {model.score(x, y)}")
     print(f"调整R方: {adjusted_r_squared(model.score(x, y), x)}")
-    print("P值:", *p(model, x, y))
+    print("P值:", *p_values(model, x, y))
 
 
 __all__: list[str] = [
     # data handle
     "remove", "remove_na",
     # calc
-    "related_r", "r_squared", "adjusted_r_squared", "p",
+    "related_r", "r_squared", "adjusted_r_squared", "p_values",
     # Normalizer
     "Normalizer",
     "ZScoreNormalizer", "ZScoreScaler", "StandardScaler",
