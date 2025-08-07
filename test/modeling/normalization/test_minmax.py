@@ -15,7 +15,7 @@ class TestMinMaxNormalizer(unittest.TestCase):
     def test_init_custom_range(self):
         """Test initialization with custom target range"""
         data = pd.DataFrame({'A': [1, 2, 3]})
-        normalizer = MinMaxNormalizer(data, (-1, 1))
+        normalizer = MinMaxNormalizer(data, target_range=(-1, 1))
         self.assertEqual(normalizer.target, (-1, 1))
 
     def test_set_target_range(self):
@@ -40,7 +40,7 @@ class TestMinMaxNormalizer(unittest.TestCase):
     def test_normalize_default_data_custom_range(self):
         """Test normalization with default data and custom range"""
         data = pd.DataFrame({'A': [1, 2, 3], 'B': [4, 6, 8]})
-        normalizer = MinMaxNormalizer(data, (-1, 1))
+        normalizer = MinMaxNormalizer(data, target_range=(-1, 1))
         normalized = normalizer.normalize()
 
         expected = pd.DataFrame({
@@ -60,7 +60,7 @@ class TestMinMaxNormalizer(unittest.TestCase):
         # Test different target ranges
         for target_range in [(0, 1), (-1, 1), (0, 100), (-5, 5)]:
             with self.subTest(target_range=target_range):
-                normalizer = MinMaxNormalizer(data, target_range)
+                normalizer = MinMaxNormalizer(data, target_range=target_range)
                 normalized = normalizer.normalize()
                 denormalized = normalizer.denormalize(normalized)
 
@@ -112,7 +112,7 @@ class TestMinMaxNormalizer(unittest.TestCase):
     def test_denormalize_custom_range(self):
         """Test denormalization with custom range"""
         data = pd.DataFrame({'A': [1, 2, 3], 'B': [4, 6, 8]})
-        normalizer = MinMaxNormalizer(data, (-1, 1))
+        normalizer = MinMaxNormalizer(data, target_range=(-1, 1))
 
         # Create normalized data directly
         normalized_data = pd.DataFrame({
