@@ -1,7 +1,7 @@
 from abc import ABC, abstractmethod
 
 from numbers import Real
-from typing import Self, Literal
+from typing import Self, Literal, Optional
 
 import pandas as pd
 
@@ -47,7 +47,7 @@ class Normalizer(ABC):
         return self.max - self.min
 
     @abstractmethod
-    def normalize(self, data: pd.DataFrame | None = None) -> pd.DataFrame:
+    def normalize(self, data: Optional[pd.DataFrame] = None) -> pd.DataFrame:
         raise NotImplementedError
 
     def denormalize(self, data: pd.DataFrame) -> pd.DataFrame:
@@ -57,6 +57,7 @@ class Normalizer(ABC):
 class ZScoreNormalizer(Normalizer):
     """
     Z-Score 标准化
+
     Args:
         data (DataFrame): 标准化的标准数据
         ddof (Literal[0, 1]): 是否为无偏估计(主要决定标准差的计算方式)，默认为 0
@@ -80,7 +81,7 @@ class ZScoreNormalizer(Normalizer):
     def __init__(self, *args, **kwargs):
         super().__init__(*args, **kwargs)
 
-    def normalize(self, data: pd.DataFrame | None = None) -> pd.DataFrame:
+    def normalize(self, data: Optional[pd.DataFrame] = None) -> pd.DataFrame:
         if data is None:
             data = self.data
         return (data - self.mean) / self.std
@@ -136,7 +137,7 @@ class MinMaxNormalizer(Normalizer):
         self.__check_target_range_valid()
         return self
 
-    def normalize(self, data: pd.DataFrame | None = None) -> pd.DataFrame:
+    def normalize(self, data: Optional[pd.DataFrame] = None) -> pd.DataFrame:
         if data is None:
             data = self.data
         a, b = self.target
