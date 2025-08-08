@@ -1,6 +1,6 @@
 [project]
 name = "pythontools"
-version = "0.2.1"
+version = "0.2.2"
 description = "Add your description here"
 readme = "README.md"
 requires-python = ">=3.11"
@@ -9,6 +9,21 @@ authors = [
     { name = "xieyuen", email = "xieyuenol@outlook.com" }
 ]
 license = { file = "LICENSE" }
+
+[project.optional-dependencies]
+modeling = [
+    "numpy",
+    "pandas>=2.3.1",
+    "scipy>=1.16.1",
+]
+docs = [
+    "myst-parser>=4.0.1",
+    "sphinx>=8.2.3",
+    "sphinx-rtd-theme>=3.0.2",
+]
+dev-docs = [
+    "sphinx-autobuild>=2024.10.3",
+]
 
 [[tool.uv.index]]
 url = "https://mirrors.aliyun.com/pypi/simple"
