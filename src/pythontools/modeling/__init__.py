@@ -1,4 +1,5 @@
 from typing import Iterable
+from numbers import Real
 
 import numpy as np
 from pandas import DataFrame, Series
@@ -9,7 +10,7 @@ from pythontools.modeling import base
 from pythontools.types.modeling import Model, LinearModel
 
 
-def remove(data: DataFrame, condition: Series | Iterable):
+def remove(data: DataFrame, condition: Series | Iterable) -> None:
     """
     删除符合条件的行，会直接修改数据
 
@@ -26,7 +27,7 @@ def remove(data: DataFrame, condition: Series | Iterable):
     )
 
 
-def remove_na(data: DataFrame):
+def remove_na(data: DataFrame) -> None:
     """
     删除所有有数据缺失的行，会直接修改数据
     """
@@ -37,11 +38,11 @@ def remove_na(data: DataFrame):
         )
 
 
-def r_squared(model: Model, X, y):
+def r_squared(model: Model, X, y) -> Real:
     return model.score(X, y)
 
 
-def adjusted_r_squared(r2, X):
+def adjusted_r_squared(r2, X) -> Real:
     # 计算调整R²
     n, p = X.shape  # 样本数和特征数
     adjusted_r2 = 1 - (1 - r2) * (n - 1) / (n - p - 1)
@@ -105,7 +106,9 @@ def p_values(model: LinearModel, X, y):
 """
 
 
-def related_r(x: Series, y: Series):
+
+def related_r(x: Series, y: Series) -> Real:
+
     """样本相关系数"""
     length = len(x)
 
@@ -140,7 +143,7 @@ def related_r(x: Series, y: Series):
 corr = related_r
 
 
-def print_result_for_lm(model: LinearModel, x, y):
+def print_result_for_lm(model: LinearModel, x, y) -> None:
     print("变量:", *x.columns.values)
     print("回归系数:", *model.coef_)
     print(f"截距: {model.intercept_}")

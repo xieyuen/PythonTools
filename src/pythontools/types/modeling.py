@@ -1,4 +1,5 @@
 from typing import Protocol
+from numbers import Real
 
 import numpy as np
 
@@ -6,11 +7,11 @@ import numpy as np
 class Model(Protocol):
     def fit(self, *args, **kwargs) -> None: ...
 
-    def predict(self, X) -> np.ndarray[np.number]: ...
+    def predict(self, X) -> np.ndarray[Real]: ...
 
-    def score(self, X, y) -> np.number: ...
+    def score(self, X, y) -> Real: ...
 
 
 class LinearModel(Model, Protocol):
-    coef_: np.ndarray[np.number]
-    intercept_: np.number
+    coef_: np.ndarray[Real]
+    intercept_: Real
