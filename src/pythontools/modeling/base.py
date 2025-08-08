@@ -9,7 +9,6 @@ def std(data, ddof: Literal[0, 1] = 0):
     n = len(data)
     if n == 1:
         return 0
-
     return np.sqrt(
         (np.sum(x ** 2 for x in data))
         / (n - ddof) - mean(data) ** 2
