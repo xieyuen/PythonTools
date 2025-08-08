@@ -3,8 +3,6 @@ from abc import ABC, abstractmethod
 from numbers import Real
 from typing import Self, Literal
 
-
-import numpy as np
 import pandas as pd
 
 
