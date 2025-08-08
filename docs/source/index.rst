@@ -13,7 +13,8 @@ documentation for details.
 
 .. toctree::
    :maxdepth: 2
-   :caption: Contents:
+   :caption: 目录
 
-   api/modeling
-
+   目录<index>
+   数学建模工具<modeling>
+   types<types/index>

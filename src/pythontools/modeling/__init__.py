@@ -1,16 +1,16 @@
-from typing import Iterable
 from numbers import Real
 
 import numpy as np
 from pandas import DataFrame, Series
 from scipy.stats import t
 
-from pythontools.modeling.normalization import *
 from pythontools.modeling import base
 from pythontools.types.modeling import Model, LinearModel
+from pythontools.modeling.normalization import *
+from pythontools.modeling.base import *
 
 
-def remove(data: DataFrame, condition: Series | Iterable) -> None:
+def remove(data: DataFrame, condition: Series) -> None:
     """
     删除符合条件的行，会直接修改数据
 
@@ -30,6 +30,9 @@ def remove(data: DataFrame, condition: Series | Iterable) -> None:
 def remove_na(data: DataFrame) -> None:
     """
     删除所有有数据缺失的行，会直接修改数据
+
+    Example:
+        >>> remove_na(data)
     """
     for subset in data:
         data.dropna(
@@ -39,10 +42,18 @@ def remove_na(data: DataFrame) -> None:
 
 
 def r_squared(model: Model, X, y) -> Real:
+    """决定系数 R 方"""
     return model.score(X, y)
 
 
-def adjusted_r_squared(r2, X) -> Real:
+def adjusted_r_squared(r2: Real, X: DataFrame) -> Real:
+    """
+    调整 R 方
+
+    Args:
+        r2 (Real): 决定系数 R 方
+        X (DataFrame): 模型拟合时用的数据
+    """
     # 计算调整R²
     n, p = X.shape  # 样本数和特征数
     adjusted_r2 = 1 - (1 - r2) * (n - 1) / (n - p - 1)
@@ -51,6 +62,7 @@ def adjusted_r_squared(r2, X) -> Real:
 
 
 def p_values(model: LinearModel, X, y):
+    """p值"""
     coefficients = model.coef_
     y_pred = model.predict(X)
 
@@ -69,47 +81,14 @@ def p_values(model: LinearModel, X, y):
     return p_value
 
 
-"""
-def p_values(model: LinearModel, X, y):
-    coefficients = model.coef_
-    y_pred = model.predict(X)
+def corr(x: Series, y: Series) -> Real:
+    """
+    样本相关系数
 
-    residuals = y - y_pred
-    dof = len(X) - len(coefficients)  # 自由度修正
-    if dof <= 0:
-        raise ValueError("自由度必须为正数，请检查输入数据")
-    
-    mse = np.sum(residuals ** 2) / dof
-
-    X_with_const = np.column_stack([np.ones(len(X)), X])  # 添加截距项
-    
-    # 使用更数值稳定的方法计算协方差矩阵
-    try:
-        # 使用solve方法避免直接求逆
-        XtX_inv = np.linalg.pinv(X_with_const.T @ X_with_const)
-        cov_matrix = XtX_inv * mse
-    except np.linalg.LinAlgError:
-        raise ValueError("无法计算协方差矩阵，可能是由于矩阵奇异")
-    
-    std_errors = np.sqrt(np.diag(cov_matrix))[1:]  # 忽略截距的标准误差
-    
-    # 避免除零错误
-    if np.any(std_errors == 0):
-        raise ValueError("标准误差不能为零")
-
-    # 计算t统计量和P值
-    t_stats = coefficients / std_errors
-    p_value = 2 * (1 - t.cdf(np.abs(t_stats), df=dof))
-
-    return p_value
-
-"""
-
-
-
-def related_r(x: Series, y: Series) -> Real:
-
-    """样本相关系数"""
+    Args:
+        x (Series): 变量 1
+        y (Series): 变量 2
+    """
     length = len(x)
 
     if length <= 1:
@@ -123,24 +102,8 @@ def related_r(x: Series, y: Series) -> Real:
 
     return np.sum((x - base.mean(x)) * (y - base.mean(y))) / (length * base.std(x) * base.std(y))
 
-    # 算法 2
 
-    # x_mean = x.mean()
-    # y_mean = y.mean()
-    # xy = np.sum(x * y)
-    # x_squares = np.sum(x ** 2)
-    # y_squares = np.sum(y ** 2)
-
-    # return (
-    #         (xy - length * x_mean * y_mean)
-    #         / (
-    #                 np.sqrt(x_squares - length * x_mean ** 2)
-    #                 * np.sqrt(y_squares - length * y_mean ** 2)
-    #         )
-    # )
-
-
-corr = related_r
+related_r = corr
 
 
 def print_result_for_lm(model: LinearModel, x, y) -> None:
@@ -156,6 +119,7 @@ __all__: list[str] = [
     # data handle
     "remove", "remove_na",
     # calc
+    "mean", "std",
     "related_r", "corr", "r_squared", "adjusted_r_squared", "p_values",
     # Normalizer
     "Normalizer",
@@ -163,4 +127,6 @@ __all__: list[str] = [
     "MinMaxNormalizer", "MinMaxScaler",
     # other
     "print_result_for_lm",
+    # types
+    "Model", "LinearModel",
 ]

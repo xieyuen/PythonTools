@@ -43,5 +43,15 @@ import sys
 
 sys.path.insert(0, os.path.abspath('../../src'))  # 调整路径指向你的代码目录
 
-# 忽略导入
+# autodoc
 autodoc_mock_imports = ['numpy', 'pandas', 'scipy']
+autodoc_default_options = {
+    'members': True,           # 显示所有成员（包括 properties）
+    'undoc-members': True,    # 显示未文档化的成员
+    'member-order': 'bysource',  # 按源码顺序排列
+    # 'special-members': '__init__',  # 可选：显示 `__init__`
+    # 'exclude-members': '__weakref__',  # 可选：排除某些成员
+    'separate-members': True,  # 关键配置：每个成员（包括 property）独立一行
+    'autofunction': 'show-inheritance',
+    'show-signature': True
+}
