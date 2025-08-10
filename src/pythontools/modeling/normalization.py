@@ -111,6 +111,7 @@ class ZScoreNormalizer(Normalizer):
         Returns:
             Z Score 结果 DataFrame
         """
+    def normalize(self, data: Optional[pd.DataFrame] = None) -> pd.DataFrame:
         if data is None:
             data = self.data
         return (data - self.mean) / self.std
