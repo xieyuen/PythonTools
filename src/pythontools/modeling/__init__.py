@@ -82,12 +82,25 @@ def p_values(model: LinearModel, X, y):
 
 
 def corr(x: Series, y: Series) -> Real:
-    """
+    r"""
     样本相关系数
+
+    计算公式:
+
+    .. math::
+        corr = \frac{ \sum_{i=1}^{n} (x_i - \bar{x})(y_i - \bar{y}) }{ \sqrt{ \frac{1}{n}\sum_{i=1}^{n} (x_i - \bar{x})^2 } \sqrt{ \frac{1}{n}\sum_{i=1}^{n} (y_i - \bar{y})^2}}
 
     Args:
         x (Series): 变量 1
         y (Series): 变量 2
+
+    Returns:
+        Real: 一个 [0, 1] 之间的数
+
+    Raises:
+        ValueError: 数据长度必须大于 1
+        ValueError: 数据长度必须相同
+        ValueError: 数据有空
     """
     length = len(x)
 
