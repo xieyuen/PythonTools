@@ -20,26 +20,50 @@ modeling
 用法
 -----
 
-数据处理
-~~~~~~~~~~~~
-
-.. autofunction:: pythontools.modeling.__init__.remove
-.. autofunction:: pythontools.modeling.__init__.remove_na
-
-标准化
-
-.. autoclass:: pythontools.modeling.normalization.Normalizer
-.. autoclass:: pythontools.modeling.normalization.ZScoreNormalizer
-.. autoclass:: pythontools.modeling.normalization.ZScoreScaler
-.. autoclass:: pythontools.modeling.normalization.StandardScaler
-.. autoclass:: pythontools.modeling.normalization.MinMaxNormalizer
-.. autoclass:: pythontools.modeling.normalization.MinMaxScaler
+.. currentmodule:: pythontools.modeling.__init__
 
 统计量计算
 ~~~~~~~~~~
 
-.. autofunction:: pythontools.modeling.__init__.corr
-.. autofunction:: pythontools.modeling.__init__.related_r
-.. autofunction:: pythontools.modeling.__init__.r_squared
-.. autofunction:: pythontools.modeling.__init__.adjusted_r_squared
-.. autofunction:: pythontools.modeling.__init__.p_values
+.. autofunction:: corr
+.. autofunction:: related_r
+.. autofunction:: r_squared
+.. autofunction:: adjusted_r_squared
+.. autofunction:: p_values
+
+数据处理
+~~~~~~~~~~~~
+
+.. autofunction:: remove
+.. autofunction:: remove_na
+
+标准化
+^^^^^^^^^^^
+
+.. currentmodule:: pythontools.modeling.normalization
+
+.. autoclass:: Normalizer
+.. autoproperty:: Normalizer.max
+.. autoproperty:: Normalizer.min
+.. autoproperty:: Normalizer.mean
+.. autoproperty:: Normalizer.std
+.. autoproperty:: Normalizer.range
+.. automethod:: Normalizer.__init__
+.. automethod:: Normalizer.normalize
+.. automethod:: Normalizer.denormalize
+
+.. autoclass:: ZScoreNormalizer
+.. automethod:: ZScoreNormalizer.normalize
+.. automethod:: ZScoreNormalizer.denormalize
+
+.. autoclass:: ZScoreScaler
+.. autoclass:: StandardScaler
+
+.. autoclass:: MinMaxNormalizer
+.. autoproperty:: MinMaxNormalizer.target
+.. automethod:: MinMaxNormalizer.__init__
+.. automethod:: MinMaxNormalizer.normalize
+.. automethod:: MinMaxNormalizer.denormalize
+.. automethod:: MinMaxNormalizer.set_target_range
+
+.. autoclass:: MinMaxScaler
