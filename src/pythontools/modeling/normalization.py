@@ -1,9 +1,6 @@
 from abc import ABC, abstractmethod
 from functools import cached_property
 from numbers import Real
-from typing import Self, Optional, Literal
-
-from numbers import Real
 from typing import Self, Literal, Optional
 
 import pandas as pd
@@ -35,7 +32,7 @@ class Normalizer(ABC):
         """自由度增量"""
         return self.__ddof
 
-    def set_ddof(self, ddof:Literal[0, 1]):
+    def set_ddof(self, ddof: Literal[0, 1]):
         """设置自由度增量
 
         一般是 0 或 1
