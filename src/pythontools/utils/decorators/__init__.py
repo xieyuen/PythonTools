@@ -1,7 +1,9 @@
 import functools
 import time
 from numbers import Integral
-from typing import Callable
+from typing import Callable, Generator
+
+from pythontools.types.utils import GeneratorResult
 
 
 def to_decorator(callback: Callable) -> Callable:
@@ -59,6 +61,7 @@ def retry(
 
     if callable(times):
         return retry()(times)
+
     if delay < 0:
         raise ValueError("等待时间需为正")
     if not isinstance(times, Integral):
@@ -101,3 +104,102 @@ def timer(formatter: str = "{name} 运行用时: {time}", printer=print):
         return wrapper
 
     return dec
+
+
+'''
+R = TypeVar("R")
+
+
+@overload
+def run(func: Callable[..., R]) -> R: ...
+
+
+@overload
+def run(func: Generator[R]) -> R: ...
+
+
+@overload
+def run(*args, **kwargs) -> Callable[[Callable[..., R]], R]: ...
+
+
+@overload
+def run(*args, **kwargs) -> Callable[[Generator[R]], R]: ...
+
+
+def run(*args, **kwargs):
+    """立即执行
+    Args:
+        *args: 被装饰函数的位置参数
+                 如果直接 ``@run`` 不传参也鞥识别
+        **kwargs: 被装饰函数的关键字参数
+    
+    Returns:
+        Callable[[Callable[..., R]], R]: 接受函数后传参运行
+    
+    Examples:
+        >>> @run
+        ... def lst():
+        ...     res = []
+        ...     for i in range(10):
+        ...         res.append(i)
+        ...     return res
+        >>> lst
+        [0, 1, 2, 3, 4, 5, 6, 7, 8, 9]
+        
+        >>> @run(1, 2, c=4)
+        ... def add_result(a, b, c):
+        ...     return a + b + c
+        >>> add_result
+        7
+        
+        >>> @run(lambda *_, **_:None, 5)
+        ... def lst2(f, x):
+        ...     for i in range(1, x + 1):
+        ...         yield f(i)
+        >>> lst2
+    """
+    # 兼容 @run
+    if not kwargs and len(args) == 1 and callable(args[0]):
+        return args[0]()
+
+    def wrapper(func):
+        return func(*args, **kwargs)
+
+    return wrapper
+'''
+
+
+class run:
+    @classmethod
+    def __new__(cls, *args, **kwargs):
+        if not kwargs and len(args) == 1 and callable(args[0]):
+            return run()(args[0])
+        self = super().__new__(cls)
+        self.__init__(*args, **kwargs)
+        return self
+
+    def __init__(self, *args, **kwargs):
+        self.arguments = args, kwargs
+
+    def __call__(self, func):
+        self.is_generator = isinstance(func, Generator)
+        self.result = func(*self.arguments[0], **self.arguments[1])
+        return self.result if not self.is_generator else self
+
+    def __next__(self):
+        return self.next()
+
+    def __iter__(self):
+        if not self.is_generator:
+            raise TypeError("不是生成器")
+        return self
+
+    def next(self):
+        try:
+            return GeneratorResult(next(self.result), done=False)
+        except StopIteration:
+            return GeneratorResult(None, done=True)
+
+    def is_done(self):
+        if not self.is_generator:
+            raise TypeError("不是生成器")
