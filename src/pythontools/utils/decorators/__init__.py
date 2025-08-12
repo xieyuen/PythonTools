@@ -44,7 +44,7 @@ def to_decorator(callback: Callable) -> Callable:
 def retry(
         times: int = 3,
         delay: float = 1,
-        error: type(Exception) | tuple[type(Exception)] = Exception
+        error: type[BaseException] | tuple[type[BaseException], ...] = Exception
 ) -> Callable:
     """当函数在被调用时抛出指定错误后重试
 
