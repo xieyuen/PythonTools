@@ -49,13 +49,13 @@ def retry(
     """当函数在被调用时抛出指定错误后重试
 
     Args:
-        times: 重试次数
+        times: 重试次数，为 0 不重复
         delay: 每次重试之间的等待时间，单位为秒
         error: 遇到设定的错误才重试
 
     Raises:
         ValueError: 等待时间需为正
-        ValueError: 重复次数需为正
+        ValueError: 重复次数需为非负
         TypeError: 重复次数需为整数
     """
 
@@ -67,11 +67,16 @@ def retry(
     if not isinstance(times, Integral):
         raise TypeError("重复次数需为整数")
     if times < 0:
-        raise ValueError("重复次数需为正")
+        raise ValueError("重复次数需为非负")
 
     def dec(func):
         @functools.wraps(func)
         def wrapper(*args, **kwargs):
+            # 如果不需要重试（times=0），直接调用函数
+            if times == 0:
+                return func(*args, **kwargs)
+
+            # 重试逻辑
             for i in range(1, times + 1):
                 try:
                     return func(*args, **kwargs)
