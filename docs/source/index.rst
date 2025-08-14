@@ -14,4 +14,5 @@ PythonTools 是一个 Python 工具包
 
    目录<index>
    数学建模工具<modeling>
+   Utils<utils>
    types<types/index>
