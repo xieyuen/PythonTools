@@ -1,24 +1,24 @@
 from numbers import Real
 
-import numpy as np
 from pandas import DataFrame, Series
 from scipy.stats import t
 
 from pythontools.modeling import base
-from pythontools.types.modeling import Model, LinearModel
-from pythontools.modeling.normalization import *
 from pythontools.modeling.base import *
+from pythontools.modeling.normalization import *
+from pythontools.types.modeling import Model, LinearModel
 
 
-def remove(data: DataFrame, condition: Series) -> None:
+def remove(data: DataFrame, condition: Series[bool]) -> None:
     """
     删除符合条件的行，会直接修改数据
 
     Args:
         data (DataFrame): 要修改的数据
-        condition (SeriesLike): 条件
+        condition (Series): 布尔条件，例如 data["x"] == 1
 
     Example:
+        >>> data = DataFrame({"x": [1, 2, 3]})
         >>> remove(data, data["x"]==1)
     """
     data.drop(
@@ -34,11 +34,7 @@ def remove_na(data: DataFrame) -> None:
     Example:
         >>> remove_na(data)
     """
-    for subset in data:
-        data.dropna(
-            subset=subset,
-            inplace=True
-        )
+    data.dropna(inplace=True)
 
 
 def r_squared(model: Model, X, y) -> Real:
@@ -116,7 +112,9 @@ def corr(x: Series, y: Series) -> Real:
     return np.sum((x - base.mean(x)) * (y - base.mean(y))) / (length * base.std(x) * base.std(y))
 
 
-related_r = corr
+def related_r(x: Series, y: Series) -> Real:
+    """``corr`` 的别名"""
+    return corr(x, y)
 
 
 def print_result_for_lm(model: LinearModel, x, y) -> None:
