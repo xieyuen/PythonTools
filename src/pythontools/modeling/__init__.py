@@ -6,7 +6,10 @@ from scipy.stats import t
 from pythontools.modeling import base
 from pythontools.modeling.base import *
 from pythontools.modeling.normalization import *
+
 from pythontools.types.modeling import Model, LinearModel
+from pythontools.modeling.normalization import *
+from pythontools.modeling.base import *
 
 
 def remove(data: DataFrame, condition: Series[bool]) -> None:

@@ -3,6 +3,9 @@ from functools import cached_property
 from numbers import Real
 from typing import Self, Optional, Literal
 
+from numbers import Real
+from typing import Self, Literal, Optional
+
 import pandas as pd
 
 
