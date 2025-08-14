@@ -43,13 +43,17 @@ modeling
 .. currentmodule:: pythontools.modeling.normalization
 
 .. autoclass:: Normalizer
+.. automethod:: Normalizer.__init__
+.. autoproperty:: Normalizer.ddof
+.. automethod:: Normalizer.set_ddof
 .. autoproperty:: Normalizer.max
 .. autoproperty:: Normalizer.min
 .. autoproperty:: Normalizer.mean
 .. autoproperty:: Normalizer.std
 .. autoproperty:: Normalizer.range
-.. automethod:: Normalizer.__init__
 .. automethod:: Normalizer.normalize
+.. automethod:: Normalizer.transform
+.. automethod:: Normalizer.fit_transform
 .. automethod:: Normalizer.denormalize
 
 .. autoclass:: ZScoreNormalizer
@@ -60,7 +64,7 @@ modeling
 .. autoclass:: StandardScaler
 
 .. autoclass:: MinMaxNormalizer
-.. autoproperty:: MinMaxNormalizer.target
+.. autoattribute:: MinMaxNormalizer.target
 .. automethod:: MinMaxNormalizer.__init__
 .. automethod:: MinMaxNormalizer.normalize
 .. automethod:: MinMaxNormalizer.denormalize
