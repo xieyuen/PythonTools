@@ -6,10 +6,7 @@
 PythonTools documentation
 =========================
 
-Add your content using ``reStructuredText`` syntax. See the
-`reStructuredText <https://www.sphinx-doc.org/en/master/usage/restructuredtext/index.html>`_
-documentation for details.
-
+PythonTools 是一个 Python 工具包
 
 .. toctree::
    :maxdepth: 2
@@ -17,4 +14,5 @@ documentation for details.
 
    目录<index>
    数学建模工具<modeling>
+   Utils<utils>
    types<types/index>

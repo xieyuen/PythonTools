@@ -1,6 +1,6 @@
 [project]
 name = "pythontools"
-version = "0.2.2"
+version = "0.3.0"
 description = "Add your description here"
 readme = "README.md"
 requires-python = ">=3.11"
@@ -19,10 +19,14 @@ modeling = [
 docs = [
     "myst-parser>=4.0.1",
     "sphinx>=8.2.3",
+    "sphinx-copybutton>=0.5.2",
     "sphinx-rtd-theme>=3.0.2",
 ]
 dev-docs = [
     "sphinx-autobuild>=2024.10.3",
+]
+dev-modeling = [
+    "pandas-stubs>=2.3.0.250703",
 ]
 
 [[tool.uv.index]]

@@ -1,24 +1,27 @@
 from numbers import Real
 
-import numpy as np
 from pandas import DataFrame, Series
 from scipy.stats import t
 
 from pythontools.modeling import base
+from pythontools.modeling.base import *
+from pythontools.modeling.normalization import *
+
 from pythontools.types.modeling import Model, LinearModel
 from pythontools.modeling.normalization import *
 from pythontools.modeling.base import *
 
 
-def remove(data: DataFrame, condition: Series) -> None:
+def remove(data: DataFrame, condition: Series[bool]) -> None:
     """
     删除符合条件的行，会直接修改数据
 
     Args:
         data (DataFrame): 要修改的数据
-        condition (SeriesLike): 条件
+        condition (Series): 布尔条件，例如 data["x"] == 1
 
     Example:
+        >>> data = DataFrame({"x": [1, 2, 3]})
         >>> remove(data, data["x"]==1)
     """
     data.drop(
@@ -34,11 +37,7 @@ def remove_na(data: DataFrame) -> None:
     Example:
         >>> remove_na(data)
     """
-    for subset in data:
-        data.dropna(
-            subset=subset,
-            inplace=True
-        )
+    data.dropna(inplace=True)
 
 
 def r_squared(model: Model, X, y) -> Real:
@@ -82,12 +81,25 @@ def p_values(model: LinearModel, X, y):
 
 
 def corr(x: Series, y: Series) -> Real:
-    """
+    r"""
     样本相关系数
+
+    计算公式:
+
+    .. math::
+        corr = \frac{ \sum_{i=1}^{n} (x_i - \bar{x})(y_i - \bar{y}) }{ \sqrt{ \frac{1}{n}\sum_{i=1}^{n} (x_i - \bar{x})^2 } \sqrt{ \frac{1}{n}\sum_{i=1}^{n} (y_i - \bar{y})^2}}
 
     Args:
         x (Series): 变量 1
         y (Series): 变量 2
+
+    Returns:
+        Real: 一个 [0, 1] 之间的数
+
+    Raises:
+        ValueError: 数据长度必须大于 1
+        ValueError: 数据长度必须相同
+        ValueError: 数据有空
     """
     length = len(x)
 
@@ -103,7 +115,9 @@ def corr(x: Series, y: Series) -> Real:
     return np.sum((x - base.mean(x)) * (y - base.mean(y))) / (length * base.std(x) * base.std(y))
 
 
-related_r = corr
+def related_r(x: Series, y: Series) -> Real:
+    """``corr`` 的别名"""
+    return corr(x, y)
 
 
 def print_result_for_lm(model: LinearModel, x, y) -> None:
