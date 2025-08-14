@@ -250,7 +250,6 @@ class MinMaxNormalizer(Normalizer):
         Args:
             a (Real): 区间的最小值
             b (Real): 区间的最大值
-
         Returns:
             Self: 返回实例本身，便于链式调用
 
