@@ -137,7 +137,7 @@ class ZScoreNormalizer(Normalizer):
         r"""Z Score 标准化
 
         特殊情况:
-        1. 有常数列(标准差为 0)：标准化为 0
+        1. 常数列(标准差为 0)：标准化为 0
         2. 空数据：返回空数据
 
         公式:
@@ -261,8 +261,10 @@ class MinMaxNormalizer(Normalizer):
         return self
 
     def normalize(self, data: Optional[pd.DataFrame] = None) -> pd.DataFrame:
-        r"""
-        归一化
+        r"""归一化
+
+        特殊情况:
+            常数列(极差为 0)：归一化为区间中点
 
         公式: (放缩到 [a, b])
 
