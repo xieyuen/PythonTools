@@ -1,0 +1,14 @@
+name: Block Direct Commits to Master
+on:
+  push:
+    branches: [ master ]
+
+jobs:
+  block-direct-commits:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Check if commit is from PR
+        if: ${{ !github.event.pull_request }}
+        run: |
+          echo "::error::❌ 禁止直接向 master 提交！请使用 PR。"
+          exit 1
