@@ -1,9 +1,6 @@
 from abc import ABC, abstractmethod
 from functools import cached_property
 from numbers import Real
-from typing import Self, Optional, Literal
-
-from numbers import Real
 from typing import Self, Literal, Optional
 
 import pandas as pd
@@ -35,7 +32,7 @@ class Normalizer(ABC):
         """自由度增量"""
         return self.__ddof
 
-    def set_ddof(self, ddof:Literal[0, 1]):
+    def set_ddof(self, ddof: Literal[0, 1]):
         """设置自由度增量
 
         一般是 0 或 1
@@ -140,7 +137,7 @@ class ZScoreNormalizer(Normalizer):
         r"""Z Score 标准化
 
         特殊情况:
-        1. 有常数列(标准差为 0)：标准化为 0
+        1. 常数列(标准差为 0)：标准化为 0
         2. 空数据：返回空数据
 
         公式:
@@ -253,6 +250,7 @@ class MinMaxNormalizer(Normalizer):
         Args:
             a (Real): 区间的最小值
             b (Real): 区间的最大值
+
         Returns:
             Self: 返回实例本身，便于链式调用
 
@@ -264,8 +262,10 @@ class MinMaxNormalizer(Normalizer):
         return self
 
     def normalize(self, data: Optional[pd.DataFrame] = None) -> pd.DataFrame:
-        r"""
-        归一化
+        r"""归一化
+
+        特殊情况:
+            常数列(极差为 0)：归一化为区间中点
 
         公式: (放缩到 [a, b])
 
